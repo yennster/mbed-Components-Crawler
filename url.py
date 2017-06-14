@@ -11,7 +11,7 @@ components_page = requests.get(components_url)
 soup = BeautifulSoup(components_page.content, 'html.parser')
 
 
-# Filters that gather HTML elements based on class name
+# Filters that gather HTML elements based on class name and/or tag type
 def component_filter(tag):
     return (tag.name == 'a' and
         tag.parent.name == 'div' and
@@ -26,23 +26,33 @@ def item_filter(tag):
 
 def hello_world_filter(tag):
     return (tag.name == 'a' and
-        tag.parent.name == 'td') # and 'styledtable' in tag.parent['class']
+        tag.parent.name == 'td')
 
-# Save the main Component URLs
-remove = "/components/cat/"
+
+def progress(count, total, status):
+    percentage = round(100.0 * count / float(total), 1)
+    percent = '[' + '{0}%'.format(percentage) + ']: '
+    print(percent + status)
+
+
+# Save the main Components
 component_links = [link.get('href') for link in soup(component_filter)]
-main_components = [url[len(remove):-1].title().replace('-', ' ') for url in component_links]
 
+# Set up Excel worksheet
 worksheet = book.add_sheet("Components")
 worksheet.write(0, 0, "Component Type")
 worksheet.write(0, 1, "Component URL")
 worksheet.write(0, 2, "Hello World URL")
-worksheet.write(0, 3, "Contains mbed.bld?")
+worksheet.write(0, 3, )
 
 print "Begin component crawling..."
-# Add main Component URLs to Excel Sheet
+
 i = 1
+count_components = 0
+total_components = 530 # Total number of components available on mbed website as of
+
 for component in component_links:
+    remove = "/components/cat/"
     temp_name = component[len(remove):-1].title().replace('-', ' ')
     temp_url = base_url + component
     temp_page = requests.get(temp_url)
@@ -72,17 +82,18 @@ for component in component_links:
         hello_url = base_url + hello_world
         hello_page = requests.get(hello_url)
         hello_soup = BeautifulSoup(hello_page.content, 'html.parser')
-        old_mbed = ""
+        mbed_os_lib = ""
         try:
             hello_table = [link.get('href') for link in hello_soup.find_all(hello_world_filter)]
-            old_mbed = any('mbed.bld' in link for link in hello_table)
+            mbed_os_lib = any('mbed-os.lib' in link for link in hello_table)
         except KeyError:
             pass
-        worksheet.write(i, 3, old_mbed)
-        i = i + 1
-        print item
-    print "Saving " + temp_name + "..."
+        worksheet.write(i, 3, mbed_os_lib)
+        i += 1
+        count_components += 1
+        progress(count_components, total_components, item)
+
+    # progress(count_components, total_components, "Saving " + temp_name)
     book.save("mbed-components.xls")
 
-print "Saving workbook..."
 book.save("mbed-components.xls")
