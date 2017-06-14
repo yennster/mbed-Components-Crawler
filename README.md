@@ -1,2 +1,2 @@
 # ARMmbed Components Crawler
-A python web crawler that outputs the URLs for each mbed component and determines if it's Hello World program uses the old mbed library.
+A python web crawler that determines if an mbed component's Hello World program uses the old mbed library and outputs this data to an Excel sheet.
