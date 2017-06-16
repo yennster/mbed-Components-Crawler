@@ -1,0 +1,50 @@
+Building project S25FL216K_HelloWorld (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: ccsbcs.cpp
+Compile [  0.7%]: S25FL216K.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] S25FL216K.h@106,0:  #1-D: last line of file ends without a newline
+[Warning] S25FL216K.cpp@114,0:  #1-D: last line of file ends without a newline
+Compile [  1.1%]: diskio.cpp
+Compile [  1.5%]: Flash_USBFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+[Warning] USBFileSystem.h@159,0:  #1-D: last line of file ends without a newline
+[Warning] S25FL216K.h@106,0:  #1-D: last line of file ends without a newline
+[Warning] Flash_USBFileSystem.cpp@51,0:  #1-D: last line of file ends without a newline
+Compile [  1.8%]: ff.cpp
+[Warning] ff.cpp@1688,0:  #111-D: statement is unreachable
+Compile [  2.2%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FATFileSystem.cpp@45,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] FATFileSystem.cpp@51,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[Error] FATFileSystem.cpp@69,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\S25FL216K_USBFileSystem\USBFileSystem\FATFileSystem\FATFileSystem.cpp", line 45: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\S25FL216K_USBFileSystem\USBFileSystem\FATFileSystem\FATFileSystem.cpp", line 51: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+".\S25FL216K_USBFileSystem\USBFileSystem\FATFileSystem\FATFileSystem.cpp", line 69: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+.\S25FL216K_USBFileSystem\USBFileSystem\FATFileSystem\FATFileSystem.cpp: 2 warnings, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\S25FL216K_HelloWorld\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\S25FL216K_HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/Sissors/code/S25FL216K_HelloWorld/
+----------------------------------------------------

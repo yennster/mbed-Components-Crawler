@@ -1,0 +1,34 @@
+Building project TFT_Test1 (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: graphics.c
+[Warning] graphics.c@1185,0:  #1-D: last line of file ends without a newline
+Compile [  0.8%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] main.cpp@8,0:  #5: cannot open source input file "Arial12x12.h": No such file or directory
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\main.cpp", line 8: Error:  #5: cannot open source input file "Arial12x12.h": No such file or directory
+.\main.cpp: 1 warning, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\TFT_Test1\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\TFT_Test1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/dreschpe/code/TFT_Test1/
+----------------------------------------------------

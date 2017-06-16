@@ -1,0 +1,50 @@
+Building project 4DGLtest (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: TFT_4DGL_Graphics.cpp
+[Warning] TFT_4DGL.h@250,0:  #1-D: last line of file ends without a newline
+[Warning] TFT_4DGL_Graphics.cpp@258,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: TFT_4DGL_Text.cpp
+[Warning] TFT_4DGL.h@250,0:  #1-D: last line of file ends without a newline
+[Warning] TFT_4DGL_Text.cpp@270,0:  #1-D: last line of file ends without a newline
+Compile [  1.0%]: TFT_4DGL_Touch.cpp
+[Warning] TFT_4DGL.h@250,0:  #1-D: last line of file ends without a newline
+[Warning] TFT_4DGL_Touch.cpp@89,0:  #1-D: last line of file ends without a newline
+Compile [  1.3%]: TFT_4DGL_main.cpp
+[Warning] TFT_4DGL.h@250,0:  #1-D: last line of file ends without a newline
+[Warning] TFT_4DGL_main.cpp@380,0:  #1-D: last line of file ends without a newline
+Compile [  1.6%]: main.cpp
+[Warning] TFT_4DGL.h@250,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@22,0:  #20: identifier "p9" is undefined
+[Error] main.cpp@22,0:  #20: identifier "p10" is undefined
+[Error] main.cpp@22,0:  #20: identifier "p11" is undefined
+[Warning] main.cpp@85,0:  #1-D: last line of file ends without a newline
+[ERROR] "./4DGL/TFT_4DGL.h", line 250: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 22: Error:  #20: identifier "p9" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "p10" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "p11" is undefined
+".\main.cpp", line 85: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 2 warnings, 3 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\4DGLtest\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\4DGLtest"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/Kerpower/code/4DGLtest/
+----------------------------------------------------

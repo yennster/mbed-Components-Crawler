@@ -1,0 +1,40 @@
+Building project mbed_bus (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: HDSP253X.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] BusEnums.h@17,0:  #1-D: last line of file ends without a newline
+[Warning] PCF8574_DataBus.h@45,0:  #1-D: last line of file ends without a newline
+[Warning] PCF8574_AddressBus.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] PCF8574_EnableBus.h@53,0:  #1-D: last line of file ends without a newline
+[Error] HDSP253X.cpp@15,0:  #5: cannot open source input file "MBED_ControlBus.h": No such file or directory
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./PCF8574_Bus/BusEnums.h", line 17: Warning:  #1-D: last line of file ends without a newline
+"./PCF8574_Bus/PCF8574_DataBus.h", line 45: Warning:  #1-D: last line of file ends without a newline
+"./PCF8574_Bus/PCF8574_AddressBus.h", line 41: Warning:  #1-D: last line of file ends without a newline
+"./PCF8574_Bus/PCF8574_EnableBus.h", line 53: Warning:  #1-D: last line of file ends without a newline
+".\HDSP253X\HDSP253X.cpp", line 15: Error:  #5: cannot open source input file "MBED_ControlBus.h": No such file or directory
+.\HDSP253X\HDSP253X.cpp: 5 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\mbed_bus\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\mbed_bus"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/wim/code/mbed_bus/
+----------------------------------------------------

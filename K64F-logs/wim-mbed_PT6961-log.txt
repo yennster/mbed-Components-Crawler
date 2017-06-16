@@ -1,0 +1,46 @@
+Building project mbed_PT6961 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: Font_7Seg.cpp
+[Warning] PT6961_Config.h@31,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.h@248,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.cpp@106,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: main.cpp
+[Warning] PT6961_Config.h@31,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.h@248,0:  #1-D: last line of file ends without a newline
+[Warning] PT6961.h@512,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@45,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@45,0:  #20: identifier "p6" is undefined
+[Error] main.cpp@45,0:  #20: identifier "p7" is undefined
+[Error] main.cpp@45,0:  #20: identifier "p8" is undefined
+[ERROR] "./PT6961/PT6961_Config.h", line 31: Warning:  #1-D: last line of file ends without a newline
+"./PT6961/Font_7Seg.h", line 248: Warning:  #1-D: last line of file ends without a newline
+"./PT6961/PT6961.h", line 512: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 45: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 45: Error:  #20: identifier "p6" is undefined
+".\main.cpp", line 45: Error:  #20: identifier "p7" is undefined
+".\main.cpp", line 45: Error:  #20: identifier "p8" is undefined
+.\main.cpp: 3 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\mbed_PT6961\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\mbed_PT6961"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/wim/code/mbed_PT6961/
+----------------------------------------------------

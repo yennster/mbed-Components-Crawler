@@ -1,0 +1,46 @@
+Building project song_demo_PWM (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: main.cpp
+[Warning] SongPlayer.h@13,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] SongPlayer.h@14,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] SongPlayer.h@15,0:  #1361-D: function "mbed::Ticker::attach(T *, M, float) [with T=SongPlayer, M=void (SongPlayer::*)()]"  (declared at line 94 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+[Warning] SongPlayer.h@35,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] SongPlayer.h@36,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] SongPlayer.h@37,0:  #1361-D: function "mbed::Ticker::attach(T *, M, float) [with T=SongPlayer, M=void (SongPlayer::*)()]"  (declared at line 94 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+[Warning] SongPlayer.h@38,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] SongPlayer.h@41,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@23,0:  #20: identifier "p26" is undefined
+[ERROR] ".\SongPlayer.h", line 13: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\SongPlayer.h", line 14: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\SongPlayer.h", line 15: Warning:  #1361-D: function "mbed::Ticker::attach(T *, M, float) [with T=SongPlayer, M=void (SongPlayer::*)()]"  (declared at line 94 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+".\SongPlayer.h", line 35: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\SongPlayer.h", line 36: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\SongPlayer.h", line 37: Warning:  #1361-D: function "mbed::Ticker::attach(T *, M, float) [with T=SongPlayer, M=void (SongPlayer::*)()]"  (declared at line 94 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+".\SongPlayer.h", line 38: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\SongPlayer.h", line 41: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 23: Error:  #20: identifier "p26" is undefined
+.\main.cpp: 8 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\song_demo_PWM\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\song_demo_PWM"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/4180_1/code/song_demo_PWM/
+----------------------------------------------------

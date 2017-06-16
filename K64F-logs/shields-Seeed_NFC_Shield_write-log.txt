@@ -1,0 +1,41 @@
+Building project Seeed_NFC_Shield_write (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: Ndef.cpp
+Compile [  0.6%]: MifareClassic.cpp
+[Error] MifareClassic.cpp@55,0:  #28: expression must have a constant value
+[Error] MifareClassic.cpp@201,0:  #28: expression must have a constant value
+[Error] MifareClassic.cpp@201,0:  #60: this operator is not allowed in an integral constant expression
+[Error] MifareClassic.cpp@201,0:  #59: function call is not allowed in a constant expression
+[Error] MifareClassic.cpp@204,0:  #28: expression must have a constant value
+[Error] MifareClassic.cpp@204,0:  #59: function call is not allowed in a constant expression
+[ERROR] ".\PN532\MifareClassic.cpp", line 55: Error:  #28: expression must have a constant value
+".\PN532\MifareClassic.cpp", line 201: Error:  #28: expression must have a constant value
+".\PN532\MifareClassic.cpp", line 201: Error:  #60: this operator is not allowed in an integral constant expression
+".\PN532\MifareClassic.cpp", line 201: Error:  #59: function call is not allowed in a constant expression
+".\PN532\MifareClassic.cpp", line 204: Error:  #28: expression must have a constant value
+".\PN532\MifareClassic.cpp", line 204: Error:  #59: function call is not allowed in a constant expression
+.\PN532\MifareClassic.cpp: 0 warnings, 6 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Seeed_NFC_Shield_write\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\Seeed_NFC_Shield_write"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/shields/code/Seeed_NFC_Shield_write/
+----------------------------------------------------

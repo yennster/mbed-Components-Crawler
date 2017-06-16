@@ -1,0 +1,36 @@
+Building project AmbientExampleLPC1768 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: Endpoint.cpp
+Compile [  0.5%]: Socket.cpp
+Compile [  0.8%]: Ambient.cpp
+[Error] Ambient.h@77,0:  #20: identifier "TCPSocketConnection" is undefined
+[Error] Ambient.h@139,0:  #20: identifier "TCPSocketConnection" is undefined
+[Error] Ambient.cpp@32,0:  #20: identifier "TCPSocketConnection" is undefined
+[ERROR] ".\AmbientLib\Ambient.h", line 77: Error:  #20: identifier "TCPSocketConnection" is undefined
+".\AmbientLib\Ambient.h", line 139: Error:  #20: identifier "TCPSocketConnection" is undefined
+".\AmbientLib\Ambient.cpp", line 32: Error:  #20: identifier "TCPSocketConnection" is undefined
+.\AmbientLib\Ambient.cpp: 0 warnings, 3 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\AmbientExampleLPC1768\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\AmbientExampleLPC1768"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/AmbientData/code/AmbientExampleLPC1768/
+----------------------------------------------------

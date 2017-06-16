@@ -1,0 +1,40 @@
+Building project PCA9626_Hello (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: PCA9626.cpp
+Compile [  0.6%]: CompLedDvr.cpp
+Compile [  1.0%]: PCA9624.cpp
+Compile [  1.3%]: PCA9622.cpp
+Compile [  1.6%]: PCA962x.cpp
+[Error] PCA962x.cpp@34,0:  #28: expression must have a constant value
+[Warning] PCA962x.cpp@42,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Error] PCA962x.cpp@49,0:  #28: expression must have a constant value
+[Warning] PCA962x.cpp@54,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[ERROR] ".\PCA962x\base_class\PCA962x.cpp", line 34: Error:  #28: expression must have a constant value
+".\PCA962x\base_class\PCA962x.cpp", line 42: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA962x\base_class\PCA962x.cpp", line 49: Error:  #28: expression must have a constant value
+".\PCA962x\base_class\PCA962x.cpp", line 54: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+.\PCA962x\base_class\PCA962x.cpp: 2 warnings, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\PCA9626_Hello\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\PCA9626_Hello"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/nxp_ip/code/PCA9626_Hello/
+----------------------------------------------------

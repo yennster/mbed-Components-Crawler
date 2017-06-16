@@ -1,0 +1,36 @@
+Building project MbedSmartRestMain (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: MDM.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] MDM.h@534,0:  #100: duplicate parameter name
+[Warning] MDM.h@662,0:  #1-D: last line of file ends without a newline
+[Warning] MDMAPN.h@166,0:  #1-D: last line of file ends without a newline
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\C027_Support\MDM.h", line 534: Error:  #100: duplicate parameter name
+".\C027_Support\MDM.h", line 662: Warning:  #1-D: last line of file ends without a newline
+".\C027_Support\MDMAPN.h", line 166: Warning:  #1-D: last line of file ends without a newline
+.\C027_Support\MDM.cpp: 3 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\MbedSmartRestMain\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\MbedSmartRestMain"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/Cumulocity/code/MbedSmartRestMain/
+----------------------------------------------------

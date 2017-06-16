@@ -1,0 +1,40 @@
+Building project Seeed_Ethernet_Shield (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: DHCPClient.cpp
+[Error] DHCPClient.h@45,0:  #20: identifier "Endpoint" is undefined
+[Error] DHCPClient.cpp@113,0:  #20: identifier "Endpoint" is undefined
+[Error] DHCPClient.cpp@114,0:  #135: class "UDPSocket"  has no member "receiveFrom"
+[Error] DHCPClient.cpp@124,0:  #135: class "UDPSocket"  has no member "sendTo"
+[Error] DHCPClient.cpp@170,0:  #135: class "UDPSocket"  has no member "init"
+[Error] DHCPClient.cpp@187,0:  #135: class "UDPSocket"  has no member "sendTo"
+[ERROR] ".\WIZ820ioInterface\DHCPClient\DHCPClient.h", line 45: Error:  #20: identifier "Endpoint" is undefined
+".\WIZ820ioInterface\DHCPClient\DHCPClient.cpp", line 113: Error:  #20: identifier "Endpoint" is undefined
+".\WIZ820ioInterface\DHCPClient\DHCPClient.cpp", line 114: Error:  #135: class "UDPSocket"  has no member "receiveFrom"
+".\WIZ820ioInterface\DHCPClient\DHCPClient.cpp", line 124: Error:  #135: class "UDPSocket"  has no member "sendTo"
+".\WIZ820ioInterface\DHCPClient\DHCPClient.cpp", line 170: Error:  #135: class "UDPSocket"  has no member "init"
+".\WIZ820ioInterface\DHCPClient\DHCPClient.cpp", line 187: Error:  #135: class "UDPSocket"  has no member "sendTo"
+.\WIZ820ioInterface\DHCPClient\DHCPClient.cpp: 0 warnings, 6 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Seeed_Ethernet_Shield\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\Seeed_Ethernet_Shield"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/shields/code/Seeed_Ethernet_Shield/
+----------------------------------------------------

@@ -1,0 +1,90 @@
+Building project KL46_eCompass (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: SLCD.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] SLCD.cpp@94,0:  #20: identifier "SIM" is undefined
+[Error] SLCD.cpp@94,0:  #20: identifier "SIM_SCGC5_SLCD_MASK" is undefined
+[Error] SLCD.cpp@94,0:  #20: identifier "SIM_SCGC5_PORTB_MASK" is undefined
+[Error] SLCD.cpp@94,0:  #20: identifier "SIM_SCGC5_PORTC_MASK" is undefined
+[Error] SLCD.cpp@94,0:  #20: identifier "SIM_SCGC5_PORTD_MASK" is undefined
+[Error] SLCD.cpp@94,0:  #20: identifier "SIM_SCGC5_PORTE_MASK" is undefined
+[Error] SLCD.cpp@97,0:  #20: identifier "PORTC" is undefined
+[Error] SLCD.cpp@102,0:  #20: identifier "MCG" is undefined
+[Error] SLCD.cpp@102,0:  #20: identifier "MCG_C1_IRCLKEN_MASK" is undefined
+[Error] SLCD.cpp@102,0:  #20: identifier "MCG_C1_IREFSTEN_MASK" is undefined
+[Error] SLCD.cpp@103,0:  #20: identifier "MCG_C2_IRCS_MASK" is undefined
+[Error] SLCD.cpp@106,0:  #20: identifier "MCG_SC_FCRDIV_MASK" is undefined
+[Error] SLCD.cpp@108,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@112,0:  #20: identifier "LCD_GCR_RVEN_MASK" is undefined
+[Error] SLCD.cpp@113,0:  #20: identifier "LCD_GCR_RVTRIM" is undefined
+[Error] SLCD.cpp@114,0:  #20: identifier "LCD_GCR_CPSEL_MASK" is undefined
+[Error] SLCD.cpp@115,0:  #20: identifier "LCD_GCR_LADJ" is undefined
+[Error] SLCD.cpp@116,0:  #20: identifier "LCD_GCR_VSUPPLY_MASK" is undefined
+[Error] SLCD.cpp@117,0:  #20: identifier "LCD_GCR_FDCIEN_MASK" is undefined
+[Error] SLCD.cpp@118,0:  #20: identifier "LCD_GCR_ALTDIV" is undefined
+[Error] SLCD.cpp@119,0:  #20: identifier "LCD_GCR_LCDDOZE_MASK" is undefined
+[Error] SLCD.cpp@120,0:  #20: identifier "LCD_GCR_LCDSTP_MASK" is undefined
+[Error] SLCD.cpp@121,0:  #20: identifier "LCD_GCR_LCDEN_MASK" is undefined
+[Error] SLCD.cpp@122,0:  #20: identifier "LCD_GCR_SOURCE_MASK" is undefined
+[Error] SLCD.cpp@123,0:  #20: identifier "LCD_GCR_ALTSOURCE_MASK" is undefined
+[Error] SLCD.cpp@124,0:  #20: identifier "LCD_GCR_LCLK" is undefined
+[Error] SLCD.cpp@125,0:  #20: identifier "LCD_GCR_DUTY" is undefined
+[Error] SLCD.cpp@172,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@206,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@206,0:  #20: identifier "LCD_GCR_RVTRIM" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\SLCD\SLCD.cpp", line 94: Error:  #20: identifier "SIM" is undefined
+".\SLCD\SLCD.cpp", line 94: Error:  #20: identifier "SIM_SCGC5_SLCD_MASK" is undefined
+".\SLCD\SLCD.cpp", line 94: Error:  #20: identifier "SIM_SCGC5_PORTB_MASK" is undefined
+".\SLCD\SLCD.cpp", line 94: Error:  #20: identifier "SIM_SCGC5_PORTC_MASK" is undefined
+".\SLCD\SLCD.cpp", line 94: Error:  #20: identifier "SIM_SCGC5_PORTD_MASK" is undefined
+".\SLCD\SLCD.cpp", line 94: Error:  #20: identifier "SIM_SCGC5_PORTE_MASK" is undefined
+".\SLCD\SLCD.cpp", line 97: Error:  #20: identifier "PORTC" is undefined
+".\SLCD\SLCD.cpp", line 102: Error:  #20: identifier "MCG" is undefined
+".\SLCD\SLCD.cpp", line 102: Error:  #20: identifier "MCG_C1_IRCLKEN_MASK" is undefined
+".\SLCD\SLCD.cpp", line 102: Error:  #20: identifier "MCG_C1_IREFSTEN_MASK" is undefined
+".\SLCD\SLCD.cpp", line 103: Error:  #20: identifier "MCG_C2_IRCS_MASK" is undefined
+".\SLCD\SLCD.cpp", line 106: Error:  #20: identifier "MCG_SC_FCRDIV_MASK" is undefined
+".\SLCD\SLCD.cpp", line 108: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 112: Error:  #20: identifier "LCD_GCR_RVEN_MASK" is undefined
+".\SLCD\SLCD.cpp", line 113: Error:  #20: identifier "LCD_GCR_RVTRIM" is undefined
+".\SLCD\SLCD.cpp", line 114: Error:  #20: identifier "LCD_GCR_CPSEL_MASK" is undefined
+".\SLCD\SLCD.cpp", line 115: Error:  #20: identifier "LCD_GCR_LADJ" is undefined
+".\SLCD\SLCD.cpp", line 116: Error:  #20: identifier "LCD_GCR_VSUPPLY_MASK" is undefined
+".\SLCD\SLCD.cpp", line 117: Error:  #20: identifier "LCD_GCR_FDCIEN_MASK" is undefined
+".\SLCD\SLCD.cpp", line 118: Error:  #20: identifier "LCD_GCR_ALTDIV" is undefined
+".\SLCD\SLCD.cpp", line 119: Error:  #20: identifier "LCD_GCR_LCDDOZE_MASK" is undefined
+".\SLCD\SLCD.cpp", line 120: Error:  #20: identifier "LCD_GCR_LCDSTP_MASK" is undefined
+".\SLCD\SLCD.cpp", line 121: Error:  #20: identifier "LCD_GCR_LCDEN_MASK" is undefined
+".\SLCD\SLCD.cpp", line 122: Error:  #20: identifier "LCD_GCR_SOURCE_MASK" is undefined
+".\SLCD\SLCD.cpp", line 123: Error:  #20: identifier "LCD_GCR_ALTSOURCE_MASK" is undefined
+".\SLCD\SLCD.cpp", line 124: Error:  #20: identifier "LCD_GCR_LCLK" is undefined
+".\SLCD\SLCD.cpp", line 125: Error:  #20: identifier "LCD_GCR_DUTY" is undefined
+".\SLCD\SLCD.cpp", line 172: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 206: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 206: Error:  #20: identifier "LCD_GCR_RVTRIM" is undefined
+.\SLCD\SLCD.cpp: 1 warning, 30 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\KL46_eCompass\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\KL46_eCompass"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/JimCarver/code/KL46_eCompass/
+----------------------------------------------------

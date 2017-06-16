@@ -1,0 +1,58 @@
+Building project FRDM-33879A-EVB_Brushed_DC_Motor_Control (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] main.cpp@40,0:  #20: identifier "PTD2" is undefined
+[Error] main.cpp@40,0:  #20: identifier "PTD3" is undefined
+[Error] main.cpp@40,0:  #20: identifier "PTD1" is undefined
+[Error] main.cpp@41,0:  #20: identifier "PTD0" is undefined
+[Error] main.cpp@43,0:  #20: identifier "PTA1" is undefined
+[Error] main.cpp@45,0:  #20: identifier "PTA12" is undefined
+[Error] main.cpp@46,0:  #20: identifier "PTA5" is undefined
+[Error] main.cpp@48,0:  #20: identifier "LED_GREEN" is undefined
+[Error] main.cpp@49,0:  #20: identifier "LED_RED" is undefined
+[Warning] main.cpp@140,0:  #1-D: last line of file ends without a newline
+[Warning] main.cpp@53,0:  #177-D: variable "ON1"  was declared but never referenced
+[Warning] main.cpp@54,0:  #177-D: variable "ON2"  was declared but never referenced
+[Warning] main.cpp@55,0:  #177-D: variable "ON3"  was declared but never referenced
+[Warning] main.cpp@56,0:  #177-D: variable "ON4"  was declared but never referenced
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\main.cpp", line 40: Error:  #20: identifier "PTD2" is undefined
+".\main.cpp", line 40: Error:  #20: identifier "PTD3" is undefined
+".\main.cpp", line 40: Error:  #20: identifier "PTD1" is undefined
+".\main.cpp", line 41: Error:  #20: identifier "PTD0" is undefined
+".\main.cpp", line 43: Error:  #20: identifier "PTA1" is undefined
+".\main.cpp", line 45: Error:  #20: identifier "PTA12" is undefined
+".\main.cpp", line 46: Error:  #20: identifier "PTA5" is undefined
+".\main.cpp", line 48: Error:  #20: identifier "LED_GREEN" is undefined
+".\main.cpp", line 49: Error:  #20: identifier "LED_RED" is undefined
+".\main.cpp", line 140: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 53: Warning:  #177-D: variable "ON1"  was declared but never referenced
+".\main.cpp", line 54: Warning:  #177-D: variable "ON2"  was declared but never referenced
+".\main.cpp", line 55: Warning:  #177-D: variable "ON3"  was declared but never referenced
+".\main.cpp", line 56: Warning:  #177-D: variable "ON4"  was declared but never referenced
+.\main.cpp: 6 warnings, 9 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\FRDM-33879A-EVB_Brushed_DC_Motor_Control\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\FRDM-33879A-EVB_Brushed_DC_Motor_Control"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/Freescale/code/FRDM-33879A-EVB_Brushed_DC_Motor_Control/
+----------------------------------------------------

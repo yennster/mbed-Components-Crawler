@@ -1,0 +1,46 @@
+Building project mbed_STLED316S (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: Font_7Seg.cpp
+[Warning] STLED316S_Config.h@33,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.h@193,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.cpp@153,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: main.cpp
+[Warning] STLED316S_Config.h@33,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.h@193,0:  #1-D: last line of file ends without a newline
+[Warning] STLED316S.h@495,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@190,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@190,0:  #20: identifier "p6" is undefined
+[Error] main.cpp@190,0:  #20: identifier "p7" is undefined
+[Error] main.cpp@190,0:  #20: identifier "p8" is undefined
+[ERROR] "./STLED316S/STLED316S_Config.h", line 33: Warning:  #1-D: last line of file ends without a newline
+"./STLED316S/Font_7Seg.h", line 193: Warning:  #1-D: last line of file ends without a newline
+"./STLED316S/STLED316S.h", line 495: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 190: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 190: Error:  #20: identifier "p6" is undefined
+".\main.cpp", line 190: Error:  #20: identifier "p7" is undefined
+".\main.cpp", line 190: Error:  #20: identifier "p8" is undefined
+.\main.cpp: 3 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\mbed_STLED316S\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\mbed_STLED316S"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/wim/code/mbed_STLED316S/
+----------------------------------------------------

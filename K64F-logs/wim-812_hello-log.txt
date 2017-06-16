@@ -1,0 +1,46 @@
+Building project 812_hello (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: PCF8591.cpp
+[Warning] PCF8591.h@221,0:  #1-D: last line of file ends without a newline
+[Warning] PCF8591.cpp@194,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCF8591.cpp@195,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCF8591.cpp@196,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Error] PCF8591.cpp@206,0:  #147: declaration is incompatible with "PCF8591_AnalogOut &PCF8591_AnalogOut::operator=(const PCF8591_AnalogOut &)"  (declared implicitly)
+[Warning] PCF8591.cpp@265,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Error] PCF8591.cpp@274,0:  #135: class "PCF8591_AnalogIn"  has no member "operator float"
+[Error] PCF8591.cpp@274,0:  #77: this declaration has no storage class or type specifier
+[Error] PCF8591.cpp@275,0:  #20: identifier "read" is undefined
+[ERROR] ".\PCF8591\PCF8591.h", line 221: Warning:  #1-D: last line of file ends without a newline
+".\PCF8591\PCF8591.cpp", line 194: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCF8591\PCF8591.cpp", line 195: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCF8591\PCF8591.cpp", line 196: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCF8591\PCF8591.cpp", line 206: Error:  #147: declaration is incompatible with "PCF8591_AnalogOut &PCF8591_AnalogOut::operator=(const PCF8591_AnalogOut &)"  (declared implicitly)
+".\PCF8591\PCF8591.cpp", line 265: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCF8591\PCF8591.cpp", line 274: Error:  #135: class "PCF8591_AnalogIn"  has no member "operator float"
+".\PCF8591\PCF8591.cpp", line 274: Error:  #77: this declaration has no storage class or type specifier
+".\PCF8591\PCF8591.cpp", line 275: Error:  #20: identifier "read" is undefined
+.\PCF8591\PCF8591.cpp: 5 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\812_hello\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\812_hello"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/wim/code/812_hello/
+----------------------------------------------------

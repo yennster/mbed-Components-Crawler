@@ -1,0 +1,48 @@
+Building project mbed_PT6312 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: Font_16Seg.cpp
+[Warning] PT6312_Config.h@32,0:  #1-D: last line of file ends without a newline
+[Warning] Font_16Seg.h@184,0:  #1-D: last line of file ends without a newline
+[Warning] Font_16Seg.cpp@143,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: Font_7Seg.cpp
+[Warning] PT6312_Config.h@32,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.h@252,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.cpp@65,0:  #1-D: last line of file ends without a newline
+Compile [  1.0%]: main.cpp
+[Warning] PT6312_Config.h@32,0:  #1-D: last line of file ends without a newline
+[Warning] Font_7Seg.h@252,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@164,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@164,0:  #20: identifier "p6" is undefined
+[Error] main.cpp@164,0:  #20: identifier "p7" is undefined
+[Error] main.cpp@164,0:  #20: identifier "p8" is undefined
+[ERROR] "./PT6312/PT6312_Config.h", line 32: Warning:  #1-D: last line of file ends without a newline
+"./PT6312/Font_7Seg.h", line 252: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 164: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 164: Error:  #20: identifier "p6" is undefined
+".\main.cpp", line 164: Error:  #20: identifier "p7" is undefined
+".\main.cpp", line 164: Error:  #20: identifier "p8" is undefined
+.\main.cpp: 2 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\mbed_PT6312\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\mbed_PT6312"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/wim/code/mbed_PT6312/
+----------------------------------------------------

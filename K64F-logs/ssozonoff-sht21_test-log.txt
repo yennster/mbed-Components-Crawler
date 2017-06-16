@@ -1,0 +1,65 @@
+Building project sht21_test (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: SHT2x.cpp
+[Error] SHT21_I2C.h@36,0:  #289: no instance of constructor "mbed::I2C::I2C"  matches the argument list
+[Error] SHT21_I2C.h@43,0:  #20: identifier "p10" is undefined
+[Error] SHT21_I2C.h@44,0:  #20: identifier "LPC_PINCON" is undefined
+[Error] SHT21_I2C.h@45,0:  #20: identifier "LPC_GPIO0" is undefined
+[Error] SHT21_I2C.h@47,0:  #20: identifier "p27" is undefined
+[Error] SHT21_I2C.h@56,0:  #20: identifier "p10" is undefined
+[Error] SHT21_I2C.h@56,0:  #20: identifier "LPC_GPIO0" is undefined
+[Error] SHT21_I2C.h@57,0:  #20: identifier "p27" is undefined
+[Error] SHT21_I2C.h@65,0:  #20: identifier "p10" is undefined
+[Error] SHT21_I2C.h@66,0:  #20: identifier "LPC_PINCON" is undefined
+[Error] SHT21_I2C.h@69,0:  #20: identifier "p27" is undefined
+[Warning] SHT21_I2C.h@78,0:  #1-D: last line of file ends without a newline
+[Error] SHT2x.h@85,0:  #262: not a class or struct name
+[Warning] SHT2x.h@107,0:  #1-D: last line of file ends without a newline
+[Warning] SHT2x.cpp@241,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] SHT2x.cpp@241,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] SHT2x.cpp@242,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] SHT2x.cpp@282,0:  #1-D: last line of file ends without a newline
+[ERROR] ".\SHT2x\SHT21_I2C.h", line 36: Error:  #289: no instance of constructor "mbed::I2C::I2C"  matches the argument list
+            argument types are: (PinName, PinName, const char *)
+".\SHT2x\SHT21_I2C.h", line 43: Error:  #20: identifier "p10" is undefined
+".\SHT2x\SHT21_I2C.h", line 44: Error:  #20: identifier "LPC_PINCON" is undefined
+".\SHT2x\SHT21_I2C.h", line 45: Error:  #20: identifier "LPC_GPIO0" is undefined
+".\SHT2x\SHT21_I2C.h", line 47: Error:  #20: identifier "p27" is undefined
+".\SHT2x\SHT21_I2C.h", line 56: Error:  #20: identifier "p10" is undefined
+".\SHT2x\SHT21_I2C.h", line 56: Error:  #20: identifier "LPC_GPIO0" is undefined
+".\SHT2x\SHT21_I2C.h", line 57: Error:  #20: identifier "p27" is undefined
+".\SHT2x\SHT21_I2C.h", line 65: Error:  #20: identifier "p10" is undefined
+".\SHT2x\SHT21_I2C.h", line 66: Error:  #20: identifier "LPC_PINCON" is undefined
+".\SHT2x\SHT21_I2C.h", line 69: Error:  #20: identifier "p27" is undefined
+".\SHT2x\SHT21_I2C.h", line 78: Warning:  #1-D: last line of file ends without a newline
+".\SHT2x\SHT2x.h", line 85: Error:  #262: not a class or struct name
+".\SHT2x\SHT2x.h", line 107: Warning:  #1-D: last line of file ends without a newline
+".\SHT2x\SHT2x.cpp", line 241: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\SHT2x\SHT2x.cpp", line 241: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\SHT2x\SHT2x.cpp", line 242: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\SHT2x\SHT2x.cpp", line 282: Warning:  #1-D: last line of file ends without a newline
+.\SHT2x\SHT2x.cpp: 6 warnings, 12 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\sht21_test\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\sht21_test"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/ssozonoff/code/sht21_test/
+----------------------------------------------------

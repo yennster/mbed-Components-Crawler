@@ -1,0 +1,35 @@
+Building project HelloWorld_IPS02A1 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Warning: Multiple linker scripts detected: .\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\TOOLCHAIN_ARM_STD\MK64FN1M0xxx12.sct -> .\X_NUCLEO_IPS02A1\mbed\99a22ba036c9\TARGET_K64F\TOOLCHAIN_ARM_STD\MK64F.sct
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Warning] PowerSwitch.h@66,0:  #1-D: last line of file ends without a newline
+[Warning] VPS2535H.h@126,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@108,0:  #20: identifier "USER_BUTTON" is undefined
+[ERROR] "./X_NUCLEO_IPS02A1/Components/Interfaces/PowerSwitch.h", line 66: Warning:  #1-D: last line of file ends without a newline
+"./X_NUCLEO_IPS02A1/Components/VPS2535H/VPS2535H.h", line 126: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 108: Error:  #20: identifier "USER_BUTTON" is undefined
+.\main.cpp: 2 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HelloWorld_IPS02A1\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\HelloWorld_IPS02A1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/HelloWorld_IPS02A1/
+----------------------------------------------------

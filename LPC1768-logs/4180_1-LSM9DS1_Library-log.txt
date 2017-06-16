@@ -1,0 +1,42 @@
+Building project LSM9DS1_Library (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: LSM9DS1.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] LSM9DS1_Registers.h@112,0:  #1-D: last line of file ends without a newline
+[Warning] LSM9DS1_Types.h@251,0:  #1-D: last line of file ends without a newline
+[Warning] LSM9DS1.cpp@337,0:  #177-D: variable "data"  was declared but never referenced
+[Warning] LSM9DS1.cpp@1012,0:  #940-D: missing return statement at end of non-void function "LSM9DS1::xgReadByte" 
+[Warning] LSM9DS1.cpp@1033,0:  #940-D: missing return statement at end of non-void function "LSM9DS1::mReadByte" 
+[Error] LSM9DS1.cpp@1187,0:  #28: expression must have a constant value
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\LSM9DS1_Registers.h", line 112: Warning:  #1-D: last line of file ends without a newline
+".\LSM9DS1_Types.h", line 251: Warning:  #1-D: last line of file ends without a newline
+".\LSM9DS1.cpp", line 337: Warning:  #177-D: variable "data"  was declared but never referenced
+".\LSM9DS1.cpp", line 1012: Warning:  #940-D: missing return statement at end of non-void function "LSM9DS1::xgReadByte" 
+".\LSM9DS1.cpp", line 1033: Warning:  #940-D: missing return statement at end of non-void function "LSM9DS1::mReadByte" 
+".\LSM9DS1.cpp", line 1187: Error:  #28: expression must have a constant value
+.\LSM9DS1.cpp: 6 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\LSM9DS1_Library\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\LSM9DS1_Library"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/4180_1/code/LSM9DS1_Library/
+----------------------------------------------------

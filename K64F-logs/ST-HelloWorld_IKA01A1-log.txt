@@ -1,0 +1,56 @@
+Building project HelloWorld_IKA01A1 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: XNucleoIKA01A1.cpp
+[Warning] XNucleoIKA01A1.h@163,0:  #1-D: last line of file ends without a newline
+[Error] component_def.h@89,0:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+[Warning] TSZ124.h@230,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] TSZ124.h@286,0:  #1-D: last line of file ends without a newline
+[Warning] TSU104.h@260,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] TSU104.h@261,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] TSU104.h@264,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] TSU104.h@319,0:  #1-D: last line of file ends without a newline
+[Warning] TSV734.h@222,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] TSV734.h@223,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] TSV734.h@226,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] TSV734.h@227,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] TSV734.h@285,0:  #1-D: last line of file ends without a newline
+[Warning] XNucleoIKA01A1.h@163,0:  #1-D: last line of file ends without a newline
+[ERROR] ".\X_NUCLEO_IKA01A1\XNucleoIKA01A1.h", line 163: Warning:  #1-D: last line of file ends without a newline
+"./X_NUCLEO_IKA01A1/Components/TSZ124/../Common/component_def.h", line 89: Error:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+"./X_NUCLEO_IKA01A1/Components/TSZ124/TSZ124.h", line 230: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IKA01A1/Components/TSZ124/TSZ124.h", line 286: Warning:  #1-D: last line of file ends without a newline
+"./X_NUCLEO_IKA01A1/Components/TSU104/TSU104.h", line 260: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IKA01A1/Components/TSU104/TSU104.h", line 261: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IKA01A1/Components/TSU104/TSU104.h", line 264: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IKA01A1/Components/TSU104/TSU104.h", line 319: Warning:  #1-D: last line of file ends without a newline
+"./X_NUCLEO_IKA01A1/Components/TSV734/TSV734.h", line 222: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IKA01A1/Components/TSV734/TSV734.h", line 223: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IKA01A1/Components/TSV734/TSV734.h", line 226: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IKA01A1/Components/TSV734/TSV734.h", line 227: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IKA01A1/Components/TSV734/TSV734.h", line 285: Warning:  #1-D: last line of file ends without a newline
+".\X_NUCLEO_IKA01A1\XNucleoIKA01A1.h", line 163: Warning:  #1-D: last line of file ends without a newline
+.\X_NUCLEO_IKA01A1\XNucleoIKA01A1.cpp: 13 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HelloWorld_IKA01A1\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\HelloWorld_IKA01A1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/HelloWorld_IKA01A1/
+----------------------------------------------------

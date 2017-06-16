@@ -1,0 +1,40 @@
+Building project DRV2605L_Haptic_Driver_Demo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Warning] DRV2605.h@199,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@21,0:  #20: identifier "p9" is undefined
+[Error] main.cpp@21,0:  #20: identifier "p10" is undefined
+[Error] main.cpp@27,0:  #20: identifier "p28" is undefined
+[Error] main.cpp@27,0:  #20: identifier "p27" is undefined
+[Error] main.cpp@29,0:  #20: identifier "p26" is undefined
+[ERROR] "./DRV2605/DRV2605.h", line 199: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 21: Error:  #20: identifier "p9" is undefined
+".\main.cpp", line 21: Error:  #20: identifier "p10" is undefined
+".\main.cpp", line 27: Error:  #20: identifier "p28" is undefined
+".\main.cpp", line 27: Error:  #20: identifier "p27" is undefined
+".\main.cpp", line 29: Error:  #20: identifier "p26" is undefined
+.\main.cpp: 1 warning, 5 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\DRV2605L_Haptic_Driver_Demo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\DRV2605L_Haptic_Driver_Demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/electromotivated/code/DRV2605L_Haptic_Driver_Demo/
+----------------------------------------------------

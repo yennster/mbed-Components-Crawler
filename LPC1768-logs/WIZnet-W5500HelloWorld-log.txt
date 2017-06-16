@@ -1,0 +1,45 @@
+Building project W5500HelloWorld (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Warning: Multiple linker scripts detected: .\mbed-os\targets\TARGET_NXP\TARGET_LPC176X\device\TOOLCHAIN_ARM_STD\LPC1768.sct -> .\W5500HelloWorld\mbed\433970e64889\TARGET_LPC1768\TOOLCHAIN_ARM_STD\LPC1768.sct
+Scan: env
+Scan: mbed
+Compile [  0.4%]: Endpoint.cpp
+Compile [  0.7%]: DNSClient.cpp
+Compile [  1.1%]: DHCPClient.cpp
+Compile [  1.5%]: Socket.cpp
+Compile [  1.8%]: TCPSocketConnection.cpp
+Compile [  2.2%]: TCPSocketServer.cpp
+Compile [  2.5%]: UDPSocket.cpp
+Compile [  2.9%]: WIZnetInterface.cpp
+Compile [  3.3%]: main.cpp
+[Error] main.cpp@35,0:  #20: identifier "ethernet" is undefined
+[ERROR] ".\W5500HelloWorld\main.cpp", line 35: Error:  #20: identifier "ethernet" is undefined
+.\W5500HelloWorld\main.cpp: 0 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\W5500HelloWorld\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\W5500HelloWorld"
+---
+ents\W5500HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/WIZnet/code/W5500HelloWorld/
+----------------------------------------------------
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/WIZnet/code/W5500HelloWorld/
+----------------------------------------------------

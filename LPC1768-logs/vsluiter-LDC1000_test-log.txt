@@ -1,0 +1,71 @@
+Building project LDC1000_test (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: FastPWM_KSDK.cpp
+[Warning] FastPWM_KSDK.cpp@82,0:  #1-D: last line of file ends without a newline
+Compile [  0.8%]: FastPWM_KLXX_K20D50M.cpp
+[Warning] FastPWM_KLXX_K20D50M.cpp@55,0:  #1-D: last line of file ends without a newline
+Compile [  1.2%]: FastPWM_LPC11XX.cpp
+[Warning] FastPWM_LPC11XX.cpp@103,0:  #1-D: last line of file ends without a newline
+Compile [  1.5%]: FastPWM_STM_TIM.cpp
+[Warning] FastPWM_STM_TIM.cpp@48,0:  #1-D: last line of file ends without a newline
+Compile [  1.9%]: FastPWM_STM_TIM_PinOut.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FastPWM_STM_TIM_PinOut.cpp@120,0:  #1-D: last line of file ends without a newline
+Compile [  2.3%]: FastPWM_LPC1768.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FastPWM.h@150,0:  #1-D: last line of file ends without a newline
+[Warning] FastPWM_LPC1768.cpp@34,0:  #1-D: last line of file ends without a newline
+Compile [  2.7%]: FastPWM_common.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FastPWM.h@150,0:  #1-D: last line of file ends without a newline
+[Warning] FastPWM_common.cpp@108,0:  #1-D: last line of file ends without a newline
+Compile [  3.1%]: LDC1000.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FastPWM.h@150,0:  #1-D: last line of file ends without a newline
+[Warning] LDC1000.h@127,0:  #1-D: last line of file ends without a newline
+[Warning] LDC1000.cpp@125,0:  #1-D: last line of file ends without a newline
+Compile [  3.5%]: AnalogIn.cpp
+Compile [  3.8%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FastPWM.h@150,0:  #1-D: last line of file ends without a newline
+[Warning] LDC1000.h@127,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@9,0:  #20: identifier "PTD2" is undefined
+[Error] main.cpp@9,0:  #20: identifier "PTD3" is undefined
+[Error] main.cpp@9,0:  #20: identifier "PTD1" is undefined
+[Error] main.cpp@9,0:  #20: identifier "PTB0" is undefined
+[Error] main.cpp@9,0:  #20: identifier "PTA13" is undefined
+[Warning] main.cpp@38,0:  #1-D: last line of file ends without a newline
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./LDC1000/FastPWM/FastPWM.h", line 150: Warning:  #1-D: last line of file ends without a newline
+"./LDC1000/LDC1000.h", line 127: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 9: Error:  #20: identifier "PTD2" is undefined
+".\main.cpp", line 9: Error:  #20: identifier "PTD3" is undefined
+".\main.cpp", line 9: Error:  #20: identifier "PTD1" is undefined
+".\main.cpp", line 9: Error:  #20: identifier "PTB0" is undefined
+".\main.cpp", line 9: Error:  #20: identifier "PTA13" is undefined
+".\main.cpp", line 38: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 4 warnings, 5 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\LDC1000_test\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\LDC1000_test"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/vsluiter/code/LDC1000_test/
+----------------------------------------------------

@@ -1,0 +1,46 @@
+Building project JBB_Motor_test (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Error] main.cpp@4,0:  #20: identifier "p21" is undefined
+[Error] main.cpp@4,0:  #20: identifier "p19" is undefined
+[Error] main.cpp@4,0:  #20: identifier "p20" is undefined
+[Error] main.cpp@5,0:  #20: identifier "p22" is undefined
+[Error] main.cpp@5,0:  #20: identifier "p29" is undefined
+[Error] main.cpp@5,0:  #20: identifier "p30" is undefined
+[Error] main.cpp@6,0:  #20: identifier "p25" is undefined
+[Error] main.cpp@7,0:  #101: "SW2" has already been declared in the current scope
+[Error] main.cpp@7,0:  #20: identifier "p26" is undefined
+[ERROR] ".\main.cpp", line 4: Error:  #20: identifier "p21" is undefined
+".\main.cpp", line 4: Error:  #20: identifier "p19" is undefined
+".\main.cpp", line 4: Error:  #20: identifier "p20" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "p22" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "p29" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "p30" is undefined
+".\main.cpp", line 6: Error:  #20: identifier "p25" is undefined
+".\main.cpp", line 7: Error:  #101: "SW2" has already been declared in the current scope
+".\main.cpp", line 7: Error:  #20: identifier "p26" is undefined
+.\main.cpp: 0 warnings, 9 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\JBB_Motor_test\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\JBB_Motor_test"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/jksoft/code/JBB_Motor_test/
+----------------------------------------------------

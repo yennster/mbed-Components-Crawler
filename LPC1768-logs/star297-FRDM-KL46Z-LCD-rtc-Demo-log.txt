@@ -1,0 +1,35 @@
+Building project FRDM-KL46Z-LCD-rtc-Demo (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: AnalogIn.cpp
+Compile [  0.8%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] main.cpp@10,0:  #20: identifier "SW1" is undefined
+[Error] main.cpp@11,0:  #20: identifier "SW3" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\main.cpp", line 10: Error:  #20: identifier "SW1" is undefined
+".\main.cpp", line 11: Error:  #20: identifier "SW3" is undefined
+.\main.cpp: 1 warning, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\FRDM-KL46Z-LCD-rtc-Demo\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\FRDM-KL46Z-LCD-rtc-Demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/star297/code/FRDM-KL46Z-LCD-rtc-Demo/
+----------------------------------------------------

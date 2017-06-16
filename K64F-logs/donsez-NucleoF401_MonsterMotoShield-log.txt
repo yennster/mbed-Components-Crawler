@@ -1,0 +1,36 @@
+Building project NucleoF401_MonsterMotoShield (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: AnalogIn.cpp
+Compile [  0.6%]: BusIn.cpp
+Compile [  1.0%]: main.cpp
+[Error] main.cpp@35,0:  #20: identifier "PB_4" is undefined
+[Error] main.cpp@36,0:  #20: identifier "PB_10" is undefined
+[Warning] main.cpp@167,0:  #1-D: last line of file ends without a newline
+[ERROR] ".\main.cpp", line 35: Error:  #20: identifier "PB_4" is undefined
+".\main.cpp", line 36: Error:  #20: identifier "PB_10" is undefined
+".\main.cpp", line 167: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 1 warning, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\NucleoF401_MonsterMotoShield\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\NucleoF401_MonsterMotoShield"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/donsez/code/NucleoF401_MonsterMotoShield/
+----------------------------------------------------

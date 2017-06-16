@@ -1,0 +1,42 @@
+Building project HelloWorld_IHM04A1 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: AnalogIn.cpp
+Compile [  0.6%]: BusIn.cpp
+Compile [  1.0%]: main.cpp
+[Error] component_def.h@89,0:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+[Warning] L6206.h@486,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] L6206.h@487,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] L6206.h@440,0:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=L6206, M=void (L6206::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+[Warning] L6206.h@445,0:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=L6206, M=void (L6206::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+[Error] main.cpp@81,0:  #20: identifier "USER_BUTTON" is undefined
+[ERROR] "./X_NUCLEO_IHM04A1/Components/L6206/../Common/component_def.h", line 89: Error:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+"./X_NUCLEO_IHM04A1/Components/L6206/L6206.h", line 486: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IHM04A1/Components/L6206/L6206.h", line 487: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IHM04A1/Components/L6206/L6206.h", line 440: Warning:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=L6206, M=void (L6206::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+"./X_NUCLEO_IHM04A1/Components/L6206/L6206.h", line 445: Warning:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=L6206, M=void (L6206::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+".\main.cpp", line 81: Error:  #20: identifier "USER_BUTTON" is undefined
+.\main.cpp: 4 warnings, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HelloWorld_IHM04A1\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\HelloWorld_IHM04A1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/HelloWorld_IHM04A1/
+----------------------------------------------------

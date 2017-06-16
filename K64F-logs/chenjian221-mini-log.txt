@@ -1,0 +1,54 @@
+Building project mini (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Error] main.cpp@8,0:  #20: identifier "p15" is undefined
+[Error] main.cpp@9,0:  #20: identifier "p23" is undefined
+[Error] main.cpp@10,0:  #20: identifier "p9" is undefined
+[Error] main.cpp@10,0:  #20: identifier "p10" is undefined
+[Error] main.cpp@12,0:  #20: identifier "p22" is undefined
+[Error] main.cpp@13,0:  #20: identifier "p21" is undefined
+[Error] main.cpp@14,0:  #20: identifier "p11" is undefined
+[Error] main.cpp@14,0:  #20: identifier "p12" is undefined
+[Error] main.cpp@14,0:  #20: identifier "p13" is undefined
+[Error] main.cpp@15,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@15,0:  #20: identifier "p6" is undefined
+[Error] main.cpp@15,0:  #20: identifier "p7" is undefined
+[Warning] main.cpp@68,0:  #1293-D: assignment in condition
+[ERROR] ".\main.cpp", line 8: Error:  #20: identifier "p15" is undefined
+".\main.cpp", line 9: Error:  #20: identifier "p23" is undefined
+".\main.cpp", line 10: Error:  #20: identifier "p9" is undefined
+".\main.cpp", line 10: Error:  #20: identifier "p10" is undefined
+".\main.cpp", line 12: Error:  #20: identifier "p22" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "p21" is undefined
+".\main.cpp", line 14: Error:  #20: identifier "p11" is undefined
+".\main.cpp", line 14: Error:  #20: identifier "p12" is undefined
+".\main.cpp", line 14: Error:  #20: identifier "p13" is undefined
+".\main.cpp", line 15: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 15: Error:  #20: identifier "p6" is undefined
+".\main.cpp", line 15: Error:  #20: identifier "p7" is undefined
+".\main.cpp", line 68: Warning:  #1293-D: assignment in condition
+.\main.cpp: 1 warning, 12 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\mini\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\mini"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/chenjian221/code/mini/
+----------------------------------------------------

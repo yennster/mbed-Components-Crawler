@@ -1,0 +1,34 @@
+Building project MAX4466_Hello_World (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Warning] MAX4466.h@32,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@6,0:  #20: identifier "p20" is undefined
+[Warning] main.cpp@14,0:  #1-D: last line of file ends without a newline
+[ERROR] "./MAX4466/MAX4466.h", line 32: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 6: Error:  #20: identifier "p20" is undefined
+".\main.cpp", line 14: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 2 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\MAX4466_Hello_World\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\MAX4466_Hello_World"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/mgolino/code/MAX4466_Hello_World/
+----------------------------------------------------

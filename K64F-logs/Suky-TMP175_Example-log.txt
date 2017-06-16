@@ -1,0 +1,66 @@
+Building project TMP175_Example (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Warning] TMP175.h@104,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] TMP175.h@105,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] TMP175.h@107,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] TMP175.h@108,0:  #174-D: expression has no effect
+[Warning] TMP175.h@136,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] TMP175.h@145,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] TMP175.h@146,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] TMP175.h@148,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] TMP175.h@149,0:  #174-D: expression has no effect
+[Warning] TMP175.h@177,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] TMP175.h@199,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Error] TMP175.h@224,0:  #135: class "TMP175"  has no member "operator float"
+[Error] TMP175.h@224,0:  #77: this declaration has no storage class or type specifier
+[Error] TMP175.h@226,0:  #20: identifier "fReadTemperatureTMP175" is undefined
+[Warning] TMP175.h@232,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@4,0:  #20: identifier "p9" is undefined
+[Error] main.cpp@4,0:  #20: identifier "p10" is undefined
+[Error] main.cpp@5,0:  #20: identifier "LocalFileSystem" is undefined
+[Error] main.cpp@17,0:  #413: no suitable conversion function from "TMP175" to "float" exists
+[ERROR] "./TMP175/TMP175.h", line 104: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 105: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 107: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 108: Warning:  #174-D: expression has no effect
+"./TMP175/TMP175.h", line 136: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 145: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 146: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 148: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 149: Warning:  #174-D: expression has no effect
+"./TMP175/TMP175.h", line 177: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 199: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+"./TMP175/TMP175.h", line 224: Error:  #135: class "TMP175"  has no member "operator float"
+"./TMP175/TMP175.h", line 224: Error:  #77: this declaration has no storage class or type specifier
+"./TMP175/TMP175.h", line 226: Error:  #20: identifier "fReadTemperatureTMP175" is undefined
+"./TMP175/TMP175.h", line 232: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 4: Error:  #20: identifier "p9" is undefined
+".\main.cpp", line 4: Error:  #20: identifier "p10" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "LocalFileSystem" is undefined
+".\main.cpp", line 17: Error:  #413: no suitable conversion function from "TMP175" to "float" exists
+.\main.cpp: 12 warnings, 7 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\TMP175_Example\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\TMP175_Example"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/Suky/code/TMP175_Example/
+----------------------------------------------------

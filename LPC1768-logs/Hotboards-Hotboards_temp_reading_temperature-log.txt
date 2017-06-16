@@ -1,0 +1,226 @@
+Building project Hotboards_temp_reading_temperature (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: AnalogIn.cpp
+Compile [  0.8%]: BusIn.cpp
+Compile [  1.2%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.6%]: Hotboards_temp.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.0%]: BusOut.cpp
+Compile [  2.4%]: BusInOut.cpp
+Compile [  2.8%]: Ethernet.cpp
+Compile [  3.2%]: CAN.cpp
+Compile [  3.6%]: FlashIAP.cpp
+Compile [  4.0%]: FilePath.cpp
+Compile [  4.3%]: FileSystemLike.cpp
+Compile [  4.7%]: FileBase.cpp
+Compile [  5.1%]: I2C.cpp
+Compile [  5.5%]: I2CSlave.cpp
+Compile [  5.9%]: InterruptIn.cpp
+Compile [  6.3%]: InterruptManager.cpp
+Compile [  6.7%]: LocalFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@110,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@188,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [  7.1%]: RawSerial.cpp
+Compile [  7.5%]: SPISlave.cpp
+Compile [  7.9%]: SPI.cpp
+Compile [  8.3%]: Serial.cpp
+Compile [  8.7%]: Ticker.cpp
+Compile [  9.1%]: Stream.cpp
+Compile [  9.5%]: SerialBase.cpp
+Compile [  9.9%]: Timer.cpp
+Compile [ 10.3%]: Timeout.cpp
+Compile [ 10.7%]: TimerEvent.cpp
+Compile [ 11.1%]: EventQueue.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 11.5%]: equeue_posix.c
+Compile [ 11.9%]: equeue.c
+Compile [ 12.3%]: emac_lwip.c
+Compile [ 12.6%]: emac_stack_lwip.cpp
+Compile [ 13.0%]: equeue_mbed.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 13.4%]: lwip_checksum.c
+Compile [ 13.8%]: EthernetInterface.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 14.2%]: lpc_phy_dp83848.c
+Compile [ 14.6%]: lwip_memcpy.c
+Compile [ 15.0%]: lpc17_emac.c
+Compile [ 15.4%]: lwip_random.c
+Compile [ 15.8%]: lwip_sys_arch.c
+Compile [ 16.2%]: lwip_api_lib.c
+Compile [ 16.6%]: lwip_tcp_isn.c
+Compile [ 17.0%]: lwip_err.c
+Compile [ 17.4%]: lwip_api_msg.c
+Compile [ 17.8%]: lwip_netdb.c
+Compile [ 18.2%]: lwip_netbuf.c
+Compile [ 18.6%]: lwip_netifapi.c
+Compile [ 19.0%]: lwip_autoip.c
+Compile [ 19.4%]: lwip_sockets.c
+Compile [ 19.8%]: lwip_tcpip.c
+Compile [ 20.2%]: lwip_icmp.c
+Compile [ 20.6%]: lwip_etharp.c
+Compile [ 20.9%]: lwip_igmp.c
+Compile [ 21.3%]: lwip_dhcp.c
+Compile [ 21.7%]: lwip_ip4.c
+Compile [ 22.1%]: lwip_ip4_addr.c
+Compile [ 22.5%]: lwip_dhcp6.c
+Compile [ 22.9%]: lwip_ip4_frag.c
+Compile [ 23.3%]: lwip_icmp6.c
+Compile [ 23.7%]: lwip_ethip6.c
+Compile [ 24.1%]: lwip_inet6.c
+Compile [ 24.5%]: lwip_ip6.c
+Compile [ 24.9%]: lwip_ip6_frag.c
+Compile [ 25.3%]: lwip_ip6_addr.c
+Compile [ 25.7%]: lwip_mld6.c
+Compile [ 26.1%]: lwip_nd6.c
+Compile [ 26.5%]: lwip_inet_chksum.c
+Compile [ 26.9%]: lwip_dns.c
+Compile [ 27.3%]: lwip_def.c
+Compile [ 27.7%]: lwip_init.c
+Compile [ 28.1%]: lwip_ip.c
+Compile [ 28.5%]: lwip_mem.c
+Compile [ 28.9%]: lwip_memp.c
+Compile [ 29.2%]: lwip_netif.c
+Compile [ 29.6%]: lwip_raw.c
+Compile [ 30.0%]: lwip_stats.c
+Compile [ 30.4%]: lwip_pbuf.c
+Compile [ 30.8%]: lwip_sys.c
+Compile [ 31.2%]: lwip_timeouts.c
+Compile [ 31.6%]: lwip_tcp.c
+Compile [ 32.0%]: lwip_tcp_in.c
+Compile [ 32.4%]: lwip_tcp_out.c
+Compile [ 32.8%]: lwip_ethernet.c
+Compile [ 33.2%]: lwip_ethernetif.c
+Compile [ 33.6%]: lwip_udp.c
+Compile [ 34.0%]: lwip_lowpan6.c
+Compile [ 34.4%]: Dir.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 34.8%]: FileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 35.2%]: lwip_stack.c
+Compile [ 35.6%]: File.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 36.0%]: ccsbcs.cpp
+Compile [ 36.4%]: ChainingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 36.8%]: HeapBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 37.2%]: SlicingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 37.5%]: ff.cpp
+Compile [ 37.9%]: greentea_serial.cpp
+Compile [ 38.3%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 38.7%]: greentea_metrics.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] greentea_metrics.cpp@37,0:  #177-D: variable "mutex"  was declared but never referenced
+Compile [ 39.1%]: unity.c
+Compile [ 39.5%]: greentea_test_env.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 39.9%]: mbed-utest-shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 40.3%]: unity_handler.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 40.7%]: utest_case.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 41.1%]: utest_default_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 41.5%]: utest_greentea_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 41.9%]: utest_stack_trace.cpp
+Compile [ 42.3%]: mbed_trng.c
+Compile [ 42.7%]: utest_harness.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 43.1%]: aesni.c
+Compile [ 43.5%]: utest_shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 43.9%]: arc4.c
+Compile [ 44.3%]: utest_types.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 44.7%]: aes.c
+Compile [ 45.1%]: asn1parse.c
+Compile [ 45.5%]: asn1write.c
+Compile [ 45.8%]: base64.c
+Compile [ 46.2%]: blowfish.c
+Compile [ 46.6%]: camellia.c
+Compile [ 47.0%]: certs.c
+Compile [ 47.4%]: ccm.c
+Compile [ 47.8%]: cipher.c
+Compile [ 48.2%]: cipher_wrap.c
+Compile [ 48.6%]: cmac.c
+Compile [ 49.0%]: ctr_drbg.c
+Compile [ 49.4%]: debug.c
+Compile [ 49.8%]: des.c
+Compile [ 50.2%]: dhm.c
+Compile [ 50.6%]: ecdh.c
+Compile [ 51.0%]: ecjpake.c
+Compile [ 51.4%]: bignum.c
+Compile [ 51.8%]: ecdsa.c
+Compile [ 52.2%]: entropy.c
+Compile [ 52.6%]: entropy_poll.c
+Compile [ 53.0%]: error.c
+Compile [ 53.4%]: ecp_curves.c
+Compile [ 53.8%]: ecp.c
+Compile [ 54.2%]: gcm.c
+Compile [ 54.5%]: hmac_drbg.c
+[ERROR] Warning: C9564I: Retrying - Wed Jul 26 22:34:11 2017
+
+License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Feature:       mdk_std_compiler5
+Hostname:      nahpc-lic19.nahpc.arm.com
+License path:  7010@nahpc-lic19.nahpc.arm.com;c:\program files\arm\licenses\license.dat;
+FlexNet Licensing error:-96,7.  System Error: 11001 "Comm. error"
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+Error: C9555E: Failed to check out a license.License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Feature:       mdk_std_compiler5
+Hostname:      nahpc-lic19.nahpc.arm.com
+License path:  7010@nahpc-lic19.nahpc.arm.com;c:\program files\arm\licenses\license.dat;
+FlexNet Licensing error:-96,7.  System Error: 11001 "Comm. error"
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: '7010@nahpc-lic19.nahpc.arm.com'
+ - LM_LICENSE_FILE: unset
+ - ARM_TOOL_VARIANT: unset
+ - ARM_PRODUCT_PATH: unset
+ - Product location: C:\Keil_v5\ARM\sw\mappings
+ - Toolchain location: C:\Keil_v5\ARM\ARMCC\bin
+ - Selected tool variant: mdk_std_flex
+ - Checkout feature: mdk_std_compiler5
+ - Feature version: 5.0201609
+ - Flex error code: -96
+Product: MDK Plus 5.23 (Flex)
+Component: ARM Compiler 5.06 update 4 (build 422)
+Tool: armcc [4d3604]
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Hotboards_temp_reading_temperature\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\Hotboards_temp_reading_temperature"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/Hotboards/code/Hotboards_temp_reading_temperature/
+----------------------------------------------------

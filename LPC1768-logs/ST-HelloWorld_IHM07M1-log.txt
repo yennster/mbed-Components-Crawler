@@ -1,0 +1,56 @@
+Building project HelloWorld_IHM07M1 (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] RateLimiter.h@29,0:  #1-D: last line of file ends without a newline
+[Warning] BLDCmotorDriver.h@29,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@31,0:  #20: identifier "PA_8" is undefined
+[Error] main.cpp@31,0:  #20: identifier "PA_9" is undefined
+[Error] main.cpp@31,0:  #20: identifier "PA_10" is undefined
+[Error] main.cpp@32,0:  #20: identifier "PC_10" is undefined
+[Error] main.cpp@32,0:  #20: identifier "PC_11" is undefined
+[Error] main.cpp@32,0:  #20: identifier "PC_12" is undefined
+[Error] main.cpp@33,0:  #20: identifier "PA_15" is undefined
+[Error] main.cpp@33,0:  #20: identifier "PB_3" is undefined
+[Error] main.cpp@33,0:  #20: identifier "PB_10" is undefined
+[Error] main.cpp@34,0:  #20: identifier "PB_2" is undefined
+[Error] main.cpp@38,0:  #20: identifier "PC_2" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./RateLimiter/RateLimiter.h", line 29: Warning:  #1-D: last line of file ends without a newline
+"./BLDCmotorDriver/BLDCmotorDriver.h", line 29: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 31: Error:  #20: identifier "PA_8" is undefined
+".\main.cpp", line 31: Error:  #20: identifier "PA_9" is undefined
+".\main.cpp", line 31: Error:  #20: identifier "PA_10" is undefined
+".\main.cpp", line 32: Error:  #20: identifier "PC_10" is undefined
+".\main.cpp", line 32: Error:  #20: identifier "PC_11" is undefined
+".\main.cpp", line 32: Error:  #20: identifier "PC_12" is undefined
+".\main.cpp", line 33: Error:  #20: identifier "PA_15" is undefined
+".\main.cpp", line 33: Error:  #20: identifier "PB_3" is undefined
+".\main.cpp", line 33: Error:  #20: identifier "PB_10" is undefined
+".\main.cpp", line 34: Error:  #20: identifier "PB_2" is undefined
+".\main.cpp", line 38: Error:  #20: identifier "PC_2" is undefined
+.\main.cpp: 3 warnings, 11 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HelloWorld_IHM07M1\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\HelloWorld_IHM07M1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/HelloWorld_IHM07M1/
+----------------------------------------------------

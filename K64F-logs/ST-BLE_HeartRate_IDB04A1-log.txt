@@ -1,0 +1,1177 @@
+Building project BLE_HeartRate_IDB04A1 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: GapScanningParams.cpp
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.cpp@75,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: BLEInstanceBase.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.cpp@28,0:  #1-D: last line of file ends without a newline
+Compile [  0.9%]: BLE.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+[Warning] BLE.cpp@286,0:  #1-D: last line of file ends without a newline
+Compile [  1.2%]: DiscoveredCharacteristic.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.cpp@167,0:  #1-D: last line of file ends without a newline
+Compile [  1.5%]: DFUService.cpp
+[Warning] DFUService.cpp@44,0:  #1-D: last line of file ends without a newline
+Compile [  1.8%]: UARTService.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] UARTService.h@206,0:  #1-D: last line of file ends without a newline
+[Warning] UARTService.cpp@41,0:  #1-D: last line of file ends without a newline
+Compile [  2.1%]: URIBeaconConfigService.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] URIBeaconConfigService.h@472,0:  #1-D: last line of file ends without a newline
+[Warning] URIBeaconConfigService.cpp@35,0:  #1-D: last line of file ends without a newline
+Compile [  2.4%]: BlueNRGDiscoveredCharacteristic.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.cpp@68,0:  #1-D: last line of file ends without a newline
+Compile [  2.7%]: BlueNRGDevice.cpp
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDevice.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_utils.h@204,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDevice.cpp@475,0:  #1-D: last line of file ends without a newline
+Compile [  3.0%]: BlueNRGGap.cpp
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDevice.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] ble_payload.h@195,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.cpp@1447,0:  #1-D: last line of file ends without a newline
+Compile [  3.3%]: BlueNRGGattClient.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.cpp@835,0:  #1-D: last line of file ends without a newline
+Compile [  3.6%]: ble_hci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+Compile [  3.9%]: bluenrg_hal_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+Compile [  4.2%]: BlueNRGGattServer.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.cpp@753,0:  #1-D: last line of file ends without a newline
+Compile [  4.5%]: bluenrg_gap_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap_aci.c@1307,0:  #1-D: last line of file ends without a newline
+Compile [  4.8%]: bluenrg_l2cap_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_l2cap_aci.c@118,0:  #1-D: last line of file ends without a newline
+Compile [  5.1%]: bluenrg_gatt_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_aci.c@1471,0:  #1-D: last line of file ends without a newline
+Compile [  5.4%]: bluenrg_updater_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+Compile [  5.7%]: ble_gp_timer.c
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.c@155,0:  #1-D: last line of file ends without a newline
+Compile [  6.0%]: ble_list.c
+Compile [  6.2%]: ble_osal.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_osal.c@72,0:  #1-D: last line of file ends without a newline
+Compile [  6.5%]: bluenrg_utils.c
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_utils.h@204,0:  #1-D: last line of file ends without a newline
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_utils.c@430,0:  #1-D: last line of file ends without a newline
+Compile [  6.8%]: ble_clock.c
+[Warning] wait_api.h@21,0:  #1215-D: #warning directive: wait_api.h has been replaced by mbed_wait_api.h, please update to mbed_wait_api.h [since mbed-os-5.3]
+[Warning] rtc_time.h@21,0:  #1215-D: #warning directive: rtc_time.h has been replaced by mbed_rtc_time.h, please update to mbed_rtc_time.h [since mbed-os-5.3]
+[Warning] ble_clock.c@36,0:  #1-D: last line of file ends without a newline
+Compile [  7.1%]: ble_utils.cpp
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.cpp@93,0:  #1-D: last line of file ends without a newline
+Compile [  7.4%]: ble_payload.cpp
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] ble_payload.h@195,0:  #1-D: last line of file ends without a newline
+Compile [  7.7%]: stm32_bluenrg_ble.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDevice.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] stm32_bluenrg_ble.cpp@219,0:  #1-D: last line of file ends without a newline
+Compile [  8.0%]: AnalogIn.cpp
+Compile [  8.3%]: main.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] HeartRateService.h@194,0:  #1-D: last line of file ends without a newline
+Compile [  8.6%]: BusIn.cpp
+Compile [  8.9%]: btle.cpp
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_utils.h@204,0:  #1-D: last line of file ends without a newline
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] btle.cpp@707,0:  #1-D: last line of file ends without a newline
+Compile [  9.2%]: BusOut.cpp
+Compile [  9.5%]: BusInOut.cpp
+Compile [  9.8%]: CAN.cpp
+Compile [ 10.1%]: Ethernet.cpp
+Compile [ 10.4%]: FileBase.cpp
+Compile [ 10.7%]: FilePath.cpp
+Compile [ 11.0%]: FileSystemLike.cpp
+Compile [ 11.3%]: FlashIAP.cpp
+Compile [ 11.6%]: I2CSlave.cpp
+Compile [ 11.9%]: I2C.cpp
+Compile [ 12.2%]: InterruptIn.cpp
+Compile [ 12.5%]: LocalFileSystem.cpp
+Compile [ 12.8%]: InterruptManager.cpp
+Compile [ 13.1%]: RawSerial.cpp
+Compile [ 13.4%]: SPISlave.cpp
+Compile [ 13.7%]: SPI.cpp
+Compile [ 14.0%]: Serial.cpp
+Compile [ 14.3%]: SerialBase.cpp
+Compile [ 14.6%]: Stream.cpp
+Compile [ 14.9%]: Ticker.cpp
+Compile [ 15.2%]: Timeout.cpp
+Compile [ 15.5%]: TimerEvent.cpp
+Compile [ 15.8%]: equeue.c
+Compile [ 16.1%]: Timer.cpp
+Compile [ 16.4%]: equeue_posix.c
+Compile [ 16.7%]: emac_lwip.c
+Compile [ 17.0%]: EventQueue.cpp
+Compile [ 17.3%]: emac_stack_lwip.cpp
+Compile [ 17.6%]: equeue_mbed.cpp
+Compile [ 17.9%]: hardware_init_MK64F12.c
+Compile [ 18.2%]: EthernetInterface.cpp
+Compile [ 18.5%]: hardware_init_MK66F18.c
+Compile [ 18.8%]: lwip_memcpy.c
+Compile [ 19.0%]: lwip_checksum.c
+Compile [ 19.3%]: k64f_emac.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 19.6%]: lwip_random.c
+Compile [ 19.9%]: lwip_sys_arch.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 20.2%]: lwip_tcp_isn.c
+Compile [ 20.5%]: lwip_err.c
+Compile [ 20.8%]: lwip_api_lib.c
+Compile [ 21.1%]: lwip_api_msg.c
+Compile [ 21.4%]: lwip_netbuf.c
+Compile [ 21.7%]: lwip_netdb.c
+Compile [ 22.0%]: lwip_netifapi.c
+Compile [ 22.3%]: lwip_sockets.c
+Compile [ 22.6%]: lwip_autoip.c
+Compile [ 22.9%]: lwip_tcpip.c
+Compile [ 23.2%]: lwip_icmp.c
+Compile [ 23.5%]: lwip_etharp.c
+Compile [ 23.8%]: lwip_dhcp.c
+Compile [ 24.1%]: lwip_igmp.c
+Compile [ 24.4%]: lwip_ip4.c
+Compile [ 24.7%]: lwip_ip4_addr.c
+Compile [ 25.0%]: lwip_dhcp6.c
+Compile [ 25.3%]: lwip_ip4_frag.c
+Compile [ 25.6%]: lwip_ethip6.c
+Compile [ 25.9%]: lwip_icmp6.c
+Compile [ 26.2%]: lwip_inet6.c
+Compile [ 26.5%]: lwip_ip6.c
+Compile [ 26.8%]: lwip_ip6_addr.c
+Compile [ 27.1%]: lwip_ip6_frag.c
+Compile [ 27.4%]: lwip_mld6.c
+Compile [ 27.7%]: lwip_nd6.c
+Compile [ 28.0%]: lwip_def.c
+Compile [ 28.3%]: lwip_inet_chksum.c
+Compile [ 28.6%]: lwip_dns.c
+Compile [ 28.9%]: lwip_init.c
+Compile [ 29.2%]: lwip_ip.c
+Compile [ 29.5%]: lwip_mem.c
+Compile [ 29.8%]: lwip_memp.c
+Compile [ 30.1%]: lwip_netif.c
+Compile [ 30.4%]: lwip_pbuf.c
+Compile [ 30.7%]: lwip_raw.c
+Compile [ 31.0%]: lwip_stats.c
+Compile [ 31.2%]: lwip_sys.c
+Compile [ 31.5%]: lwip_timeouts.c
+Compile [ 31.8%]: lwip_tcp.c
+Compile [ 32.1%]: lwip_tcp_in.c
+Compile [ 32.4%]: lwip_tcp_out.c
+Compile [ 32.7%]: lwip_ethernetif.c
+Compile [ 33.0%]: lwip_lowpan6.c
+Compile [ 33.3%]: lwip_ethernet.c
+Compile [ 33.6%]: lwip_udp.c
+Compile [ 33.9%]: lwip_stack.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 34.2%]: Dir.cpp
+Compile [ 34.5%]: File.cpp
+Compile [ 34.8%]: FileSystem.cpp
+Compile [ 35.1%]: ccsbcs.cpp
+Compile [ 35.4%]: ChainingBlockDevice.cpp
+Compile [ 35.7%]: SlicingBlockDevice.cpp
+Compile [ 36.0%]: HeapBlockDevice.cpp
+Compile [ 36.3%]: ff.cpp
+Compile [ 36.6%]: greentea_serial.cpp
+Compile [ 36.9%]: greentea_metrics.cpp
+[Warning] greentea_metrics.cpp@37,0:  #177-D: variable "mutex"  was declared but never referenced
+Compile [ 37.2%]: FATFileSystem.cpp
+Compile [ 37.5%]: unity.c
+Compile [ 37.8%]: greentea_test_env.cpp
+Compile [ 38.1%]: mbed-utest-shim.cpp
+Compile [ 38.4%]: unity_handler.cpp
+Compile [ 38.7%]: utest_case.cpp
+Compile [ 39.0%]: utest_default_handlers.cpp
+Compile [ 39.3%]: utest_greentea_handlers.cpp
+Compile [ 39.6%]: utest_stack_trace.cpp
+Compile [ 39.9%]: utest_harness.cpp
+Compile [ 40.2%]: utest_shim.cpp
+Compile [ 40.5%]: mbed_trng.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 40.8%]: aesni.c
+Compile [ 41.1%]: arc4.c
+Compile [ 41.4%]: utest_types.cpp
+Compile [ 41.7%]: aes.c
+Compile [ 42.0%]: base64.c
+Compile [ 42.3%]: asn1parse.c
+Compile [ 42.6%]: asn1write.c
+Compile [ 42.9%]: blowfish.c
+Compile [ 43.2%]: camellia.c
+Compile [ 43.5%]: certs.c
+Compile [ 43.8%]: ccm.c
+Compile [ 44.0%]: cipher_wrap.c
+Compile [ 44.3%]: cipher.c
+Compile [ 44.6%]: cmac.c
+Compile [ 44.9%]: des.c
+Compile [ 45.2%]: ctr_drbg.c
+Compile [ 45.5%]: dhm.c
+Compile [ 45.8%]: debug.c
+Compile [ 46.1%]: ecjpake.c
+Compile [ 46.4%]: bignum.c
+Compile [ 46.7%]: ecdh.c
+Compile [ 47.0%]: ecdsa.c
+Compile [ 47.3%]: entropy_poll.c
+Compile [ 47.6%]: entropy.c
+Compile [ 47.9%]: error.c
+Compile [ 48.2%]: gcm.c
+Compile [ 48.5%]: ecp_curves.c
+Compile [ 48.8%]: ecp.c
+Compile [ 49.1%]: havege.c
+Compile [ 49.4%]: md2.c
+Compile [ 49.7%]: hmac_drbg.c
+Compile [ 50.0%]: md4.c
+Compile [ 50.3%]: md.c
+Compile [ 50.6%]: md5.c
+Compile [ 50.9%]: memory_buffer_alloc.c
+Compile [ 51.2%]: md_wrap.c
+Compile [ 51.5%]: net_sockets.c
+Compile [ 51.8%]: padlock.c
+Compile [ 52.1%]: pem.c
+Compile [ 52.4%]: oid.c
+Compile [ 52.7%]: pk.c
+Compile [ 53.0%]: pkcs11.c
+Compile [ 53.3%]: pkcs12.c
+Compile [ 53.6%]: pk_wrap.c
+Compile [ 53.9%]: pkcs5.c
+Compile [ 54.2%]: platform.c
+Compile [ 54.5%]: ripemd160.c
+Compile [ 54.8%]: pkwrite.c
+Compile [ 55.1%]: pkparse.c
+Compile [ 55.4%]: sha1.c
+Compile [ 55.7%]: ssl_cache.c
+Compile [ 56.0%]: sha256.c
+Compile [ 56.2%]: rsa.c
+Compile [ 56.5%]: ssl_ciphersuites.c
+Compile [ 56.8%]: ssl_cookie.c
+Compile [ 57.1%]: sha512.c
+Compile [ 57.4%]: ssl_ticket.c
+Compile [ 57.7%]: threading.c
+Compile [ 58.0%]: ssl_cli.c
+Compile [ 58.3%]: timing.c
+Compile [ 58.6%]: ssl_srv.c
+Compile [ 58.9%]: version.c
+Compile [ 59.2%]: version_features.c
+Compile [ 59.5%]: x509_create.c
+Compile [ 59.8%]: x509.c
+Compile [ 60.1%]: x509_csr.c
+Compile [ 60.4%]: x509_crl.c
+Compile [ 60.7%]: x509write_crt.c
+Compile [ 61.0%]: x509write_csr.c
+Compile [ 61.3%]: xtea.c
+Compile [ 61.6%]: NetworkInterface.cpp
+Compile [ 61.9%]: x509_crt.c
+Compile [ 62.2%]: ssl_tls.c
+Compile [ 62.5%]: Socket.cpp
+Compile [ 62.8%]: NetworkStack.cpp
+Compile [ 63.1%]: SocketAddress.cpp
+Compile [ 63.4%]: TCPServer.cpp
+Compile [ 63.7%]: TCPSocket.cpp
+Compile [ 64.0%]: UDPSocket.cpp
+Compile [ 64.3%]: WiFiAccessPoint.cpp
+Compile [ 64.6%]: cfstore_svm.cpp
+Compile [ 64.9%]: cfstore_fnmatch.c
+Compile [ 65.2%]: nsapi_dns.cpp
+Compile [ 65.5%]: cfstore_test.c
+Compile [ 65.8%]: flash_journal_crc.c
+Compile [ 66.1%]: strategy.c
+Compile [ 66.4%]: storage_volume.cpp
+Compile [ 66.7%]: support_funcs.c
+Compile [ 67.0%]: storage_volume_manager.cpp
+Compile [ 67.3%]: configuration_store.c
+[Warning] configuration_store.c@2388,0:  #68-D: integer conversion resulted in a change of sign
+Compile [ 67.6%]: flash_common_algo.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 67.9%]: mbed_gpio.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 68.2%]: mbed_pinmap_common.c
+Compile [ 68.5%]: mbed_lp_ticker_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 68.8%]: mbed_us_ticker_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 69.0%]: mbed_alloc_wrappers.cpp
+Compile [ 69.3%]: mbed_ticker_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 69.6%]: CallChain.cpp
+Compile [ 69.9%]: mbed_assert.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 70.2%]: mbed_application.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 70.5%]: mbed_board.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 70.8%]: mbed_critical.c
+Compile [ 71.1%]: mbed_mem_trace.c
+Compile [ 71.4%]: mbed_error.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 71.7%]: mbed_interface.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 72.0%]: mbed_stats.c
+Compile [ 72.3%]: mbed_rtc_time.cpp
+Compile [ 72.6%]: mbed_wait_api_no_rtos.c
+Compile [ 72.9%]: mbed_retarget.cpp
+Compile [ 73.2%]: mbed_semihost_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 73.5%]: Mutex.cpp
+Compile [ 73.8%]: Semaphore.cpp
+Compile [ 74.1%]: mbed_wait_api_rtos.cpp
+Compile [ 74.4%]: rtos_idle.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 74.7%]: RtosTimer.cpp
+Compile [ 75.0%]: HAL_CM.c
+Compile [ 75.3%]: Thread.cpp
+Compile [ 75.6%]: RTX_Conf_CM.c
+Compile [ 75.9%]: HAL_CM4.c
+Compile [ 76.2%]: SVC_Table.S
+Compile [ 76.5%]: rt_Event.c
+Compile [ 76.8%]: rt_List.c
+Compile [ 77.1%]: rt_Mailbox.c
+Compile [ 77.4%]: rt_Memory.c
+Compile [ 77.7%]: rt_MemBox.c
+Compile [ 78.0%]: rt_Mutex.c
+Compile [ 78.3%]: rt_OsEventObserver.c
+Compile [ 78.6%]: rt_Robin.c
+Compile [ 78.9%]: rt_Semaphore.c
+Compile [ 79.2%]: rt_Time.c
+Compile [ 79.5%]: rt_Task.c
+Compile [ 79.8%]: rt_CMSIS.c
+Compile [ 80.1%]: rt_Timer.c
+Compile [ 80.4%]: rt_System.c
+Compile [ 80.7%]: crc.c
+Compile [ 81.0%]: PeripheralPins.c
+Compile [ 81.2%]: fsl_clock_config.c
+Compile [ 81.5%]: fsl_phy.c
+Compile [ 81.8%]: mbed_overrides.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 82.1%]: sys.cpp
+Compile [ 82.4%]: startup_MK64F12.S
+Compile [ 82.7%]: cmsis_nvic.c
+Compile [ 83.0%]: system_MK64F12.c
+Compile [ 83.3%]: fsl_adc16.c
+Compile [ 83.6%]: fsl_cmt.c
+Compile [ 83.9%]: fsl_clock.c
+Compile [ 84.2%]: fsl_cmp.c
+Compile [ 84.5%]: fsl_common.c
+[Warning] fsl_common.c@161,0:  #1-D: last line of file ends without a newline
+Compile [ 84.8%]: fsl_crc.c
+Compile [ 85.1%]: fsl_dmamux.c
+Compile [ 85.4%]: fsl_dac.c
+Compile [ 85.7%]: fsl_dspi.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+Compile [ 86.0%]: fsl_edma.c
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 86.3%]: fsl_enet.c
+Compile [ 86.6%]: fsl_dspi_edma.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 86.9%]: fsl_ewm.c
+Compile [ 87.2%]: fsl_flexbus.c
+Compile [ 87.5%]: fsl_flash.c
+[Warning] fsl_flash.h@497,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_flash.c@2620,0:  #1207-D: unknown attribute "optimize"
+[Warning] fsl_flash.c@2738,0:  #2524-D: #pragma pop with no matching #pragma push
+Compile [ 87.8%]: fsl_flexcan.c
+Compile [ 88.1%]: fsl_gpio.c
+Compile [ 88.4%]: fsl_ftm.c
+Compile [ 88.7%]: fsl_i2c_edma.c
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 89.0%]: fsl_llwu.c
+Compile [ 89.3%]: fsl_lptmr.c
+Compile [ 89.6%]: fsl_i2c.c
+Compile [ 89.9%]: fsl_mpu.c
+Compile [ 90.2%]: fsl_pit.c
+Compile [ 90.5%]: fsl_pdb.c
+Compile [ 90.8%]: fsl_pmc.c
+Compile [ 91.1%]: fsl_rcm.c
+[Warning] fsl_rcm.h@110,0:  #66-D: enumeration value is out of "int" range
+Compile [ 91.4%]: fsl_rnga.c
+Compile [ 91.7%]: fsl_rtc.c
+Compile [ 92.0%]: fsl_sai.c
+Compile [ 92.3%]: fsl_sim.c
+[Warning] fsl_sim.h@53,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_sim.h@56,0:  #66-D: enumeration value is out of "int" range
+Compile [ 92.6%]: fsl_sai_edma.c
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 92.9%]: fsl_sdhc.c
+[Warning] fsl_sdhc.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_sdhc.h@232,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_sdhc.h@236,0:  #66-D: enumeration value is out of "int" range
+Compile [ 93.2%]: fsl_uart_edma.c
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 93.5%]: fsl_smc.c
+[Warning] fsl_flash.h@497,0:  #66-D: enumeration value is out of "int" range
+Compile [ 93.8%]: fsl_vref.c
+Compile [ 94.0%]: fsl_uart.c
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 94.3%]: fsl_wdog.c
+Compile [ 94.6%]: flash_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 94.9%]: pwmout_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 95.2%]: serial_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 95.5%]: spi_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 95.8%]: storage_driver.c
+[Warning] fsl_flash.h@497,0:  #66-D: enumeration value is out of "int" range
+Compile [ 96.1%]: trng_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 96.4%]: us_ticker.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 96.7%]: analogin_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 97.0%]: analogout_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 97.3%]: dma_api.c
+Compile [ 97.6%]: gpio_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 97.9%]: gpio_irq_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 98.2%]: i2c_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 98.5%]: lp_ticker.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 98.8%]: port_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 99.1%]: pinmap.c
+Compile [ 99.4%]: rtc_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 99.7%]: sleep.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [100.0%]: test_env.cpp
+Link: BLE_HeartRate_IDB04A1
+Elf2Bin: BLE_HeartRate_IDB04A1
++--------------------------+-------+-------+-------+
+| Module                   | .text | .data |  .bss |
++--------------------------+-------+-------+-------+
+| Misc                     | 49356 |   179 | 12358 |
+| drivers                  |  2281 |     8 |    56 |
+| features/filesystem      |   586 |     0 |     0 |
+| features/storage         |    30 |     0 |   184 |
+| hal                      |   686 |     8 |     0 |
+| platform                 |  2357 |    16 |   380 |
+| rtos                     |   130 |     8 |     0 |
+| rtos/rtx                 |  6564 |   100 |  8396 |
+| targets/TARGET_Freescale | 16539 |   108 |  1012 |
+| Subtotals                | 78529 |   427 | 22386 |
++--------------------------+-------+-------+-------+
+Allocated Heap: unknown
+Allocated Stack: unknown
+Total Static RAM memory (data + bss): 22813 bytes
+Total RAM memory (data + bss + heap + stack): 22813 bytes
+Total Flash memory (text + data + misc): 78956 bytes
+
+Object file BLE.o is not unique! It could be made from: .\mbed-os\features\FEATURE_BLE\source\BLE.cpp .\BLE_API\source\BLE.cpp
+Object file DFUService.o is not unique! It could be made from: .\BLE_API\source\services\DFUService.cpp .\mbed-os\features\FEATURE_BLE\source\services\DFUService.cpp
+Object file GapScanningParams.o is not unique! It could be made from: .\mbed-os\features\FEATURE_BLE\source\GapScanningParams.cpp .\BLE_API\source\GapScanningParams.cpp
+Object file DiscoveredCharacteristic.o is not unique! It could be made from: .\BLE_API\source\DiscoveredCharacteristic.cpp .\mbed-os\features\FEATURE_BLE\source\DiscoveredCharacteristic.cpp
+Object file BLEInstanceBase.o is not unique! It could be made from: .\mbed-os\features\FEATURE_BLE\source\BLEInstanceBase.cpp .\BLE_API\source\BLEInstanceBase.cpp
+Object file UARTService.o is not unique! It could be made from: .\BLE_API\source\services\UARTService.cpp .\mbed-os\features\FEATURE_BLE\source\services\UARTService.cpp
+Object file URIBeaconConfigService.o is not unique! It could be made from: .\mbed-os\features\FEATURE_BLE\source\services\URIBeaconConfigService.cpp .\BLE_API\source\services\URIBeaconConfigService.cpp
+Image: .\BUILD\K64F\ARM\BLE_HeartRate_IDB04A1.bin
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/BLE_HeartRate_IDB04A1/
+----------------------------------------------------

@@ -1,0 +1,46 @@
+Building project Input_Keypad (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: BusIn.cpp
+Compile [  0.6%]: AnalogIn.cpp
+Compile [  1.0%]: main.cpp
+[Warning] KeyPad.h@60,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@16,0:  #20: identifier "p25" is undefined
+[Error] main.cpp@16,0:  #20: identifier "p27" is undefined
+[Error] main.cpp@16,0:  #20: identifier "p23" is undefined
+[Error] main.cpp@16,0:  #20: identifier "p26" is undefined
+[Error] main.cpp@16,0:  #20: identifier "p21" is undefined
+[Error] main.cpp@16,0:  #20: identifier "p22" is undefined
+[Error] main.cpp@16,0:  #20: identifier "p24" is undefined
+[ERROR] "./KeyPad/KeyPad.h", line 60: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 16: Error:  #20: identifier "p25" is undefined
+".\main.cpp", line 16: Error:  #20: identifier "p27" is undefined
+".\main.cpp", line 16: Error:  #20: identifier "p23" is undefined
+".\main.cpp", line 16: Error:  #20: identifier "p26" is undefined
+".\main.cpp", line 16: Error:  #20: identifier "p21" is undefined
+".\main.cpp", line 16: Error:  #20: identifier "p22" is undefined
+".\main.cpp", line 16: Error:  #20: identifier "p24" is undefined
+.\main.cpp: 1 warning, 7 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Input_Keypad\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\Input_Keypad"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/anevil14/code/Input_Keypad/
+----------------------------------------------------

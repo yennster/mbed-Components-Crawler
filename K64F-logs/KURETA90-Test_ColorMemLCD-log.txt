@@ -1,0 +1,45 @@
+Building project Test_ColorMemLCD (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: ccsbcs.cpp
+Compile [  0.6%]: TextDisplay.cpp
+Compile [  0.9%]: GraphicsDisplay.cpp
+Compile [  1.3%]: diskio.cpp
+Compile [  1.6%]: ColorMemLCD.cpp
+[Warning] ColorMemLCD.cpp@810,0:  #177-D: variable "i"  was declared but never referenced
+[Warning] ColorMemLCD.cpp@920,0:  #1-D: last line of file ends without a newline
+Compile [  1.9%]: FATFileHandle.cpp
+[Warning] FATFileHandle.cpp@28,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+Compile [  2.2%]: FATDirHandle.cpp
+[Warning] FATDirHandle.cpp@28,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [  2.5%]: FATFileSystem.cpp
+[Warning] FATFileSystem.cpp@45,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] FATFileSystem.cpp@51,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[Error] FATFileSystem.cpp@69,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[ERROR] ".\SDFileSystem\FATFileSystem\FATFileSystem.cpp", line 45: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\SDFileSystem\FATFileSystem\FATFileSystem.cpp", line 51: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+".\SDFileSystem\FATFileSystem\FATFileSystem.cpp", line 69: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+.\SDFileSystem\FATFileSystem\FATFileSystem.cpp: 1 warning, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Test_ColorMemLCD\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\Test_ColorMemLCD"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/KURETA90/code/Test_ColorMemLCD/
+----------------------------------------------------

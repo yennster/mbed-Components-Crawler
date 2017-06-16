@@ -1,0 +1,306 @@
+Building project MPU9150_Example (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.2%]: arm_abs_f32.c
+Compile [  0.3%]: arm_abs_q15.c
+Compile [  0.5%]: arm_abs_q31.c
+Compile [  0.7%]: arm_abs_q7.c
+Compile [  0.9%]: arm_add_q31.c
+Compile [  1.0%]: arm_add_f32.c
+Compile [  1.2%]: arm_add_q15.c
+Compile [  1.4%]: arm_add_q7.c
+Compile [  1.6%]: arm_dot_prod_f32.c
+Compile [  1.7%]: arm_dot_prod_q15.c
+Compile [  1.9%]: arm_dot_prod_q31.c
+Compile [  2.1%]: arm_dot_prod_q7.c
+Compile [  2.3%]: arm_mult_f32.c
+Compile [  2.4%]: arm_mult_q31.c
+Compile [  2.6%]: arm_mult_q15.c
+Compile [  2.8%]: arm_mult_q7.c
+Compile [  3.0%]: arm_negate_f32.c
+Compile [  3.1%]: arm_negate_q31.c
+Compile [  3.3%]: arm_negate_q15.c
+Compile [  3.5%]: arm_negate_q7.c
+Compile [  3.7%]: arm_offset_q15.c
+Compile [  3.8%]: arm_offset_q31.c
+Compile [  4.0%]: arm_offset_f32.c
+Compile [  4.2%]: arm_offset_q7.c
+Compile [  4.4%]: arm_scale_f32.c
+Compile [  4.5%]: arm_scale_q15.c
+Compile [  4.7%]: arm_scale_q31.c
+Compile [  4.9%]: arm_scale_q7.c
+Compile [  5.1%]: arm_shift_q31.c
+Compile [  5.2%]: arm_shift_q15.c
+Compile [  5.4%]: arm_shift_q7.c
+Compile [  5.6%]: arm_sub_f32.c
+Compile [  5.8%]: arm_sub_q15.c
+Compile [  5.9%]: arm_sub_q31.c
+Compile [  6.1%]: arm_sub_q7.c
+Compile [  6.3%]: arm_common_tables.c
+Compile [  6.5%]: arm_cmplx_conj_f32.c
+Compile [  6.6%]: arm_const_structs.c
+Compile [  6.8%]: arm_cmplx_conj_q15.c
+Compile [  7.0%]: arm_cmplx_conj_q31.c
+Compile [  7.2%]: arm_cmplx_dot_prod_f32.c
+Compile [  7.3%]: arm_cmplx_dot_prod_q15.c
+Compile [  7.5%]: arm_cmplx_dot_prod_q31.c
+Compile [  7.7%]: arm_cmplx_mag_f32.c
+Compile [  7.9%]: arm_cmplx_mag_q15.c
+Compile [  8.0%]: arm_cmplx_mag_q31.c
+Compile [  8.2%]: arm_cmplx_mag_squared_f32.c
+Compile [  8.4%]: arm_cmplx_mag_squared_q15.c
+Compile [  8.6%]: arm_cmplx_mult_cmplx_f32.c
+Compile [  8.7%]: arm_cmplx_mag_squared_q31.c
+Compile [  8.9%]: arm_cmplx_mult_cmplx_q15.c
+Compile [  9.1%]: arm_cmplx_mult_cmplx_q31.c
+Compile [  9.3%]: arm_cmplx_mult_real_f32.c
+Compile [  9.4%]: arm_cmplx_mult_real_q15.c
+Compile [  9.6%]: arm_cmplx_mult_real_q31.c
+Compile [  9.8%]: arm_pid_init_f32.c
+Compile [ 10.0%]: arm_pid_init_q15.c
+Compile [ 10.1%]: arm_pid_init_q31.c
+Compile [ 10.3%]: arm_pid_reset_q15.c
+Compile [ 10.5%]: arm_pid_reset_f32.c
+Compile [ 10.7%]: arm_pid_reset_q31.c
+Compile [ 10.8%]: arm_sin_cos_f32.c
+Compile [ 11.0%]: arm_sin_cos_q31.c
+Compile [ 11.2%]: arm_cos_q15.c
+Compile [ 11.4%]: arm_cos_f32.c
+Compile [ 11.5%]: arm_cos_q31.c
+Compile [ 11.7%]: arm_sin_f32.c
+Compile [ 11.9%]: arm_sin_q15.c
+Compile [ 12.1%]: arm_sin_q31.c
+Compile [ 12.2%]: arm_sqrt_q15.c
+Compile [ 12.4%]: arm_sqrt_q31.c
+Compile [ 12.6%]: arm_biquad_cascade_df1_32x64_init_q31.c
+Compile [ 12.8%]: arm_biquad_cascade_df1_f32.c
+Compile [ 12.9%]: arm_biquad_cascade_df1_32x64_q31.c
+Compile [ 13.1%]: arm_biquad_cascade_df1_fast_q15.c
+Compile [ 13.3%]: arm_biquad_cascade_df1_fast_q31.c
+Compile [ 13.5%]: arm_biquad_cascade_df1_init_f32.c
+Compile [ 13.6%]: arm_biquad_cascade_df1_init_q15.c
+Compile [ 13.8%]: arm_biquad_cascade_df1_init_q31.c
+Compile [ 14.0%]: arm_biquad_cascade_df1_q15.c
+Compile [ 14.2%]: arm_biquad_cascade_df1_q31.c
+Compile [ 14.3%]: arm_biquad_cascade_df2T_f32.c
+Compile [ 14.5%]: arm_biquad_cascade_df2T_init_f32.c
+Compile [ 14.7%]: arm_conv_f32.c
+Compile [ 14.9%]: arm_conv_fast_q15.c
+Compile [ 15.0%]: arm_conv_fast_opt_q15.c
+Compile [ 15.2%]: arm_conv_fast_q31.c
+Compile [ 15.4%]: arm_conv_opt_q7.c
+Compile [ 15.6%]: arm_conv_opt_q15.c
+Compile [ 15.7%]: arm_conv_partial_f32.c
+Compile [ 15.9%]: arm_conv_partial_fast_opt_q15.c
+Compile [ 16.1%]: arm_conv_partial_fast_q31.c
+Compile [ 16.3%]: arm_conv_partial_fast_q15.c
+Compile [ 16.4%]: arm_conv_partial_opt_q15.c
+Compile [ 16.6%]: arm_conv_partial_opt_q7.c
+Compile [ 16.8%]: arm_conv_partial_q7.c
+Compile [ 17.0%]: arm_conv_partial_q31.c
+Compile [ 17.1%]: arm_conv_partial_q15.c
+Compile [ 17.3%]: arm_conv_q15.c
+Compile [ 17.5%]: arm_conv_q7.c
+Compile [ 17.7%]: arm_conv_q31.c
+Compile [ 17.8%]: arm_correlate_f32.c
+Compile [ 18.0%]: arm_correlate_fast_opt_q15.c
+Compile [ 18.2%]: arm_correlate_fast_q15.c
+Compile [ 18.4%]: arm_correlate_fast_q31.c
+Compile [ 18.5%]: arm_correlate_opt_q15.c
+Compile [ 18.7%]: arm_correlate_opt_q7.c
+Compile [ 18.9%]: arm_correlate_q15.c
+Compile [ 19.1%]: arm_correlate_q31.c
+Compile [ 19.2%]: arm_fir_decimate_f32.c
+Compile [ 19.4%]: arm_correlate_q7.c
+Compile [ 19.6%]: arm_fir_decimate_fast_q31.c
+Compile [ 19.8%]: arm_fir_decimate_init_q15.c
+Compile [ 19.9%]: arm_fir_decimate_init_f32.c
+Compile [ 20.1%]: arm_fir_decimate_fast_q15.c
+Compile [ 20.3%]: arm_fir_decimate_init_q31.c
+Compile [ 20.5%]: arm_fir_decimate_q31.c
+Compile [ 20.6%]: arm_fir_decimate_q15.c
+Compile [ 20.8%]: arm_fir_f32.c
+Compile [ 21.0%]: arm_fir_fast_q15.c
+Compile [ 21.2%]: arm_fir_init_f32.c
+Compile [ 21.3%]: arm_fir_fast_q31.c
+Compile [ 21.5%]: arm_fir_init_q15.c
+Compile [ 21.7%]: arm_fir_init_q7.c
+Compile [ 21.9%]: arm_fir_init_q31.c
+Compile [ 22.0%]: arm_fir_interpolate_init_f32.c
+Compile [ 22.2%]: arm_fir_interpolate_f32.c
+Compile [ 22.4%]: arm_fir_interpolate_init_q15.c
+Compile [ 22.6%]: arm_fir_interpolate_init_q31.c
+Compile [ 22.7%]: arm_fir_interpolate_q15.c
+Compile [ 22.9%]: arm_fir_interpolate_q31.c
+Compile [ 23.1%]: arm_fir_lattice_f32.c
+Compile [ 23.3%]: arm_fir_lattice_init_f32.c
+Compile [ 23.4%]: arm_fir_lattice_init_q15.c
+Compile [ 23.6%]: arm_fir_lattice_init_q31.c
+Compile [ 23.8%]: arm_fir_lattice_q31.c
+Compile [ 24.0%]: arm_fir_lattice_q15.c
+Compile [ 24.1%]: arm_fir_q15.c
+Compile [ 24.3%]: arm_fir_q31.c
+Compile [ 24.5%]: arm_fir_q7.c
+Compile [ 24.7%]: arm_fir_sparse_init_f32.c
+Compile [ 24.8%]: arm_fir_sparse_f32.c
+Compile [ 25.0%]: arm_fir_sparse_init_q15.c
+Compile [ 25.2%]: arm_fir_sparse_init_q7.c
+Compile [ 25.3%]: arm_fir_sparse_init_q31.c
+Compile [ 25.5%]: arm_fir_sparse_q15.c
+Compile [ 25.7%]: arm_fir_sparse_q31.c
+Compile [ 25.9%]: arm_iir_lattice_f32.c
+Compile [ 26.0%]: arm_fir_sparse_q7.c
+Compile [ 26.2%]: arm_iir_lattice_init_f32.c
+Compile [ 26.4%]: arm_iir_lattice_init_q15.c
+Compile [ 26.6%]: arm_iir_lattice_init_q31.c
+Compile [ 26.7%]: arm_iir_lattice_q15.c
+Compile [ 26.9%]: arm_iir_lattice_q31.c
+Compile [ 27.1%]: arm_lms_f32.c
+Compile [ 27.3%]: arm_lms_init_f32.c
+Compile [ 27.4%]: arm_lms_init_q15.c
+Compile [ 27.6%]: arm_lms_init_q31.c
+Compile [ 27.8%]: arm_lms_norm_f32.c
+Compile [ 28.0%]: arm_lms_norm_init_f32.c
+Compile [ 28.1%]: arm_lms_norm_init_q15.c
+Compile [ 28.3%]: arm_lms_norm_init_q31.c
+Compile [ 28.5%]: arm_lms_norm_q15.c
+Compile [ 28.7%]: arm_lms_q15.c
+Compile [ 28.8%]: arm_lms_norm_q31.c
+Compile [ 29.0%]: arm_lms_q31.c
+Compile [ 29.2%]: arm_mat_add_f32.c
+Compile [ 29.4%]: arm_mat_add_q15.c
+Compile [ 29.5%]: arm_mat_add_q31.c
+Compile [ 29.7%]: arm_mat_cmplx_mult_f32.c
+Compile [ 29.9%]: arm_mat_cmplx_mult_q15.c
+Compile [ 30.1%]: arm_mat_init_f32.c
+Compile [ 30.2%]: arm_mat_cmplx_mult_q31.c
+Compile [ 30.4%]: arm_mat_init_q15.c
+Compile [ 30.6%]: arm_mat_init_q31.c
+Compile [ 30.8%]: arm_mat_mult_f32.c
+Compile [ 30.9%]: arm_mat_mult_fast_q15.c
+Compile [ 31.1%]: arm_mat_inverse_f32.c
+Compile [ 31.3%]: arm_mat_mult_fast_q31.c
+Compile [ 31.5%]: arm_mat_mult_q15.c
+Compile [ 31.6%]: arm_mat_mult_q31.c
+Compile [ 31.8%]: arm_mat_scale_f32.c
+Compile [ 32.0%]: arm_mat_scale_q15.c
+Compile [ 32.2%]: arm_mat_scale_q31.c
+Compile [ 32.3%]: arm_mat_sub_f32.c
+Compile [ 32.5%]: arm_mat_sub_q15.c
+Compile [ 32.7%]: arm_mat_sub_q31.c
+Compile [ 32.9%]: arm_mat_trans_f32.c
+Compile [ 33.0%]: arm_mat_trans_q15.c
+Compile [ 33.2%]: arm_mat_trans_q31.c
+Compile [ 33.4%]: arm_max_f32.c
+Compile [ 33.6%]: arm_max_q7.c
+Compile [ 33.7%]: arm_max_q31.c
+Compile [ 33.9%]: arm_max_q15.c
+Compile [ 34.1%]: arm_mean_f32.c
+Compile [ 34.3%]: arm_mean_q7.c
+Compile [ 34.4%]: arm_mean_q15.c
+Compile [ 34.6%]: arm_mean_q31.c
+Compile [ 34.8%]: arm_min_f32.c
+Compile [ 35.0%]: arm_min_q7.c
+Compile [ 35.1%]: arm_min_q15.c
+Compile [ 35.3%]: arm_min_q31.c
+Compile [ 35.5%]: arm_power_f32.c
+Compile [ 35.7%]: arm_power_q7.c
+Compile [ 35.8%]: arm_power_q15.c
+Compile [ 36.0%]: arm_power_q31.c
+Compile [ 36.2%]: arm_rms_f32.c
+Compile [ 36.4%]: arm_rms_q15.c
+Compile [ 36.5%]: arm_rms_q31.c
+Compile [ 36.7%]: arm_std_f32.c
+Compile [ 36.9%]: arm_std_q15.c
+Compile [ 37.1%]: arm_var_f32.c
+Compile [ 37.2%]: arm_std_q31.c
+Compile [ 37.4%]: arm_var_q15.c
+Compile [ 37.6%]: arm_var_q31.c
+Compile [ 37.8%]: arm_copy_f32.c
+Compile [ 37.9%]: arm_copy_q15.c
+Compile [ 38.1%]: arm_copy_q31.c
+Compile [ 38.3%]: arm_copy_q7.c
+Compile [ 38.5%]: arm_fill_f32.c
+Compile [ 38.6%]: arm_fill_q15.c
+Compile [ 38.8%]: arm_fill_q31.c
+Compile [ 39.0%]: arm_fill_q7.c
+Compile [ 39.2%]: arm_float_to_q15.c
+Compile [ 39.3%]: arm_float_to_q7.c
+Compile [ 39.5%]: arm_float_to_q31.c
+Compile [ 39.7%]: arm_q15_to_float.c
+Compile [ 39.9%]: arm_q15_to_q31.c
+Compile [ 40.0%]: arm_q15_to_q7.c
+Compile [ 40.2%]: arm_q31_to_float.c
+Compile [ 40.4%]: arm_q31_to_q15.c
+Compile [ 40.6%]: arm_q31_to_q7.c
+Compile [ 40.7%]: arm_q7_to_float.c
+Compile [ 40.9%]: arm_q7_to_q15.c
+Compile [ 41.1%]: arm_q7_to_q31.c
+Compile [ 41.3%]: arm_bitreversal.c
+Compile [ 41.4%]: arm_cfft_radix2_init_f32.c
+Compile [ 41.6%]: arm_cfft_radix2_f32.c
+Compile [ 41.8%]: arm_cfft_radix2_init_q15.c
+Compile [ 42.0%]: arm_cfft_radix2_init_q31.c
+Compile [ 42.1%]: arm_cfft_radix2_q15.c
+Compile [ 42.3%]: arm_cfft_radix2_q31.c
+Compile [ 42.5%]: arm_cfft_radix4_f32.c
+Compile [ 42.7%]: arm_cfft_radix4_init_f32.c
+Compile [ 42.8%]: arm_cfft_radix4_init_q15.c
+Compile [ 43.0%]: arm_cfft_radix4_init_q31.c
+Compile [ 43.2%]: arm_cfft_radix4_q15.c
+Compile [ 43.4%]: arm_dct4_f32.c
+Compile [ 43.5%]: arm_cfft_radix4_q31.c
+Compile [ 43.7%]: arm_cfft_radix8_f32.c
+Compile [ 43.9%]: arm_dct4_init_q15.c
+Compile [ 44.1%]: arm_dct4_q15.c
+Compile [ 44.2%]: arm_dct4_init_f32.c
+Compile [ 44.4%]: arm_dct4_init_q31.c
+Compile [ 44.6%]: arm_rfft_f32.c
+Compile [ 44.8%]: arm_rfft_fast_init_f32.c
+Compile [ 44.9%]: arm_dct4_q31.c
+Compile [ 45.1%]: arm_rfft_init_f32.c
+Compile [ 45.3%]: arm_rfft_q15.c
+Compile [ 45.5%]: arm_rfft_init_q31.c
+Compile [ 45.6%]: arm_rfft_init_q15.c
+Compile [ 45.8%]: arm_rfft_q31.c
+Compile [ 46.0%]: main.cpp
+[Warning] registers.h@389,0:  #1-D: last line of file ends without a newline
+[Warning] MPU9150.h@213,0:  #1-D: last line of file ends without a newline
+[Warning] Vector3.h@106,0:  #1-D: last line of file ends without a newline
+[Warning] Quaternion.h@213,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@5,0:  #20: identifier "p10" is undefined
+[Error] main.cpp@5,0:  #20: identifier "p9" is undefined
+[Error] main.cpp@5,0:  #20: identifier "p15" is undefined
+[Warning] main.cpp@89,0:  #1-D: last line of file ends without a newline
+[ERROR] "./MPU9150_DMP/registers.h", line 389: Warning:  #1-D: last line of file ends without a newline
+"./MPU9150_DMP/MPU9150.h", line 213: Warning:  #1-D: last line of file ends without a newline
+"./QuaternionMath/Vector3.h", line 106: Warning:  #1-D: last line of file ends without a newline
+"./QuaternionMath/Quaternion.h", line 213: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 5: Error:  #20: identifier "p10" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "p9" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "p15" is undefined
+".\main.cpp", line 89: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 5 warnings, 3 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\MPU9150_Example\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\MPU9150_Example"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/p3p/code/MPU9150_Example/
+----------------------------------------------------

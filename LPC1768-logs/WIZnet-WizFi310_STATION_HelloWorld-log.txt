@@ -1,0 +1,90 @@
+Building project WizFi310_STATION_HelloWorld (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: Socket.cpp
+[Error] nsapi_types.h@128,0:  #101: "NSAPI_IPv4" has already been declared in the current scope
+[Error] nsapi_types.h@129,0:  #101: "NSAPI_IPv6" has already been declared in the current scope
+[Error] nsapi_types.h@130,0:  #256: invalid redeclaration of type name "nsapi_version_t"  (declared at line 45 of ".\NetworkSocketAPI\SocketAddress.h")
+[Error] EthInterface.h@30,0:  #262: not a class or struct name
+[Error] WiFiInterface.h@31,0:  #262: not a class or struct name
+[Error] CellularInterface.h@30,0:  #262: not a class or struct name
+[Error] MeshInterface.h@30,0:  #262: not a class or struct name
+[Error] UDPSocket.h@31,0:  #262: not a class or struct name
+[Error] TCPSocket.h@31,0:  #262: not a class or struct name
+[Error] TCPServer.h@32,0:  #262: not a class or struct name
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] NetworkStack.h@31,0:  #256: invalid redeclaration of type name "nsapi_error_t"  (declared at line 61 of "./mbed-os/features/netsocket/nsapi_types.h")
+[Error] NetworkStack.h@32,0:  #101: "NSAPI_ERROR_WOULD_BLOCK" has already been declared in the current scope
+[Error] NetworkStack.h@33,0:  #101: "NSAPI_ERROR_UNSUPPORTED" has already been declared in the current scope
+[Error] NetworkStack.h@34,0:  #101: "NSAPI_ERROR_PARAMETER" has already been declared in the current scope
+[Error] NetworkStack.h@35,0:  #101: "NSAPI_ERROR_NO_CONNECTION" has already been declared in the current scope
+[Error] NetworkStack.h@36,0:  #101: "NSAPI_ERROR_NO_SOCKET" has already been declared in the current scope
+[Error] NetworkStack.h@37,0:  #101: "NSAPI_ERROR_NO_ADDRESS" has already been declared in the current scope
+[Error] NetworkStack.h@38,0:  #101: "NSAPI_ERROR_NO_MEMORY" has already been declared in the current scope
+[Error] NetworkStack.h@39,0:  #101: "NSAPI_ERROR_DNS_FAILURE" has already been declared in the current scope
+[Error] NetworkStack.h@40,0:  #101: "NSAPI_ERROR_DHCP_FAILURE" has already been declared in the current scope
+[Error] NetworkStack.h@41,0:  #101: "NSAPI_ERROR_AUTH_FAILURE" has already been declared in the current scope
+[Error] NetworkStack.h@42,0:  #101: "NSAPI_ERROR_DEVICE_ERROR" has already been declared in the current scope
+[Error] NetworkStack.h@52,0:  #256: invalid redeclaration of type name "nsapi_protocol_t"  (declared at line 164 of "./mbed-os/features/netsocket/nsapi_types.h")
+[Error] NetworkStack.h@53,0:  #101: "NSAPI_TCP" has already been declared in the current scope
+[Error] NetworkStack.h@54,0:  #101: "NSAPI_UDP" has already been declared in the current scope
+[Error] NetworkStack.h@61,0:  #256: invalid redeclaration of type name "nsapi_level_t"  (declared at line 216 of "./mbed-os/features/netsocket/nsapi_types.h")
+[Error] NetworkStack.h@62,0:  #101: "NSAPI_STACK" has already been declared in the current scope
+[Error] NetworkStack.h@63,0:  #101: "NSAPI_SOCKET" has already been declared in the current scope
+[Error] NetworkStack.h@73,0:  #256: invalid redeclaration of type name "nsapi_option_t"  (declared at line 217 of "./mbed-os/features/netsocket/nsapi_types.h")
+[Error] NetworkStack.h@74,0:  #101: "NSAPI_REUSEADDR" has already been declared in the current scope
+[ERROR] "./mbed-os/features/netsocket/nsapi_types.h", line 128: Error:  #101: "NSAPI_IPv4" has already been declared in the current scope
+"./mbed-os/features/netsocket/nsapi_types.h", line 129: Error:  #101: "NSAPI_IPv6" has already been declared in the current scope
+"./mbed-os/features/netsocket/nsapi_types.h", line 130: Error:  #256: invalid redeclaration of type name "nsapi_version_t"  (declared at line 45 of ".\NetworkSocketAPI\SocketAddress.h")
+"./mbed-os/features/netsocket/EthInterface.h", line 30: Error:  #262: not a class or struct name
+"./mbed-os/features/netsocket/WiFiInterface.h", line 31: Error:  #262: not a class or struct name
+"./mbed-os/features/netsocket/CellularInterface.h", line 30: Error:  #262: not a class or struct name
+"./mbed-os/features/netsocket/MeshInterface.h", line 30: Error:  #262: not a class or struct name
+"./mbed-os/features/netsocket/UDPSocket.h", line 31: Error:  #262: not a class or struct name
+"./mbed-os/features/netsocket/TCPSocket.h", line 31: Error:  #262: not a class or struct name
+"./mbed-os/features/netsocket/TCPServer.h", line 32: Error:  #262: not a class or struct name
+"./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\NetworkSocketAPI\NetworkStack.h", line 31: Error:  #256: invalid redeclaration of type name "nsapi_error_t"  (declared at line 61 of "./mbed-os/features/netsocket/nsapi_types.h")
+".\NetworkSocketAPI\NetworkStack.h", line 32: Error:  #101: "NSAPI_ERROR_WOULD_BLOCK" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 33: Error:  #101: "NSAPI_ERROR_UNSUPPORTED" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 34: Error:  #101: "NSAPI_ERROR_PARAMETER" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 35: Error:  #101: "NSAPI_ERROR_NO_CONNECTION" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 36: Error:  #101: "NSAPI_ERROR_NO_SOCKET" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 37: Error:  #101: "NSAPI_ERROR_NO_ADDRESS" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 38: Error:  #101: "NSAPI_ERROR_NO_MEMORY" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 39: Error:  #101: "NSAPI_ERROR_DNS_FAILURE" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 40: Error:  #101: "NSAPI_ERROR_DHCP_FAILURE" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 41: Error:  #101: "NSAPI_ERROR_AUTH_FAILURE" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 42: Error:  #101: "NSAPI_ERROR_DEVICE_ERROR" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 52: Error:  #256: invalid redeclaration of type name "nsapi_protocol_t"  (declared at line 164 of "./mbed-os/features/netsocket/nsapi_types.h")
+".\NetworkSocketAPI\NetworkStack.h", line 53: Error:  #101: "NSAPI_TCP" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 54: Error:  #101: "NSAPI_UDP" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 61: Error:  #256: invalid redeclaration of type name "nsapi_level_t"  (declared at line 216 of "./mbed-os/features/netsocket/nsapi_types.h")
+".\NetworkSocketAPI\NetworkStack.h", line 62: Error:  #101: "NSAPI_STACK" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 63: Error:  #101: "NSAPI_SOCKET" has already been declared in the current scope
+".\NetworkSocketAPI\NetworkStack.h", line 73: Error:  #256: invalid redeclaration of type name "nsapi_option_t"  (declared at line 217 of "./mbed-os/features/netsocket/nsapi_types.h")
+".\NetworkSocketAPI\NetworkStack.h", line 74: Error:  #101: "NSAPI_REUSEADDR" has already been declared in the current scope
+.\NetworkSocketAPI\Socket.cpp: 1 warning, 30 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\WizFi310_STATION_HelloWorld\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\WizFi310_STATION_HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/WIZnet/code/WizFi310_STATION_HelloWorld/
+----------------------------------------------------

@@ -1,0 +1,46 @@
+Building project MX25Rxx35F_Serial_NOR_Flash_Testbench (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] SPI_MX25R.h@184,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@6,0:  #20: identifier "LED_GREEN" is undefined
+[Error] main.cpp@7,0:  #20: identifier "LED_RED" is undefined
+[Error] main.cpp@17,0:  #20: identifier "PTD2" is undefined
+[Error] main.cpp@17,0:  #20: identifier "PTD3" is undefined
+[Error] main.cpp@17,0:  #20: identifier "PTD1" is undefined
+[Error] main.cpp@17,0:  #20: identifier "PTD0" is undefined
+[Warning] main.cpp@366,0:  #1-D: last line of file ends without a newline
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./SPI_MX25R/SPI_MX25R.h", line 184: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 6: Error:  #20: identifier "LED_GREEN" is undefined
+".\main.cpp", line 7: Error:  #20: identifier "LED_RED" is undefined
+".\main.cpp", line 17: Error:  #20: identifier "PTD2" is undefined
+".\main.cpp", line 17: Error:  #20: identifier "PTD3" is undefined
+".\main.cpp", line 17: Error:  #20: identifier "PTD1" is undefined
+".\main.cpp", line 17: Error:  #20: identifier "PTD0" is undefined
+".\main.cpp", line 366: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 3 warnings, 6 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\MX25Rxx35F_Serial_NOR_Flash_Testbench\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\MX25Rxx35F_Serial_NOR_Flash_Testbench"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/alec1/code/MX25Rxx35F_Serial_NOR_Flash_Testbench/
+----------------------------------------------------

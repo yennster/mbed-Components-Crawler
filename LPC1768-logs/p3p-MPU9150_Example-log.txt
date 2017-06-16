@@ -1,0 +1,601 @@
+Building project MPU9150_Example (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.2%]: arm_abs_q15.c
+Compile [  0.4%]: arm_abs_f32.c
+Compile [  0.6%]: arm_abs_q7.c
+Compile [  0.8%]: arm_abs_q31.c
+Compile [  1.0%]: arm_add_q15.c
+Compile [  1.2%]: arm_add_f32.c
+Compile [  1.4%]: arm_add_q31.c
+Compile [  1.6%]: arm_add_q7.c
+Compile [  1.7%]: arm_dot_prod_f32.c
+Compile [  1.9%]: arm_dot_prod_q15.c
+Compile [  2.1%]: arm_dot_prod_q31.c
+Compile [  2.3%]: arm_dot_prod_q7.c
+Compile [  2.5%]: arm_mult_f32.c
+Compile [  2.7%]: arm_mult_q15.c
+Compile [  2.9%]: arm_mult_q7.c
+Compile [  3.1%]: arm_mult_q31.c
+Compile [  3.3%]: arm_negate_f32.c
+Compile [  3.5%]: arm_negate_q15.c
+Compile [  3.7%]: arm_negate_q31.c
+Compile [  3.9%]: arm_negate_q7.c
+Compile [  4.1%]: arm_offset_f32.c
+Compile [  4.3%]: arm_offset_q15.c
+Compile [  4.5%]: arm_offset_q7.c
+Compile [  4.7%]: arm_offset_q31.c
+Compile [  4.9%]: arm_scale_f32.c
+Compile [  5.0%]: arm_scale_q15.c
+Compile [  5.2%]: arm_scale_q7.c
+Compile [  5.4%]: arm_scale_q31.c
+Compile [  5.6%]: arm_shift_q15.c
+Compile [  5.8%]: arm_shift_q31.c
+Compile [  6.0%]: arm_sub_q15.c
+Compile [  6.2%]: arm_shift_q7.c
+Compile [  6.4%]: arm_sub_f32.c
+Compile [  6.6%]: arm_sub_q31.c
+Compile [  6.8%]: arm_sub_q7.c
+Compile [  7.0%]: arm_const_structs.c
+Compile [  7.2%]: arm_common_tables.c
+Compile [  7.4%]: arm_cmplx_conj_f32.c
+Compile [  7.6%]: arm_cmplx_conj_q31.c
+Compile [  7.8%]: arm_cmplx_conj_q15.c
+Compile [  8.0%]: arm_cmplx_dot_prod_f32.c
+Compile [  8.2%]: arm_cmplx_dot_prod_q15.c
+Compile [  8.3%]: arm_cmplx_mag_f32.c
+Compile [  8.5%]: arm_cmplx_dot_prod_q31.c
+Compile [  8.7%]: arm_cmplx_mag_q15.c
+Compile [  8.9%]: arm_cmplx_mag_q31.c
+Compile [  9.1%]: arm_cmplx_mag_squared_f32.c
+Compile [  9.3%]: arm_cmplx_mag_squared_q15.c
+Compile [  9.5%]: arm_cmplx_mag_squared_q31.c
+Compile [  9.7%]: arm_cmplx_mult_cmplx_f32.c
+Compile [  9.9%]: arm_cmplx_mult_cmplx_q15.c
+Compile [ 10.1%]: arm_cmplx_mult_cmplx_q31.c
+Compile [ 10.3%]: arm_cmplx_mult_real_f32.c
+Compile [ 10.5%]: arm_cmplx_mult_real_q15.c
+Compile [ 10.7%]: arm_cmplx_mult_real_q31.c
+Compile [ 10.9%]: arm_pid_init_f32.c
+Compile [ 11.1%]: arm_pid_init_q15.c
+Compile [ 11.3%]: arm_pid_init_q31.c
+Compile [ 11.5%]: arm_pid_reset_f32.c
+Compile [ 11.7%]: arm_pid_reset_q15.c
+Compile [ 11.8%]: arm_pid_reset_q31.c
+Compile [ 12.0%]: arm_sin_cos_f32.c
+Compile [ 12.2%]: arm_cos_f32.c
+Compile [ 12.4%]: arm_sin_cos_q31.c
+Compile [ 12.6%]: arm_cos_q15.c
+Compile [ 12.8%]: arm_cos_q31.c
+Compile [ 13.0%]: arm_sin_f32.c
+Compile [ 13.2%]: arm_sin_q15.c
+Compile [ 13.4%]: arm_sin_q31.c
+Compile [ 13.6%]: arm_sqrt_q31.c
+Compile [ 13.8%]: arm_sqrt_q15.c
+Compile [ 14.0%]: arm_biquad_cascade_df1_32x64_init_q31.c
+Compile [ 14.2%]: arm_biquad_cascade_df1_32x64_q31.c
+Compile [ 14.4%]: arm_biquad_cascade_df1_fast_q15.c
+Compile [ 14.6%]: arm_biquad_cascade_df1_f32.c
+Compile [ 14.8%]: arm_biquad_cascade_df1_fast_q31.c
+Compile [ 15.0%]: arm_biquad_cascade_df1_init_f32.c
+Compile [ 15.1%]: arm_biquad_cascade_df1_init_q15.c
+Compile [ 15.3%]: arm_biquad_cascade_df1_init_q31.c
+Compile [ 15.5%]: arm_biquad_cascade_df1_q15.c
+Compile [ 15.7%]: arm_biquad_cascade_df1_q31.c
+Compile [ 15.9%]: arm_biquad_cascade_df2T_init_f32.c
+Compile [ 16.1%]: arm_biquad_cascade_df2T_f32.c
+Compile [ 16.3%]: arm_conv_f32.c
+Compile [ 16.5%]: arm_conv_fast_opt_q15.c
+Compile [ 16.7%]: arm_conv_fast_q15.c
+Compile [ 16.9%]: arm_conv_fast_q31.c
+Compile [ 17.1%]: arm_conv_opt_q15.c
+Compile [ 17.3%]: arm_conv_opt_q7.c
+Compile [ 17.5%]: arm_conv_partial_fast_opt_q15.c
+Compile [ 17.7%]: arm_conv_partial_f32.c
+Compile [ 17.9%]: arm_conv_partial_fast_q15.c
+Compile [ 18.1%]: arm_conv_partial_fast_q31.c
+Compile [ 18.3%]: arm_conv_partial_opt_q7.c
+Compile [ 18.4%]: arm_conv_partial_opt_q15.c
+Compile [ 18.6%]: arm_conv_partial_q31.c
+Compile [ 18.8%]: arm_conv_partial_q7.c
+Compile [ 19.0%]: arm_conv_partial_q15.c
+Compile [ 19.2%]: arm_conv_q15.c
+Compile [ 19.4%]: arm_conv_q31.c
+Compile [ 19.6%]: arm_conv_q7.c
+Compile [ 19.8%]: arm_correlate_fast_opt_q15.c
+Compile [ 20.0%]: arm_correlate_f32.c
+Compile [ 20.2%]: arm_correlate_fast_q31.c
+Compile [ 20.4%]: arm_correlate_fast_q15.c
+Compile [ 20.6%]: arm_correlate_opt_q15.c
+Compile [ 20.8%]: arm_correlate_opt_q7.c
+Compile [ 21.0%]: arm_correlate_q31.c
+Compile [ 21.2%]: arm_fir_decimate_f32.c
+Compile [ 21.4%]: arm_correlate_q7.c
+Compile [ 21.6%]: arm_correlate_q15.c
+Compile [ 21.7%]: arm_fir_decimate_init_f32.c
+Compile [ 21.9%]: arm_fir_decimate_fast_q31.c
+Compile [ 22.1%]: arm_fir_decimate_init_q15.c
+Compile [ 22.3%]: arm_fir_decimate_fast_q15.c
+Compile [ 22.5%]: arm_fir_decimate_init_q31.c
+Compile [ 22.7%]: arm_fir_decimate_q15.c
+Compile [ 22.9%]: arm_fir_decimate_q31.c
+Compile [ 23.1%]: arm_fir_f32.c
+Compile [ 23.3%]: arm_fir_fast_q15.c
+Compile [ 23.5%]: arm_fir_init_f32.c
+Compile [ 23.7%]: arm_fir_fast_q31.c
+Compile [ 23.9%]: arm_fir_init_q15.c
+Compile [ 24.1%]: arm_fir_init_q31.c
+Compile [ 24.3%]: arm_fir_init_q7.c
+Compile [ 24.5%]: arm_fir_interpolate_init_f32.c
+Compile [ 24.7%]: arm_fir_interpolate_f32.c
+Compile [ 24.9%]: arm_fir_interpolate_init_q15.c
+Compile [ 25.0%]: arm_fir_interpolate_init_q31.c
+Compile [ 25.2%]: arm_fir_interpolate_q31.c
+Compile [ 25.4%]: arm_fir_interpolate_q15.c
+Compile [ 25.6%]: arm_fir_lattice_f32.c
+Compile [ 25.8%]: arm_fir_lattice_init_f32.c
+Compile [ 26.0%]: arm_fir_lattice_init_q15.c
+Compile [ 26.2%]: arm_fir_lattice_init_q31.c
+Compile [ 26.4%]: arm_fir_lattice_q31.c
+Compile [ 26.6%]: arm_fir_q31.c
+Compile [ 26.8%]: arm_fir_lattice_q15.c
+Compile [ 27.0%]: arm_fir_q15.c
+Compile [ 27.2%]: arm_fir_sparse_init_q15.c
+Compile [ 27.4%]: arm_fir_q7.c
+Compile [ 27.6%]: arm_fir_sparse_init_f32.c
+Compile [ 27.8%]: arm_fir_sparse_f32.c
+Compile [ 28.0%]: arm_fir_sparse_init_q31.c
+Compile [ 28.2%]: arm_fir_sparse_init_q7.c
+Compile [ 28.3%]: arm_fir_sparse_q15.c
+Compile [ 28.5%]: arm_fir_sparse_q31.c
+Compile [ 28.7%]: arm_fir_sparse_q7.c
+Compile [ 28.9%]: arm_iir_lattice_f32.c
+Compile [ 29.1%]: arm_iir_lattice_init_f32.c
+Compile [ 29.3%]: arm_iir_lattice_init_q15.c
+Compile [ 29.5%]: arm_iir_lattice_init_q31.c
+Compile [ 29.7%]: arm_iir_lattice_q15.c
+Compile [ 29.9%]: arm_lms_f32.c
+Compile [ 30.1%]: arm_iir_lattice_q31.c
+Compile [ 30.3%]: arm_lms_init_f32.c
+Compile [ 30.5%]: arm_lms_init_q15.c
+Compile [ 30.7%]: arm_lms_init_q31.c
+Compile [ 30.9%]: arm_lms_norm_init_f32.c
+Compile [ 31.1%]: arm_lms_norm_f32.c
+Compile [ 31.3%]: arm_lms_norm_init_q15.c
+Compile [ 31.5%]: arm_lms_norm_init_q31.c
+Compile [ 31.7%]: arm_lms_norm_q15.c
+Compile [ 31.8%]: arm_lms_norm_q31.c
+Compile [ 32.0%]: arm_lms_q15.c
+Compile [ 32.2%]: arm_lms_q31.c
+Compile [ 32.4%]: arm_mat_add_f32.c
+Compile [ 32.6%]: arm_mat_add_q15.c
+Compile [ 32.8%]: arm_mat_add_q31.c
+Compile [ 33.0%]: arm_mat_cmplx_mult_f32.c
+Compile [ 33.2%]: arm_mat_cmplx_mult_q15.c
+Compile [ 33.4%]: arm_mat_cmplx_mult_q31.c
+Compile [ 33.6%]: arm_mat_init_f32.c
+Compile [ 33.8%]: arm_mat_init_q31.c
+Compile [ 34.0%]: arm_mat_init_q15.c
+Compile [ 34.2%]: arm_mat_inverse_f32.c
+Compile [ 34.4%]: arm_mat_mult_f32.c
+Compile [ 34.6%]: arm_mat_mult_fast_q15.c
+Compile [ 34.8%]: arm_mat_mult_fast_q31.c
+Compile [ 35.0%]: arm_mat_mult_q15.c
+Compile [ 35.1%]: arm_mat_mult_q31.c
+Compile [ 35.3%]: arm_mat_scale_f32.c
+Compile [ 35.5%]: arm_mat_scale_q15.c
+Compile [ 35.7%]: arm_mat_scale_q31.c
+Compile [ 35.9%]: arm_mat_sub_f32.c
+Compile [ 36.1%]: arm_mat_sub_q15.c
+Compile [ 36.3%]: arm_mat_sub_q31.c
+Compile [ 36.5%]: arm_mat_trans_f32.c
+Compile [ 36.7%]: arm_mat_trans_q15.c
+Compile [ 36.9%]: arm_mat_trans_q31.c
+Compile [ 37.1%]: arm_max_f32.c
+Compile [ 37.3%]: arm_max_q15.c
+Compile [ 37.5%]: arm_max_q7.c
+Compile [ 37.7%]: arm_mean_f32.c
+Compile [ 37.9%]: arm_max_q31.c
+Compile [ 38.1%]: arm_mean_q15.c
+Compile [ 38.3%]: arm_mean_q31.c
+Compile [ 38.4%]: arm_mean_q7.c
+Compile [ 38.6%]: arm_min_f32.c
+Compile [ 38.8%]: arm_min_q15.c
+Compile [ 39.0%]: arm_min_q31.c
+Compile [ 39.2%]: arm_power_f32.c
+Compile [ 39.4%]: arm_min_q7.c
+Compile [ 39.6%]: arm_power_q15.c
+Compile [ 39.8%]: arm_power_q31.c
+Compile [ 40.0%]: arm_power_q7.c
+Compile [ 40.2%]: arm_rms_f32.c
+Compile [ 40.4%]: arm_rms_q15.c
+Compile [ 40.6%]: arm_std_q15.c
+Compile [ 40.8%]: arm_rms_q31.c
+Compile [ 41.0%]: arm_std_f32.c
+Compile [ 41.2%]: arm_std_q31.c
+Compile [ 41.4%]: arm_var_q15.c
+Compile [ 41.6%]: arm_var_f32.c
+Compile [ 41.7%]: arm_var_q31.c
+Compile [ 41.9%]: arm_copy_f32.c
+Compile [ 42.1%]: arm_copy_q15.c
+Compile [ 42.3%]: arm_copy_q31.c
+Compile [ 42.5%]: arm_copy_q7.c
+Compile [ 42.7%]: arm_fill_f32.c
+Compile [ 42.9%]: arm_fill_q15.c
+Compile [ 43.1%]: arm_fill_q31.c
+Compile [ 43.3%]: arm_fill_q7.c
+Compile [ 43.5%]: arm_float_to_q15.c
+Compile [ 43.7%]: arm_float_to_q31.c
+Compile [ 43.9%]: arm_float_to_q7.c
+Compile [ 44.1%]: arm_q15_to_float.c
+Compile [ 44.3%]: arm_q15_to_q31.c
+Compile [ 44.5%]: arm_q15_to_q7.c
+Compile [ 44.7%]: arm_q31_to_q15.c
+Compile [ 44.9%]: arm_q31_to_float.c
+Compile [ 45.0%]: arm_q31_to_q7.c
+Compile [ 45.2%]: arm_q7_to_float.c
+Compile [ 45.4%]: arm_q7_to_q15.c
+Compile [ 45.6%]: arm_q7_to_q31.c
+Compile [ 45.8%]: arm_bitreversal.c
+Compile [ 46.0%]: arm_cfft_radix2_f32.c
+Compile [ 46.2%]: arm_cfft_radix2_init_q15.c
+Compile [ 46.4%]: arm_cfft_radix2_init_f32.c
+Compile [ 46.6%]: arm_cfft_radix2_init_q31.c
+Compile [ 46.8%]: arm_cfft_radix2_q31.c
+Compile [ 47.0%]: arm_cfft_radix2_q15.c
+Compile [ 47.2%]: arm_cfft_radix4_f32.c
+Compile [ 47.4%]: arm_cfft_radix4_init_f32.c
+Compile [ 47.6%]: arm_cfft_radix4_init_q15.c
+Compile [ 47.8%]: arm_cfft_radix4_init_q31.c
+Compile [ 48.0%]: arm_cfft_radix4_q31.c
+Compile [ 48.2%]: arm_cfft_radix4_q15.c
+Compile [ 48.3%]: arm_dct4_f32.c
+Compile [ 48.5%]: arm_cfft_radix8_f32.c
+Compile [ 48.7%]: arm_dct4_init_q15.c
+Compile [ 48.9%]: arm_dct4_init_q31.c
+Compile [ 49.1%]: arm_dct4_q15.c
+Compile [ 49.3%]: arm_dct4_init_f32.c
+Compile [ 49.5%]: arm_rfft_fast_init_f32.c
+Compile [ 49.7%]: arm_rfft_f32.c
+Compile [ 49.9%]: arm_dct4_q31.c
+Compile [ 50.1%]: arm_rfft_init_f32.c
+Compile [ 50.3%]: arm_rfft_init_q15.c
+Compile [ 50.5%]: arm_rfft_init_q31.c
+Compile [ 50.7%]: arm_rfft_q15.c
+Compile [ 50.9%]: arm_rfft_q31.c
+Compile [ 51.1%]: AnalogIn.cpp
+Compile [ 51.3%]: BusIn.cpp
+Compile [ 51.5%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] registers.h@389,0:  #1-D: last line of file ends without a newline
+[Warning] MPU9150.h@213,0:  #1-D: last line of file ends without a newline
+[Warning] Vector3.h@106,0:  #1-D: last line of file ends without a newline
+[Warning] Quaternion.h@213,0:  #1-D: last line of file ends without a newline
+[Warning] main.cpp@89,0:  #1-D: last line of file ends without a newline
+Compile [ 51.7%]: BusInOut.cpp
+Compile [ 51.8%]: MPU9150.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] registers.h@389,0:  #1-D: last line of file ends without a newline
+[Warning] MPU9150.h@213,0:  #1-D: last line of file ends without a newline
+[Warning] MPU9150.cpp@865,0:  #1-D: last line of file ends without a newline
+Compile [ 52.0%]: BusOut.cpp
+Compile [ 52.2%]: CAN.cpp
+Compile [ 52.4%]: Ethernet.cpp
+Compile [ 52.6%]: FileBase.cpp
+Compile [ 52.8%]: FlashIAP.cpp
+Compile [ 53.0%]: FilePath.cpp
+Compile [ 53.2%]: FileSystemLike.cpp
+Compile [ 53.4%]: I2C.cpp
+Compile [ 53.6%]: I2CSlave.cpp
+Compile [ 53.8%]: InterruptManager.cpp
+Compile [ 54.0%]: InterruptIn.cpp
+Compile [ 54.2%]: LocalFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@110,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@188,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [ 54.4%]: RawSerial.cpp
+Compile [ 54.6%]: SPISlave.cpp
+Compile [ 54.8%]: SPI.cpp
+Compile [ 55.0%]: Serial.cpp
+Compile [ 55.1%]: Stream.cpp
+Compile [ 55.3%]: Ticker.cpp
+Compile [ 55.5%]: SerialBase.cpp
+Compile [ 55.7%]: Timeout.cpp
+Compile [ 55.9%]: Timer.cpp
+Compile [ 56.1%]: TimerEvent.cpp
+Compile [ 56.3%]: equeue_posix.c
+Compile [ 56.5%]: equeue.c
+Compile [ 56.7%]: EventQueue.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 56.9%]: emac_lwip.c
+Compile [ 57.1%]: emac_stack_lwip.cpp
+Compile [ 57.3%]: equeue_mbed.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 57.5%]: lwip_checksum.c
+Compile [ 57.7%]: EthernetInterface.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 57.9%]: lwip_memcpy.c
+Compile [ 58.1%]: lpc_phy_dp83848.c
+Compile [ 58.3%]: lpc17_emac.c
+Compile [ 58.4%]: lwip_sys_arch.c
+Compile [ 58.6%]: lwip_random.c
+Compile [ 58.8%]: lwip_api_lib.c
+Compile [ 59.0%]: lwip_tcp_isn.c
+Compile [ 59.2%]: lwip_err.c
+Compile [ 59.4%]: lwip_netdb.c
+Compile [ 59.6%]: lwip_netbuf.c
+Compile [ 59.8%]: lwip_api_msg.c
+Compile [ 60.0%]: lwip_netifapi.c
+Compile [ 60.2%]: lwip_sockets.c
+Compile [ 60.4%]: lwip_tcpip.c
+Compile [ 60.6%]: lwip_autoip.c
+Compile [ 60.8%]: lwip_dhcp.c
+Compile [ 61.0%]: lwip_icmp.c
+Compile [ 61.2%]: lwip_etharp.c
+Compile [ 61.4%]: lwip_igmp.c
+Compile [ 61.6%]: lwip_dhcp6.c
+Compile [ 61.7%]: lwip_ip4_addr.c
+Compile [ 61.9%]: lwip_ip4.c
+Compile [ 62.1%]: lwip_ip4_frag.c
+Compile [ 62.3%]: lwip_icmp6.c
+Compile [ 62.5%]: lwip_inet6.c
+Compile [ 62.7%]: lwip_ethip6.c
+Compile [ 62.9%]: lwip_ip6.c
+Compile [ 63.1%]: lwip_ip6_frag.c
+Compile [ 63.3%]: lwip_ip6_addr.c
+Compile [ 63.5%]: lwip_mld6.c
+Compile [ 63.7%]: lwip_nd6.c
+Compile [ 63.9%]: lwip_def.c
+Compile [ 64.1%]: lwip_inet_chksum.c
+Compile [ 64.3%]: lwip_dns.c
+Compile [ 64.5%]: lwip_init.c
+Compile [ 64.7%]: lwip_ip.c
+Compile [ 64.9%]: lwip_memp.c
+Compile [ 65.0%]: lwip_mem.c
+Compile [ 65.2%]: lwip_netif.c
+Compile [ 65.4%]: lwip_stats.c
+Compile [ 65.6%]: lwip_pbuf.c
+Compile [ 65.8%]: lwip_raw.c
+Compile [ 66.0%]: lwip_sys.c
+Compile [ 66.2%]: lwip_tcp_out.c
+Compile [ 66.4%]: lwip_tcp.c
+Compile [ 66.6%]: lwip_tcp_in.c
+Compile [ 66.8%]: lwip_timeouts.c
+Compile [ 67.0%]: lwip_ethernetif.c
+Compile [ 67.2%]: lwip_ethernet.c
+Compile [ 67.4%]: lwip_lowpan6.c
+Compile [ 67.6%]: lwip_udp.c
+Compile [ 67.8%]: lwip_stack.c
+Compile [ 68.0%]: Dir.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 68.2%]: FileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 68.3%]: File.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 68.5%]: ccsbcs.cpp
+Compile [ 68.7%]: ChainingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 68.9%]: HeapBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 69.1%]: SlicingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 69.3%]: ff.cpp
+Compile [ 69.5%]: greentea_serial.cpp
+Compile [ 69.7%]: greentea_metrics.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] greentea_metrics.cpp@37,0:  #177-D: variable "mutex"  was declared but never referenced
+Compile [ 69.9%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 70.1%]: unity.c
+Compile [ 70.3%]: mbed-utest-shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 70.5%]: greentea_test_env.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 70.7%]: unity_handler.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 70.9%]: utest_case.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 71.1%]: utest_default_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 71.3%]: utest_greentea_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 71.5%]: utest_stack_trace.cpp
+Compile [ 71.7%]: utest_harness.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 71.8%]: mbed_trng.c
+Compile [ 72.0%]: aesni.c
+Compile [ 72.2%]: utest_shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 72.4%]: arc4.c
+Compile [ 72.6%]: utest_types.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 72.8%]: asn1parse.c
+Compile [ 73.0%]: aes.c
+Compile [ 73.2%]: base64.c
+Compile [ 73.4%]: asn1write.c
+Compile [ 73.6%]: blowfish.c
+Compile [ 73.8%]: camellia.c
+Compile [ 74.0%]: certs.c
+Compile [ 74.2%]: ccm.c
+Compile [ 74.4%]: cipher_wrap.c
+Compile [ 74.6%]: cipher.c
+Compile [ 74.8%]: cmac.c
+Compile [ 75.0%]: ctr_drbg.c
+Compile [ 75.1%]: debug.c
+Compile [ 75.3%]: des.c
+Compile [ 75.5%]: dhm.c
+Compile [ 75.7%]: ecdh.c
+Compile [ 75.9%]: ecjpake.c
+Compile [ 76.1%]: ecdsa.c
+Compile [ 76.3%]: bignum.c
+Compile [ 76.5%]: entropy.c
+Compile [ 76.7%]: entropy_poll.c
+Compile [ 76.9%]: error.c
+Compile [ 77.1%]: gcm.c
+Compile [ 77.3%]: ecp.c
+Compile [ 77.5%]: ecp_curves.c
+Compile [ 77.7%]: havege.c
+Compile [ 77.9%]: hmac_drbg.c
+Compile [ 78.1%]: md2.c
+Compile [ 78.3%]: md4.c
+Compile [ 78.4%]: md.c
+Compile [ 78.6%]: md5.c
+Compile [ 78.8%]: memory_buffer_alloc.c
+Compile [ 79.0%]: md_wrap.c
+Compile [ 79.2%]: net_sockets.c
+Compile [ 79.4%]: padlock.c
+Compile [ 79.6%]: oid.c
+Compile [ 79.8%]: pem.c
+Compile [ 80.0%]: pk.c
+Compile [ 80.2%]: pkcs11.c
+Compile [ 80.4%]: pkcs12.c
+Compile [ 80.6%]: pk_wrap.c
+Compile [ 80.8%]: pkcs5.c
+Compile [ 81.0%]: platform.c
+Compile [ 81.2%]: pkwrite.c
+Compile [ 81.4%]: pkparse.c
+Compile [ 81.6%]: sha1.c
+Compile [ 81.7%]: ripemd160.c
+Compile [ 81.9%]: ssl_cache.c
+Compile [ 82.1%]: sha256.c
+Compile [ 82.3%]: ssl_ciphersuites.c
+Compile [ 82.5%]: rsa.c
+Compile [ 82.7%]: ssl_cli.c
+Compile [ 82.9%]: ssl_srv.c
+Compile [ 83.1%]: ssl_cookie.c
+Compile [ 83.3%]: ssl_ticket.c
+Compile [ 83.5%]: threading.c
+Compile [ 83.7%]: ssl_tls.c
+Compile [ 83.9%]: sha512.c
+Compile [ 84.1%]: timing.c
+Compile [ 84.3%]: version.c
+Compile [ 84.5%]: version_features.c
+Compile [ 84.7%]: x509_create.c
+Compile [ 84.9%]: x509.c
+Compile [ 85.0%]: x509_csr.c
+Compile [ 85.2%]: x509_crl.c
+Compile [ 85.4%]: x509write_crt.c
+Compile [ 85.6%]: x509write_csr.c
+Compile [ 85.8%]: xtea.c
+Compile [ 86.0%]: NetworkInterface.cpp
+Compile [ 86.2%]: x509_crt.c
+Compile [ 86.4%]: NetworkStack.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 86.6%]: Socket.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 86.8%]: SocketAddress.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 87.0%]: WiFiAccessPoint.cpp
+Compile [ 87.2%]: TCPServer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 87.4%]: TCPSocket.cpp
+Compile [ 87.6%]: UDPSocket.cpp
+Compile [ 87.8%]: nsapi_dns.cpp
+Compile [ 88.0%]: mbed_gpio.c
+Compile [ 88.2%]: mbed_lp_ticker_api.c
+Compile [ 88.3%]: mbed_pinmap_common.c
+Compile [ 88.5%]: mbed_ticker_api.c
+Compile [ 88.7%]: mbed_alloc_wrappers.cpp
+Compile [ 88.9%]: mbed_us_ticker_api.c
+Compile [ 89.1%]: CallChain.cpp
+Compile [ 89.3%]: mbed_application.c
+Compile [ 89.5%]: mbed_assert.c
+Compile [ 89.7%]: mbed_board.c
+Compile [ 89.9%]: mbed_critical.c
+Compile [ 90.1%]: mbed_interface.c
+Compile [ 90.3%]: mbed_error.c
+Compile [ 90.5%]: mbed_mem_trace.c
+Compile [ 90.7%]: mbed_stats.c
+Compile [ 90.9%]: mbed_wait_api_no_rtos.c
+Compile [ 91.1%]: mbed_rtc_time.cpp
+Compile [ 91.3%]: mbed_semihost_api.c
+Compile [ 91.5%]: Mutex.cpp
+Compile [ 91.7%]: mbed_retarget.cpp
+Compile [ 91.8%]: Semaphore.cpp
+Compile [ 92.0%]: mbed_wait_api_rtos.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 92.2%]: RtosTimer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 92.4%]: rtos_idle.c
+Compile [ 92.6%]: Thread.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 92.8%]: HAL_CM.c
+Compile [ 93.0%]: RTX_Conf_CM.c
+Compile [ 93.2%]: HAL_CM3.c
+Compile [ 93.4%]: SVC_Table.S
+Compile [ 93.6%]: rt_Event.c
+Compile [ 93.8%]: rt_List.c
+Compile [ 94.0%]: rt_Mailbox.c
+Compile [ 94.2%]: rt_MemBox.c
+Compile [ 94.4%]: rt_Memory.c
+Compile [ 94.6%]: rt_OsEventObserver.c
+Compile [ 94.8%]: rt_Mutex.c
+Compile [ 95.0%]: rt_Robin.c
+Compile [ 95.1%]: rt_CMSIS.c
+Compile [ 95.3%]: rt_Semaphore.c
+Compile [ 95.5%]: rt_Task.c
+Compile [ 95.7%]: rt_Time.c
+Compile [ 95.9%]: rt_Timer.c
+Compile [ 96.1%]: rt_System.c
+Compile [ 96.3%]: startup_LPC17xx.S
+Compile [ 96.5%]: analogout_api.c
+Compile [ 96.7%]: analogin_api.c
+Compile [ 96.9%]: can_api.c
+Compile [ 97.1%]: sys.cpp
+Compile [ 97.3%]: system_LPC17xx.c
+Compile [ 97.5%]: cmsis_nvic.c
+Compile [ 97.7%]: gpio_api.c
+Compile [ 97.9%]: ethernet_api.c
+Compile [ 98.1%]: gpio_irq_api.c
+Compile [ 98.3%]: i2c_api.c
+Compile [ 98.4%]: pinmap.c
+Compile [ 98.6%]: port_api.c
+Compile [ 98.8%]: rtc_api.c
+Compile [ 99.0%]: pwmout_api.c
+Compile [ 99.2%]: sleep.c
+Compile [ 99.4%]: serial_api.c
+Compile [ 99.6%]: spi_api.c
+Compile [ 99.8%]: us_ticker.c
+Compile [100.0%]: test_env.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Link: MPU9150_Example
+Elf2Bin: MPU9150_Example
++---------------------+-------+-------+------+
+| Module              | .text | .data | .bss |
++---------------------+-------+-------+------+
+| Misc                | 18045 |    16 |  688 |
+| drivers             |  2239 |     8 |   56 |
+| features/filesystem |   586 |     0 |    0 |
+| hal                 |   678 |     8 |    0 |
+| platform            |  2553 |    16 |  352 |
+| rtos                |   144 |     8 |    0 |
+| rtos/rtx            |  6680 |   100 | 8396 |
+| targets/TARGET_NXP  |  5032 |    24 |  224 |
+| Subtotals           | 35957 |   180 | 9716 |
++---------------------+-------+-------+------+
+Allocated Heap: unknown
+Allocated Stack: unknown
+Total Static RAM memory (data + bss): 9896 bytes
+Total RAM memory (data + bss + heap + stack): 9896 bytes
+Total Flash memory (text + data + misc): 36137 bytes
+
+Image: .\BUILD\lpc1768\ARM\MPU9150_Example.bin
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/p3p/code/MPU9150_Example/
+----------------------------------------------------

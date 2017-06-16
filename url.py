@@ -63,8 +63,6 @@ for component in component_links:
     for item in temp_links:
         # Find first instance of a program URL
         worksheet.write(i, 0, temp_name)
-        #item_link = 'HYPERLINK("{}", "{}")'.format(base_url + item, item)
-        #worksheet.write(i, 1, xlwt.Formula(item_link))
         worksheet.write(i, 1, item)
         item_url = base_url + item
         item_page = requests.get(item_url)
@@ -81,10 +79,7 @@ for component in component_links:
         except KeyError:
             pass
 
-        #hello_world_link = 'HYPERLINK("{}", "{}")'.format(base_url + hello_world, hello_world)
-        #worksheet.write(i, 2, xlwt.Formula(hello_world_link))
         worksheet.write(i, 2, hello_world)
-
         hello_url = base_url + hello_world
         hello_page = requests.get(hello_url)
         hello_soup = BeautifulSoup(hello_page.content, 'html.parser')

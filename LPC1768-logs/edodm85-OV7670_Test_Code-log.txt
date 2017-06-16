@@ -1,0 +1,363 @@
+Building project OV7670_Test_Code (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: ChangeLog.c
+[Warning] ChangeLog.c@177,0:  #1-D: last line of file ends without a newline
+Compile [  0.7%]: GETC.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.1%]: FLUSH.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.5%]: INIT.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] INIT.cpp@60,0:  #1361-D: function "mbed::SerialBase::attach(T *, void (T::*)(), mbed::SerialBase::IrqType) [with T=AjK::MODSERIAL]"  (declared at line 117 of "./mbed-os/drivers/SerialBase.h") was declared "deprecated"
+[Warning] INIT.cpp@68,0:  #1361-D: function "mbed::SerialBase::attach(T *, void (T::*)(), mbed::SerialBase::IrqType) [with T=AjK::MODSERIAL]"  (declared at line 117 of "./mbed-os/drivers/SerialBase.h") was declared "deprecated"
+Compile [  1.9%]: ISR_RX.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.2%]: MODSERIAL_IRQ_INFO.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.6%]: ISR_TX.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.0%]: MODSERIAL.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.4%]: example1.cpp
+Compile [  3.7%]: example2.cpp
+Compile [  4.1%]: PUTC.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  4.5%]: example3a.cpp
+Compile [  4.9%]: example3b.cpp
+Compile [  5.2%]: example_dma.cpp
+Compile [  5.6%]: RESIZE.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  6.0%]: AnalogIn.cpp
+Compile [  6.3%]: BusIn.cpp
+Compile [  6.7%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ov7670reg.h@134,0:  #1-D: last line of file ends without a newline
+[Warning] main.cpp@201,0:  #1-D: last line of file ends without a newline
+Compile [  7.1%]: BusInOut.cpp
+Compile [  7.5%]: BusOut.cpp
+Compile [  7.8%]: Ethernet.cpp
+Compile [  8.2%]: CAN.cpp
+Compile [  8.6%]: FlashIAP.cpp
+Compile [  9.0%]: FileBase.cpp
+Compile [  9.3%]: FilePath.cpp
+Compile [  9.7%]: FileSystemLike.cpp
+Compile [ 10.1%]: I2CSlave.cpp
+Compile [ 10.4%]: I2C.cpp
+Compile [ 10.8%]: InterruptIn.cpp
+Compile [ 11.2%]: InterruptManager.cpp
+Compile [ 11.6%]: LocalFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@110,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@188,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [ 11.9%]: RawSerial.cpp
+Compile [ 12.3%]: SPI.cpp
+Compile [ 12.7%]: SPISlave.cpp
+Compile [ 13.1%]: Serial.cpp
+Compile [ 13.4%]: SerialBase.cpp
+Compile [ 13.8%]: Stream.cpp
+Compile [ 14.2%]: Ticker.cpp
+Compile [ 14.6%]: Timeout.cpp
+Compile [ 14.9%]: Timer.cpp
+Compile [ 15.3%]: TimerEvent.cpp
+Compile [ 15.7%]: equeue_posix.c
+Compile [ 16.0%]: equeue.c
+Compile [ 16.4%]: EventQueue.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 16.8%]: emac_lwip.c
+Compile [ 17.2%]: emac_stack_lwip.cpp
+Compile [ 17.5%]: equeue_mbed.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 17.9%]: lwip_checksum.c
+Compile [ 18.3%]: EthernetInterface.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 18.7%]: lpc17_emac.c
+Compile [ 19.0%]: lwip_memcpy.c
+Compile [ 19.4%]: lpc_phy_dp83848.c
+Compile [ 19.8%]: lwip_random.c
+Compile [ 20.1%]: lwip_sys_arch.c
+Compile [ 20.5%]: lwip_api_lib.c
+Compile [ 20.9%]: lwip_tcp_isn.c
+Compile [ 21.3%]: lwip_err.c
+Compile [ 21.6%]: lwip_netbuf.c
+Compile [ 22.0%]: lwip_api_msg.c
+Compile [ 22.4%]: lwip_netdb.c
+Compile [ 22.8%]: lwip_netifapi.c
+Compile [ 23.1%]: lwip_sockets.c
+Compile [ 23.5%]: lwip_tcpip.c
+Compile [ 23.9%]: lwip_autoip.c
+Compile [ 24.3%]: lwip_icmp.c
+Compile [ 24.6%]: lwip_dhcp.c
+Compile [ 25.0%]: lwip_igmp.c
+Compile [ 25.4%]: lwip_etharp.c
+Compile [ 25.7%]: lwip_ip4.c
+Compile [ 26.1%]: lwip_dhcp6.c
+Compile [ 26.5%]: lwip_ip4_addr.c
+Compile [ 26.9%]: lwip_ip4_frag.c
+Compile [ 27.2%]: lwip_icmp6.c
+Compile [ 27.6%]: lwip_ethip6.c
+Compile [ 28.0%]: lwip_inet6.c
+Compile [ 28.4%]: lwip_ip6.c
+Compile [ 28.7%]: lwip_ip6_addr.c
+Compile [ 29.1%]: lwip_mld6.c
+Compile [ 29.5%]: lwip_ip6_frag.c
+Compile [ 29.9%]: lwip_nd6.c
+Compile [ 30.2%]: lwip_def.c
+Compile [ 30.6%]: lwip_inet_chksum.c
+Compile [ 31.0%]: lwip_init.c
+Compile [ 31.3%]: lwip_dns.c
+Compile [ 31.7%]: lwip_ip.c
+Compile [ 32.1%]: lwip_memp.c
+Compile [ 32.5%]: lwip_mem.c
+Compile [ 32.8%]: lwip_netif.c
+Compile [ 33.2%]: lwip_raw.c
+Compile [ 33.6%]: lwip_stats.c
+Compile [ 34.0%]: lwip_pbuf.c
+Compile [ 34.3%]: lwip_sys.c
+Compile [ 34.7%]: lwip_timeouts.c
+Compile [ 35.1%]: lwip_tcp_in.c
+Compile [ 35.4%]: lwip_tcp_out.c
+Compile [ 35.8%]: lwip_tcp.c
+Compile [ 36.2%]: lwip_ethernetif.c
+Compile [ 36.6%]: lwip_ethernet.c
+Compile [ 36.9%]: lwip_udp.c
+Compile [ 37.3%]: lwip_lowpan6.c
+Compile [ 37.7%]: lwip_stack.c
+Compile [ 38.1%]: Dir.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 38.4%]: FileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 38.8%]: File.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 39.2%]: ccsbcs.cpp
+Compile [ 39.6%]: ChainingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 39.9%]: HeapBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 40.3%]: SlicingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 40.7%]: greentea_metrics.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] greentea_metrics.cpp@37,0:  #177-D: variable "mutex"  was declared but never referenced
+Compile [ 41.0%]: greentea_serial.cpp
+Compile [ 41.4%]: ff.cpp
+Compile [ 41.8%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 42.2%]: unity.c
+Compile [ 42.5%]: mbed-utest-shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 42.9%]: greentea_test_env.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 43.3%]: unity_handler.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 43.7%]: utest_case.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 44.0%]: utest_default_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 44.4%]: utest_greentea_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 44.8%]: utest_stack_trace.cpp
+Compile [ 45.1%]: mbed_trng.c
+Compile [ 45.5%]: utest_harness.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 45.9%]: aesni.c
+Compile [ 46.3%]: utest_shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 46.6%]: utest_types.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 47.0%]: aes.c
+Compile [ 47.4%]: arc4.c
+Compile [ 47.8%]: asn1parse.c
+Compile [ 48.1%]: asn1write.c
+Compile [ 48.5%]: base64.c
+Compile [ 48.9%]: blowfish.c
+Compile [ 49.3%]: camellia.c
+Compile [ 49.6%]: ccm.c
+Compile [ 50.0%]: certs.c
+Compile [ 50.4%]: cmac.c
+Compile [ 50.7%]: cipher.c
+Compile [ 51.1%]: cipher_wrap.c
+Compile [ 51.5%]: debug.c
+Compile [ 51.9%]: ctr_drbg.c
+Compile [ 52.2%]: des.c
+Compile [ 52.6%]: dhm.c
+Compile [ 53.0%]: ecdh.c
+Compile [ 53.4%]: bignum.c
+Compile [ 53.7%]: ecdsa.c
+Compile [ 54.1%]: ecjpake.c
+Compile [ 54.5%]: entropy.c
+Compile [ 54.9%]: entropy_poll.c
+Compile [ 55.2%]: error.c
+Compile [ 55.6%]: ecp_curves.c
+Compile [ 56.0%]: havege.c
+Compile [ 56.3%]: gcm.c
+Compile [ 56.7%]: ecp.c
+Compile [ 57.1%]: md2.c
+Compile [ 57.5%]: md4.c
+Compile [ 57.8%]: hmac_drbg.c
+Compile [ 58.2%]: md.c
+Compile [ 58.6%]: md5.c
+Compile [ 59.0%]: memory_buffer_alloc.c
+Compile [ 59.3%]: md_wrap.c
+Compile [ 59.7%]: net_sockets.c
+Compile [ 60.1%]: padlock.c
+Compile [ 60.4%]: pem.c
+Compile [ 60.8%]: oid.c
+Compile [ 61.2%]: pk.c
+Compile [ 61.6%]: pkcs11.c
+Compile [ 61.9%]: pkcs12.c
+Compile [ 62.3%]: pk_wrap.c
+Compile [ 62.7%]: pkcs5.c
+Compile [ 63.1%]: pkwrite.c
+Compile [ 63.4%]: platform.c
+Compile [ 63.8%]: ripemd160.c
+Compile [ 64.2%]: pkparse.c
+Compile [ 64.6%]: sha1.c
+Compile [ 64.9%]: ssl_cache.c
+Compile [ 65.3%]: sha256.c
+Compile [ 65.7%]: rsa.c
+Compile [ 66.0%]: ssl_cli.c
+Compile [ 66.4%]: ssl_ciphersuites.c
+Compile [ 66.8%]: ssl_srv.c
+Compile [ 67.2%]: ssl_ticket.c
+Compile [ 67.5%]: ssl_cookie.c
+Compile [ 67.9%]: threading.c
+Compile [ 68.3%]: sha512.c
+Compile [ 68.7%]: ssl_tls.c
+Compile [ 69.0%]: timing.c
+Compile [ 69.4%]: version.c
+Compile [ 69.8%]: x509_create.c
+Compile [ 70.1%]: version_features.c
+Compile [ 70.5%]: x509.c
+Compile [ 70.9%]: x509_csr.c
+Compile [ 71.3%]: x509_crl.c
+Compile [ 71.6%]: x509write_crt.c
+Compile [ 72.0%]: x509write_csr.c
+Compile [ 72.4%]: xtea.c
+Compile [ 72.8%]: NetworkInterface.cpp
+Compile [ 73.1%]: x509_crt.c
+Compile [ 73.5%]: NetworkStack.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 73.9%]: SocketAddress.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 74.3%]: Socket.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 74.6%]: WiFiAccessPoint.cpp
+Compile [ 75.0%]: TCPServer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 75.4%]: UDPSocket.cpp
+Compile [ 75.7%]: TCPSocket.cpp
+Compile [ 76.1%]: nsapi_dns.cpp
+Compile [ 76.5%]: mbed_gpio.c
+Compile [ 76.9%]: mbed_pinmap_common.c
+Compile [ 77.2%]: mbed_lp_ticker_api.c
+Compile [ 77.6%]: mbed_ticker_api.c
+Compile [ 78.0%]: mbed_alloc_wrappers.cpp
+Compile [ 78.4%]: mbed_us_ticker_api.c
+Compile [ 78.7%]: mbed_application.c
+Compile [ 79.1%]: CallChain.cpp
+Compile [ 79.5%]: mbed_assert.c
+Compile [ 79.9%]: mbed_critical.c
+Compile [ 80.2%]: mbed_error.c
+Compile [ 80.6%]: mbed_board.c
+Compile [ 81.0%]: mbed_mem_trace.c
+Compile [ 81.3%]: mbed_interface.c
+Compile [ 81.7%]: mbed_stats.c
+Compile [ 82.1%]: mbed_rtc_time.cpp
+Compile [ 82.5%]: mbed_wait_api_no_rtos.c
+Compile [ 82.8%]: mbed_semihost_api.c
+Compile [ 83.2%]: Mutex.cpp
+Compile [ 83.6%]: mbed_retarget.cpp
+Compile [ 84.0%]: Semaphore.cpp
+Compile [ 84.3%]: mbed_wait_api_rtos.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 84.7%]: RtosTimer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 85.1%]: rtos_idle.c
+Compile [ 85.4%]: HAL_CM.c
+Compile [ 85.8%]: Thread.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 86.2%]: HAL_CM3.c
+Compile [ 86.6%]: RTX_Conf_CM.c
+Compile [ 86.9%]: SVC_Table.S
+Compile [ 87.3%]: rt_Mailbox.c
+Compile [ 87.7%]: rt_Event.c
+Compile [ 88.1%]: rt_List.c
+Compile [ 88.4%]: rt_MemBox.c
+Compile [ 88.8%]: rt_Memory.c
+Compile [ 89.2%]: rt_Mutex.c
+Compile [ 89.6%]: rt_OsEventObserver.c
+Compile [ 89.9%]: rt_Robin.c
+Compile [ 90.3%]: rt_Semaphore.c
+Compile [ 90.7%]: rt_CMSIS.c
+Compile [ 91.0%]: rt_Task.c
+Compile [ 91.4%]: rt_Timer.c
+Compile [ 91.8%]: rt_Time.c
+Compile [ 92.2%]: rt_System.c
+Compile [ 92.5%]: analogout_api.c
+Compile [ 92.9%]: startup_LPC17xx.S
+Compile [ 93.3%]: analogin_api.c
+Compile [ 93.7%]: can_api.c
+Compile [ 94.0%]: sys.cpp
+Compile [ 94.4%]: cmsis_nvic.c
+Compile [ 94.8%]: system_LPC17xx.c
+Compile [ 95.1%]: gpio_api.c
+Compile [ 95.5%]: ethernet_api.c
+Compile [ 95.9%]: gpio_irq_api.c
+Compile [ 96.3%]: pinmap.c
+Compile [ 96.6%]: i2c_api.c
+Compile [ 97.0%]: port_api.c
+Compile [ 97.4%]: rtc_api.c
+Compile [ 97.8%]: pwmout_api.c
+Compile [ 98.1%]: serial_api.c
+Compile [ 98.5%]: sleep.c
+Compile [ 98.9%]: us_ticker.c
+Compile [ 99.3%]: spi_api.c
+Compile [ 99.6%]: test_env.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [100.0%]: ov7670.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ov7670reg.h@134,0:  #1-D: last line of file ends without a newline
+[Warning] ov7670.cpp@8,0:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=OV7670, M=void (OV7670::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+[Warning] ov7670.cpp@705,0:  #1-D: last line of file ends without a newline
+Link: OV7670_Test_Code
+Elf2Bin: OV7670_Test_Code
++---------------------+-------+-------+-------+
+| Module              | .text | .data |  .bss |
++---------------------+-------+-------+-------+
+| Misc                | 42677 |    32 |  1029 |
+| drivers             |  2761 |     8 |    56 |
+| features/filesystem |   586 |     0 |     0 |
+| hal                 |   678 |     8 |     0 |
+| platform            |  2631 |    16 |   352 |
+| rtos                |   144 |     8 |     0 |
+| rtos/rtx            |  6680 |   100 |  8396 |
+| targets/TARGET_NXP  |  5302 |    28 |   416 |
+| Subtotals           | 61459 |   200 | 10249 |
++---------------------+-------+-------+-------+
+Allocated Heap: unknown
+Allocated Stack: unknown
+Total Static RAM memory (data + bss): 10449 bytes
+Total RAM memory (data + bss + heap + stack): 10449 bytes
+Total Flash memory (text + data + misc): 61659 bytes
+
+Image: .\BUILD\lpc1768\ARM\OV7670_Test_Code.bin
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/edodm85/code/OV7670_Test_Code/
+----------------------------------------------------

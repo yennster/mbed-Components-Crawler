@@ -1,0 +1,50 @@
+Building project Example_Max7221 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: Max7221.cpp
+[Error] DigitalIn.h@65,0:  #20: identifier "gpio_read" is undefined
+[Error] DigitalOut.h@58,0:  #20: identifier "gpio_write" is undefined
+[Error] DigitalOut.h@68,0:  #20: identifier "gpio_read" is undefined
+[Error] DigitalInOut.h@44,0:  #20: identifier "gpio_write" is undefined
+[Error] DigitalInOut.h@54,0:  #20: identifier "gpio_read" is undefined
+[Error] Max7221.h@87,0:  #20: identifier "p5" is undefined
+[Error] Max7221.h@87,0:  #20: identifier "p7" is undefined
+[Error] Max7221.h@87,0:  #20: identifier "p8" is undefined
+[Warning] Max7221.h@179,0:  #1-D: last line of file ends without a newline
+[Error] Max7221.cpp@36,0:  #20: identifier "p5" is undefined
+[Error] Max7221.cpp@51,0:  #20: identifier "p11" is undefined
+[ERROR] "./Max7221/mbed/b3110cd2dd17/DigitalIn.h", line 65: Error:  #20: identifier "gpio_read" is undefined
+"./Max7221/mbed/b3110cd2dd17/DigitalOut.h", line 58: Error:  #20: identifier "gpio_write" is undefined
+"./Max7221/mbed/b3110cd2dd17/DigitalOut.h", line 68: Error:  #20: identifier "gpio_read" is undefined
+"./Max7221/mbed/b3110cd2dd17/DigitalInOut.h", line 44: Error:  #20: identifier "gpio_write" is undefined
+"./Max7221/mbed/b3110cd2dd17/DigitalInOut.h", line 54: Error:  #20: identifier "gpio_read" is undefined
+".\Max7221\Max7221.h", line 87: Error:  #20: identifier "p5" is undefined
+".\Max7221\Max7221.h", line 87: Error:  #20: identifier "p7" is undefined
+".\Max7221\Max7221.h", line 87: Error:  #20: identifier "p8" is undefined
+".\Max7221\Max7221.h", line 179: Warning:  #1-D: last line of file ends without a newline
+".\Max7221\Max7221.cpp", line 36: Error:  #20: identifier "p5" is undefined
+".\Max7221\Max7221.cpp", line 51: Error:  #20: identifier "p11" is undefined
+.\Max7221\Max7221.cpp: 1 warning, 10 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Example_Max7221\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\Example_Max7221"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/jakowisp/code/Example_Max7221/
+----------------------------------------------------

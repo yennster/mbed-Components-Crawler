@@ -1,0 +1,34 @@
+Building project Ser23K256Example (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Warning: Multiple linker scripts detected: .\mbed-os\targets\TARGET_NXP\TARGET_LPC176X\device\TOOLCHAIN_ARM_STD\LPC1768.sct -> .\Ser23K256\mbed\9114680c05da\LPC1768\LPC1768.sct
+Scan: mbed
+Scan: env
+Compile [  0.4%]: AnalogIn.cpp
+Compile [  0.8%]: BusIn.cpp
+[Error] gpio_api.h@65,0:  #20: identifier "PinDirection" is undefined
+[Error] gpio_api.h@123,0:  #20: identifier "PinDirection" is undefined
+[ERROR] "./mbed-os/hal/gpio_api.h", line 65: Error:  #20: identifier "PinDirection" is undefined
+"./mbed-os/hal/gpio_api.h", line 123: Error:  #20: identifier "PinDirection" is undefined
+.\mbed-os\drivers\BusIn.cpp: 0 warnings, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Ser23K256Example\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\Ser23K256Example"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/romilly/code/Ser23K256Example/
+----------------------------------------------------

@@ -1,0 +1,40 @@
+Building project pop3demo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: ipaddr.cpp
+Compile [  0.6%]: DNSRequest.cpp
+Compile [  0.8%]: UDPSocket.cpp
+Compile [  1.1%]: TCPSocket.cpp
+Compile [  1.4%]: netservice.cpp
+Compile [  1.7%]: net.cpp
+Compile [  2.0%]: eth_drv.cpp
+[Error] eth_drv.cpp@29,0:  #20: identifier "Ethernet" is undefined
+[Error] eth_drv.cpp@188,0:  #79: expected a type specifier
+[Error] eth_drv.cpp@204,0:  #20: identifier "Ethernet" is undefined
+[ERROR] ".\NetServicesMin\drv\eth\eth_drv.cpp", line 29: Error:  #20: identifier "Ethernet" is undefined
+".\NetServicesMin\drv\eth\eth_drv.cpp", line 188: Error:  #79: expected a type specifier
+".\NetServicesMin\drv\eth\eth_drv.cpp", line 204: Error:  #20: identifier "Ethernet" is undefined
+.\NetServicesMin\drv\eth\eth_drv.cpp: 0 warnings, 3 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\pop3demo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\pop3demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/hlipka/code/pop3demo/
+----------------------------------------------------

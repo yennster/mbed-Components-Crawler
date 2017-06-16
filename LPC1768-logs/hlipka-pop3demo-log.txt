@@ -1,0 +1,90 @@
+Building project pop3demo (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: ipaddr.cpp
+Compile [  0.7%]: DNSRequest.cpp
+Compile [  1.0%]: UDPSocket.cpp
+Compile [  1.4%]: TCPSocket.cpp
+Compile [  1.7%]: netservice.cpp
+Compile [  2.0%]: net.cpp
+Compile [  2.4%]: dbg.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.7%]: eth_drv.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.0%]: lwipNetDnsRequest.cpp
+Compile [  3.4%]: EthernetNetIf.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.7%]: LwipNetIf.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  4.1%]: netdnsrequest.cpp
+Compile [  4.4%]: netif.cpp
+Compile [  4.7%]: lwipNetUdpSocket.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  5.1%]: lwipNetTcpSocket.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  5.4%]: nettcpsocket.cpp
+Compile [  5.7%]: netudpsocket.cpp
+Compile [  6.1%]: def.c
+Compile [  6.4%]: init.c
+Compile [  6.8%]: sys_arch.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  7.1%]: dns.c
+Compile [  7.4%]: icmp.c
+Compile [  7.8%]: dhcp.c
+Compile [  8.1%]: inet.c
+Compile [  8.4%]: inet_chksum.c
+Compile [  8.8%]: igmp.c
+Compile [  9.1%]: ip.c
+Compile [  9.5%]: ip_addr.c
+Compile [  9.8%]: memp.c
+Compile [ 10.1%]: mem.c
+Compile [ 10.5%]: ip_frag.c
+Compile [ 10.8%]: netif.c
+Compile [ 11.1%]: stats.c
+Compile [ 11.5%]: sys.c
+Compile [ 11.8%]: pbuf.c
+Compile [ 12.2%]: tcp.c
+Compile [ 12.5%]: timers.c
+Compile [ 12.8%]: tcp_out.c
+Compile [ 13.2%]: ethernetif.c
+Compile [ 13.5%]: tcp_in.c
+Compile [ 13.9%]: udp.c
+Compile [ 14.2%]: etharp.c
+Compile [ 14.5%]: AnalogIn.cpp
+Compile [ 14.9%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] tcplinestream.h@47,0:  #20: identifier "TCPSocketEvent" is undefined
+[Warning] tcplinestream.h@64,0:  #1-D: last line of file ends without a newline
+[Warning] pop3.h@135,0:  #1-D: last line of file ends without a newline
+[Warning] main.cpp@14,0:  #225-D: the format string ends before this argument
+[Warning] main.cpp@46,0:  #1-D: last line of file ends without a newline
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./TcpLineStream/tcplinestream.h", line 47: Error:  #20: identifier "TCPSocketEvent" is undefined
+"./TcpLineStream/tcplinestream.h", line 64: Warning:  #1-D: last line of file ends without a newline
+"./pop3/pop3.h", line 135: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 14: Warning:  #225-D: the format string ends before this argument
+".\main.cpp", line 46: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 5 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\pop3demo\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\pop3demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/hlipka/code/pop3demo/
+----------------------------------------------------

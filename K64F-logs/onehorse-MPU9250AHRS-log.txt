@@ -1,0 +1,50 @@
+Building project MPU9250AHRS (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: main.cpp
+[Error] MPU9250.h@628,0:  #20: identifier "delay" is undefined
+[Warning] MPU9250.h@662,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] MPU9250.h@663,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] MPU9250.h@664,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] MPU9250.h@665,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] MPU9250.h@666,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] MPU9250.h@667,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] MPU9250.h@672,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] MPU9250.h@673,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] MPU9250.h@874,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@33,0:  #5: cannot open source input file "N5110.h": No such file or directory
+[ERROR] ".\MPU9250.h", line 628: Error:  #20: identifier "delay" is undefined
+".\MPU9250.h", line 662: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\MPU9250.h", line 663: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\MPU9250.h", line 664: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\MPU9250.h", line 665: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\MPU9250.h", line 666: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\MPU9250.h", line 667: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\MPU9250.h", line 672: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\MPU9250.h", line 673: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\MPU9250.h", line 874: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 33: Error:  #5: cannot open source input file "N5110.h": No such file or directory
+.\main.cpp: 9 warnings, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\MPU9250AHRS\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\MPU9250AHRS"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/onehorse/code/MPU9250AHRS/
+----------------------------------------------------

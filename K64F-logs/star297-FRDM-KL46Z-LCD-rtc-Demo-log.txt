@@ -1,0 +1,76 @@
+Building project FRDM-KL46Z-LCD-rtc-Demo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: SLCD.cpp
+[Error] SLCD.cpp@94,0:  #20: identifier "SIM_SCGC5_SLCD_MASK" is undefined
+[Error] SLCD.cpp@104,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@107,0:  #20: identifier "LCD_GCR_RVEN_MASK" is undefined
+[Error] SLCD.cpp@108,0:  #20: identifier "LCD_GCR_RVTRIM" is undefined
+[Error] SLCD.cpp@109,0:  #20: identifier "LCD_GCR_CPSEL_MASK" is undefined
+[Error] SLCD.cpp@110,0:  #20: identifier "LCD_GCR_LADJ" is undefined
+[Error] SLCD.cpp@111,0:  #20: identifier "LCD_GCR_VSUPPLY_MASK" is undefined
+[Error] SLCD.cpp@112,0:  #20: identifier "LCD_GCR_FDCIEN_MASK" is undefined
+[Error] SLCD.cpp@113,0:  #20: identifier "LCD_GCR_ALTDIV" is undefined
+[Error] SLCD.cpp@114,0:  #20: identifier "LCD_GCR_LCDDOZE_MASK" is undefined
+[Error] SLCD.cpp@115,0:  #20: identifier "LCD_GCR_LCDSTP_MASK" is undefined
+[Error] SLCD.cpp@116,0:  #20: identifier "LCD_GCR_LCDEN_MASK" is undefined
+[Error] SLCD.cpp@117,0:  #20: identifier "LCD_GCR_SOURCE_MASK" is undefined
+[Error] SLCD.cpp@118,0:  #20: identifier "LCD_GCR_ALTSOURCE_MASK" is undefined
+[Error] SLCD.cpp@119,0:  #20: identifier "LCD_GCR_LCLK" is undefined
+[Error] SLCD.cpp@120,0:  #20: identifier "LCD_GCR_DUTY" is undefined
+[Error] SLCD.cpp@160,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@194,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@194,0:  #20: identifier "LCD_GCR_RVTRIM" is undefined
+[Error] SLCD.cpp@203,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@214,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@222,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@230,0:  #20: identifier "LCD" is undefined
+[Error] SLCD.cpp@238,0:  #20: identifier "LCD" is undefined
+[ERROR] ".\SLCD\SLCD.cpp", line 94: Error:  #20: identifier "SIM_SCGC5_SLCD_MASK" is undefined
+".\SLCD\SLCD.cpp", line 104: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 107: Error:  #20: identifier "LCD_GCR_RVEN_MASK" is undefined
+".\SLCD\SLCD.cpp", line 108: Error:  #20: identifier "LCD_GCR_RVTRIM" is undefined
+".\SLCD\SLCD.cpp", line 109: Error:  #20: identifier "LCD_GCR_CPSEL_MASK" is undefined
+".\SLCD\SLCD.cpp", line 110: Error:  #20: identifier "LCD_GCR_LADJ" is undefined
+".\SLCD\SLCD.cpp", line 111: Error:  #20: identifier "LCD_GCR_VSUPPLY_MASK" is undefined
+".\SLCD\SLCD.cpp", line 112: Error:  #20: identifier "LCD_GCR_FDCIEN_MASK" is undefined
+".\SLCD\SLCD.cpp", line 113: Error:  #20: identifier "LCD_GCR_ALTDIV" is undefined
+".\SLCD\SLCD.cpp", line 114: Error:  #20: identifier "LCD_GCR_LCDDOZE_MASK" is undefined
+".\SLCD\SLCD.cpp", line 115: Error:  #20: identifier "LCD_GCR_LCDSTP_MASK" is undefined
+".\SLCD\SLCD.cpp", line 116: Error:  #20: identifier "LCD_GCR_LCDEN_MASK" is undefined
+".\SLCD\SLCD.cpp", line 117: Error:  #20: identifier "LCD_GCR_SOURCE_MASK" is undefined
+".\SLCD\SLCD.cpp", line 118: Error:  #20: identifier "LCD_GCR_ALTSOURCE_MASK" is undefined
+".\SLCD\SLCD.cpp", line 119: Error:  #20: identifier "LCD_GCR_LCLK" is undefined
+".\SLCD\SLCD.cpp", line 120: Error:  #20: identifier "LCD_GCR_DUTY" is undefined
+".\SLCD\SLCD.cpp", line 160: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 194: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 194: Error:  #20: identifier "LCD_GCR_RVTRIM" is undefined
+".\SLCD\SLCD.cpp", line 203: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 214: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 222: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 230: Error:  #20: identifier "LCD" is undefined
+".\SLCD\SLCD.cpp", line 238: Error:  #20: identifier "LCD" is undefined
+.\SLCD\SLCD.cpp: 0 warnings, 24 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\FRDM-KL46Z-LCD-rtc-Demo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\FRDM-KL46Z-LCD-rtc-Demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/star297/code/FRDM-KL46Z-LCD-rtc-Demo/
+----------------------------------------------------

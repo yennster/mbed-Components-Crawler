@@ -1,0 +1,65 @@
+Building project Skywire_Demo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: hts221.cpp
+[Warning] hts221.cpp@139,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: LIS3DH.cpp
+Compile [  1.0%]: LPS331.cpp
+Compile [  1.3%]: LM75B.cpp
+[Warning] LM75B.cpp@277,0:  #1035-D: single-precision operand implicitly converted to double-precision
+Compile [  1.6%]: AnalogIn.cpp
+Compile [  1.9%]: main.cpp
+[Error] main.cpp@81,0:  #20: identifier "PA_6" is undefined
+[Error] main.cpp@82,0:  #20: identifier "PA_7" is undefined
+[Error] main.cpp@83,0:  #20: identifier "PA_1" is undefined
+[Error] main.cpp@84,0:  #20: identifier "PA_4" is undefined
+[Error] main.cpp@85,0:  #20: identifier "PB_0" is undefined
+[Error] main.cpp@87,0:  #20: identifier "PA_0" is undefined
+[Error] main.cpp@88,0:  #20: identifier "PC_0" is undefined
+[Error] main.cpp@89,0:  #20: identifier "PB_3" is undefined
+[Error] main.cpp@90,0:  #20: identifier "PC_1" is undefined
+[Error] main.cpp@92,0:  #20: identifier "PA_9" is undefined
+[Error] main.cpp@92,0:  #20: identifier "PA_10" is undefined
+[Error] main.cpp@95,0:  #20: identifier "PB_9" is undefined
+[Error] main.cpp@95,0:  #20: identifier "PB_8" is undefined
+[Error] main.cpp@310,0:  #413: no suitable conversion function from "LM75B" to "float" exists
+[Warning] main.cpp@356,0:  #1-D: last line of file ends without a newline
+[ERROR] ".\main.cpp", line 81: Error:  #20: identifier "PA_6" is undefined
+".\main.cpp", line 82: Error:  #20: identifier "PA_7" is undefined
+".\main.cpp", line 83: Error:  #20: identifier "PA_1" is undefined
+".\main.cpp", line 84: Error:  #20: identifier "PA_4" is undefined
+".\main.cpp", line 85: Error:  #20: identifier "PB_0" is undefined
+".\main.cpp", line 87: Error:  #20: identifier "PA_0" is undefined
+".\main.cpp", line 88: Error:  #20: identifier "PC_0" is undefined
+".\main.cpp", line 89: Error:  #20: identifier "PB_3" is undefined
+".\main.cpp", line 90: Error:  #20: identifier "PC_1" is undefined
+".\main.cpp", line 92: Error:  #20: identifier "PA_9" is undefined
+".\main.cpp", line 92: Error:  #20: identifier "PA_10" is undefined
+".\main.cpp", line 95: Error:  #20: identifier "PB_9" is undefined
+".\main.cpp", line 95: Error:  #20: identifier "PB_8" is undefined
+".\main.cpp", line 310: Error:  #413: no suitable conversion function from "LM75B" to "float" exists
+".\main.cpp", line 356: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 1 warning, 14 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Skywire_Demo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\Skywire_Demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/Nimbelink/code/Skywire_Demo/
+----------------------------------------------------

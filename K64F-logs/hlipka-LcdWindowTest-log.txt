@@ -1,0 +1,43 @@
+Building project LcdWindowTest (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: hd44780_8bit.cpp
+[Warning] hd44780_8bit.h@64,0:  #1-D: last line of file ends without a newline
+[Warning] wait_api.h@21,0:  #1215-D: #warning directive: wait_api.h has been replaced by mbed_wait_api.h, please update to mbed_wait_api.h [since mbed-os-5.3]
+Compile [  0.6%]: lcd_spi.cpp
+[Warning] lcd_spi.h@53,0:  #1-D: last line of file ends without a newline
+[Warning] wait_api.h@21,0:  #1215-D: #warning directive: wait_api.h has been replaced by mbed_wait_api.h, please update to mbed_wait_api.h [since mbed-os-5.3]
+Compile [  0.9%]: dogm_spi.cpp
+[Warning] lcd_spi.h@53,0:  #1-D: last line of file ends without a newline
+[Warning] dogm_spi.h@54,0:  #1-D: last line of file ends without a newline
+[Warning] wait_api.h@21,0:  #1215-D: #warning directive: wait_api.h has been replaced by mbed_wait_api.h, please update to mbed_wait_api.h [since mbed-os-5.3]
+Compile [  1.2%]: ks0108_8bit.cpp
+[Warning] ks0108_8bit.h@68,0:  #1-D: last line of file ends without a newline
+[Warning] wait_api.h@21,0:  #1215-D: #warning directive: wait_api.h has been replaced by mbed_wait_api.h, please update to mbed_wait_api.h [since mbed-os-5.3]
+Compile [  1.6%]: semaphore.cpp
+[Error] semaphore.cpp@26,0:  #20: identifier "__swp" is undefined
+[ERROR] ".\LcdWindow\semaphore.cpp", line 26: Error:  #20: identifier "__swp" is undefined
+.\LcdWindow\semaphore.cpp: 0 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\LcdWindowTest\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\LcdWindowTest"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/hlipka/code/LcdWindowTest/
+----------------------------------------------------

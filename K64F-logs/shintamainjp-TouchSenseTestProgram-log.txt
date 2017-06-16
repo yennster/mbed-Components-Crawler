@@ -1,0 +1,45 @@
+Building project TouchSenseTestProgram (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: AnalogIn.cpp
+Compile [  0.6%]: main.cpp
+[Error] TouchSense.h@76,0:  #140: too many arguments in function call
+[Error] main.cpp@19,0:  #20: identifier "p15" is undefined
+[Error] main.cpp@20,0:  #20: identifier "p16" is undefined
+[Error] main.cpp@21,0:  #20: identifier "p17" is undefined
+[Error] main.cpp@22,0:  #20: identifier "p18" is undefined
+[Error] main.cpp@23,0:  #20: identifier "p19" is undefined
+[Error] main.cpp@24,0:  #20: identifier "p20" is undefined
+[Warning] main.cpp@43,0:  #1-D: last line of file ends without a newline
+[ERROR] "./TouchSense/TouchSense.h", line 76: Error:  #140: too many arguments in function call
+".\main.cpp", line 19: Error:  #20: identifier "p15" is undefined
+".\main.cpp", line 20: Error:  #20: identifier "p16" is undefined
+".\main.cpp", line 21: Error:  #20: identifier "p17" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "p18" is undefined
+".\main.cpp", line 23: Error:  #20: identifier "p19" is undefined
+".\main.cpp", line 24: Error:  #20: identifier "p20" is undefined
+".\main.cpp", line 43: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 1 warning, 7 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\TouchSenseTestProgram\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\TouchSenseTestProgram"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/shintamainjp/code/TouchSenseTestProgram/
+----------------------------------------------------

@@ -1,0 +1,52 @@
+Building project RA8875_Demo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: GraphicsDisplay.cpp
+Compile [  0.6%]: RA8875_Touch.cpp
+[Warning] RA8875_Regs.h@56,0:  #1-D: last line of file ends without a newline
+[Warning] RA8875_Touch.cpp@38,0:  #1361-D: function "mbed::Ticker::attach_us(T *, M, timestamp_t) [with T=RA8875, M=void (RA8875::*)()]"  (declared at line 121 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+[Warning] RA8875_Touch.cpp@70,0:  #1361-D: function "mbed::Ticker::attach_us(T *, M, timestamp_t) [with T=RA8875, M=void (RA8875::*)()]"  (declared at line 121 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+Compile [  1.0%]: GraphicsDisplayJPEG.cpp
+Compile [  1.3%]: TextDisplay.cpp
+Compile [  1.6%]: RA8875.cpp
+[Warning] RA8875_Regs.h@56,0:  #1-D: last line of file ends without a newline
+[Warning] RA8875.cpp@135,0:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=RA8875, M=void (RA8875::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+[Warning] RA8875.cpp@1631,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] RA8875.cpp@1633,0:  #1035-D: single-precision operand implicitly converted to double-precision
+Compile [  1.9%]: main.cpp
+[Warning] RA8875_Regs.h@56,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@19,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@19,0:  #20: identifier "p6" is undefined
+[Error] main.cpp@19,0:  #20: identifier "p7" is undefined
+[Error] main.cpp@19,0:  #20: identifier "p12" is undefined
+[Error] main.cpp@20,0:  #20: identifier "LocalFileSystem" is undefined
+[ERROR] "./RA8875/RA8875_Regs.h", line 56: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 19: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 19: Error:  #20: identifier "p6" is undefined
+".\main.cpp", line 19: Error:  #20: identifier "p7" is undefined
+".\main.cpp", line 19: Error:  #20: identifier "p12" is undefined
+".\main.cpp", line 20: Error:  #20: identifier "LocalFileSystem" is undefined
+.\main.cpp: 1 warning, 5 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\RA8875_Demo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\RA8875_Demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/WiredHome/code/RA8875_Demo/
+----------------------------------------------------

@@ -1,0 +1,48 @@
+Building project DISCO-L053C8_ePD_demo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: font16epd.c
+Compile [  0.6%]: font20epd.c
+Compile [  1.0%]: font12epd.c
+Compile [  1.3%]: font8epd.c
+Compile [  1.6%]: main.cpp
+[Error] main.cpp@13,0:  #20: identifier "PA_15" is undefined
+[Error] main.cpp@13,0:  #20: identifier "PB_11" is undefined
+[Error] main.cpp@13,0:  #20: identifier "PB_2" is undefined
+[Error] main.cpp@13,0:  #20: identifier "PA_8" is undefined
+[Error] main.cpp@13,0:  #20: identifier "PB_10" is undefined
+[Error] main.cpp@13,0:  #20: identifier "PB_5" is undefined
+[Error] main.cpp@13,0:  #20: identifier "PB_4" is undefined
+[Error] main.cpp@13,0:  #20: identifier "PB_3" is undefined
+[ERROR] ".\main.cpp", line 13: Error:  #20: identifier "PA_15" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "PB_11" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "PB_2" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "PA_8" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "PB_10" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "PB_5" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "PB_4" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "PB_3" is undefined
+.\main.cpp: 0 warnings, 8 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\DISCO-L053C8_ePD_demo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\DISCO-L053C8_ePD_demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/DISCO-L053C8_ePD_demo/
+----------------------------------------------------

@@ -1,0 +1,34 @@
+Building project cc3000_hello_world_demo (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: NVIC_set_all_priorities.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] NVIC_set_all_priorities.cpp@16,0:  #20: identifier "first_IRQ_number" is undefined
+[Error] NVIC_set_all_priorities.cpp@16,0:  #20: identifier "last_IRQ_number" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\NVIC_set_all_priorities\NVIC_set_all_priorities.cpp", line 16: Error:  #20: identifier "first_IRQ_number" is undefined
+".\NVIC_set_all_priorities\NVIC_set_all_priorities.cpp", line 16: Error:  #20: identifier "last_IRQ_number" is undefined
+.\NVIC_set_all_priorities\NVIC_set_all_priorities.cpp: 1 warning, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\cc3000_hello_world_demo\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\cc3000_hello_world_demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/Kojto/code/cc3000_hello_world_demo/
+----------------------------------------------------

@@ -1,0 +1,40 @@
+Building project TLC5940ServoTest (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: FastPWM_KLXX_K20D50M.cpp
+[Warning] FastPWM_KLXX_K20D50M.cpp@55,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: FastPWM_LPC11U24.cpp
+[Warning] FastPWM_LPC11U24.cpp@81,0:  #1-D: last line of file ends without a newline
+Compile [  0.9%]: FastPWM_LPC1768.cpp
+[Warning] FastPWM_LPC1768.cpp@34,0:  #1-D: last line of file ends without a newline
+Compile [  1.3%]: FastPWM_STM_TIM.cpp
+[Warning] FastPWM_STM_TIM.cpp@49,0:  #1-D: last line of file ends without a newline
+Compile [  1.6%]: FastPWM_KSDK.cpp
+[Warning] FastPWM.h@150,0:  #1-D: last line of file ends without a newline
+[Error] FastPWM_KSDK.cpp@4,0:  #5: cannot open source input file "fsl_clock_manager.h": No such file or directory
+[ERROR] "./TLC5940Servo/FastPWM/FastPWM.h", line 150: Warning:  #1-D: last line of file ends without a newline
+".\TLC5940Servo\FastPWM\Device\FastPWM_KSDK.cpp", line 4: Error:  #5: cannot open source input file "fsl_clock_manager.h": No such file or directory
+.\TLC5940Servo\FastPWM\Device\FastPWM_KSDK.cpp: 1 warning, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\TLC5940ServoTest\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\TLC5940ServoTest"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/dudanian/code/TLC5940ServoTest/
+----------------------------------------------------

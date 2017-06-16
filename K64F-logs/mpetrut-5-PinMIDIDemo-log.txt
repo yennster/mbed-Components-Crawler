@@ -1,0 +1,44 @@
+Building project 5-PinMIDIDemo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: main.cpp
+[Warning] DebounceIn.h@66,0:  #1361-D: function "mbed::Ticker::attach_us(T *, M, timestamp_t) [with T=DebounceIn, M=void (DebounceIn::*)()]"  (declared at line 121 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+[Warning] DebounceIn.h@116,0:  #1-D: last line of file ends without a newline
+[Warning] Midi5Pin.h@38,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@8,0:  #20: identifier "p20" is undefined
+[Error] main.cpp@9,0:  #20: identifier "p27" is undefined
+[Error] main.cpp@10,0:  #20: identifier "p26" is undefined
+[Error] main.cpp@11,0:  #20: identifier "p13" is undefined
+[Error] main.cpp@11,0:  #20: identifier "p14" is undefined
+[ERROR] "./DebounceIn/DebounceIn.h", line 66: Warning:  #1361-D: function "mbed::Ticker::attach_us(T *, M, timestamp_t) [with T=DebounceIn, M=void (DebounceIn::*)()]"  (declared at line 121 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+"./DebounceIn/DebounceIn.h", line 116: Warning:  #1-D: last line of file ends without a newline
+"./Midi5Pin/Midi5Pin.h", line 38: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 8: Error:  #20: identifier "p20" is undefined
+".\main.cpp", line 9: Error:  #20: identifier "p27" is undefined
+".\main.cpp", line 10: Error:  #20: identifier "p26" is undefined
+".\main.cpp", line 11: Error:  #20: identifier "p13" is undefined
+".\main.cpp", line 11: Error:  #20: identifier "p14" is undefined
+.\main.cpp: 3 warnings, 5 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\5-PinMIDIDemo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\5-PinMIDIDemo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/mpetrut/code/5-PinMIDIDemo/
+----------------------------------------------------

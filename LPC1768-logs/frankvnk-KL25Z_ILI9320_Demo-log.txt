@@ -1,0 +1,70 @@
+Building project KL25Z_ILI9320_Demo (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: BurstSPI_KL25Z.cpp
+[Warning] BurstSPI_KL25Z.cpp@24,0:  #1-D: last line of file ends without a newline
+Compile [  0.8%]: BurstSPI_LPC1768.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] BurstSPI.h@114,0:  #1-D: last line of file ends without a newline
+[Warning] BurstSPI_LPC1768.cpp@20,0:  #1-D: last line of file ends without a newline
+Compile [  1.2%]: GraphicsDisplay.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.5%]: IAP.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.9%]: graphics.c
+[Warning] graphics.c@1185,0:  #1-D: last line of file ends without a newline
+Compile [  2.3%]: SPI_TFT_ILI9320.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] BurstSPI.h@114,0:  #1-D: last line of file ends without a newline
+Compile [  2.7%]: TextDisplay.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.1%]: Touch.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] BurstSPI.h@114,0:  #1-D: last line of file ends without a newline
+Compile [  3.5%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] BurstSPI.h@114,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@19,0:  #20: identifier "PTD3" is undefined
+[Error] main.cpp@19,0:  #20: identifier "PTD2" is undefined
+[Error] main.cpp@19,0:  #20: identifier "PTD1" is undefined
+[Error] main.cpp@19,0:  #20: identifier "PTD0" is undefined
+[Error] main.cpp@22,0:  #20: identifier "PTD6" is undefined
+[Error] main.cpp@22,0:  #20: identifier "PTD7" is undefined
+[Error] main.cpp@22,0:  #20: identifier "PTD5" is undefined
+[Error] main.cpp@22,0:  #20: identifier "PTD4" is undefined
+[Error] main.cpp@22,0:  #20: identifier "PTA13" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./SPI_TFT_ILI9320/BurstSPI/BurstSPI.h", line 114: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 19: Error:  #20: identifier "PTD3" is undefined
+".\main.cpp", line 19: Error:  #20: identifier "PTD2" is undefined
+".\main.cpp", line 19: Error:  #20: identifier "PTD1" is undefined
+".\main.cpp", line 19: Error:  #20: identifier "PTD0" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "PTD6" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "PTD7" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "PTD5" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "PTD4" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "PTA13" is undefined
+.\main.cpp: 2 warnings, 9 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\KL25Z_ILI9320_Demo\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\KL25Z_ILI9320_Demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/frankvnk/code/KL25Z_ILI9320_Demo/
+----------------------------------------------------

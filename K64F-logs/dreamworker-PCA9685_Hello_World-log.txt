@@ -1,0 +1,52 @@
+Building project PCA9685_Hello_World (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Warning: Multiple linker scripts detected: .\mbed-os\targets\TARGET_Freescale\TARGET_MCUXpresso_MCUS\TARGET_MCU_K64F\device\TOOLCHAIN_ARM_STD\MK64FN1M0xxx12.sct -> .\PCA9685PWM\mbed\bad568076d81\TARGET_K64F\TOOLCHAIN_ARM_STD\MK64F.sct
+Scan: mbed
+Scan: env
+Compile [  0.3%]: BusIn.cpp
+Compile [  0.6%]: AnalogIn.cpp
+Compile [  1.0%]: main.cpp
+[Warning] PCA9685.h@109,0:  #1-D: last line of file ends without a newline
+[Warning] main.cpp@44,0:  #1-D: last line of file ends without a newline
+Compile [  1.3%]: PCA9685.cpp
+[Warning] PCA9685.h@109,0:  #1-D: last line of file ends without a newline
+[Warning] PCA9685.cpp@3,0:  #1299-D: members and base-classes will be initialized in declaration order, not in member initialisation list order
+[Warning] PCA9685.cpp@49,0:  #1035-D: single-precision operand implicitly converted to double-precision
+Compile [  1.6%]: Ethernet.cpp
+Compile [  1.9%]: BusOut.cpp
+Compile [  2.3%]: CAN.cpp
+Compile [  2.6%]: BusInOut.cpp
+Compile [  2.9%]: FilePath.cpp
+Compile [  3.2%]: FileBase.cpp
+Compile [  3.5%]: FileSystemLike.cpp
+Compile [  3.9%]: FlashIAP.cpp
+Compile [  4.2%]: InterruptManager.cpp
+Compile [  4.5%]: InterruptIn.cpp
+[Error] Callback.h@606,0:  #20: identifier "MBED_STATIC_ASSERT" is undefined
+[ERROR] "./mbed-os/platform/Callback.h", line 606: Error:  #20: identifier "MBED_STATIC_ASSERT" is undefined
+          detected during:
+            instantiation of "void mbed::Callback<R ()>::generate(const F &) [with R=void, F=void (*)()]"  at line 75
+            instantiation of "mbed::Callback<R ()>::Callback(R (*)()) [with R=void]"  at line 26 of ".\mbed-os\drivers\InterruptIn.cpp"
+.\mbed-os\drivers\InterruptIn.cpp: 0 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\PCA9685_Hello_World\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\PCA9685_Hello_World"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/dreamworker/code/PCA9685_Hello_World/
+----------------------------------------------------

@@ -1,0 +1,43 @@
+Building project Camera_LS_Y201_TestProgram_2014 (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: ccsbcs.cpp
+Compile [  0.8%]: diskio.cpp
+Compile [  1.1%]: Camera_LS_Y201.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.5%]: SerialBuffered.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] SerialBuffered.cpp@42,0:  #1361-D: function "mbed::SerialBase::attach(T *, void (T::*)(), mbed::SerialBase::IrqType) [with T=SerialBuffered]"  (declared at line 117 of "./mbed-os/drivers/SerialBase.h") was declared "deprecated"
+Compile [  1.9%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FATFileSystem.cpp@45,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] FATFileSystem.cpp@51,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[Error] FATFileSystem.cpp@69,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\SDFileSystem\FATFileSystem\FATFileSystem.cpp", line 45: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\SDFileSystem\FATFileSystem\FATFileSystem.cpp", line 51: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+".\SDFileSystem\FATFileSystem\FATFileSystem.cpp", line 69: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+.\SDFileSystem\FATFileSystem\FATFileSystem.cpp: 2 warnings, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Camera_LS_Y201_TestProgram_2014\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\Camera_LS_Y201_TestProgram_2014"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/shintamainjp/code/Camera_LS_Y201_TestProgram_2014/
+----------------------------------------------------

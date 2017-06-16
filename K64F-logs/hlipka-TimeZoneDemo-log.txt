@@ -1,0 +1,42 @@
+Building project TimeZoneDemo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.2%]: ipaddr.cpp
+Compile [  0.5%]: DNSRequest.cpp
+Compile [  0.7%]: UDPSocket.cpp
+Compile [  1.0%]: TCPSocket.cpp
+Compile [  1.2%]: netservice.cpp
+Compile [  1.5%]: net.cpp
+Compile [  1.7%]: dbg.cpp
+Compile [  1.9%]: ATIf.cpp
+Compile [  2.2%]: eth_drv.cpp
+[Error] eth_drv.cpp@29,0:  #20: identifier "Ethernet" is undefined
+[Error] eth_drv.cpp@188,0:  #79: expected a type specifier
+[Error] eth_drv.cpp@204,0:  #20: identifier "Ethernet" is undefined
+[ERROR] ".\NetServices\drv\eth\eth_drv.cpp", line 29: Error:  #20: identifier "Ethernet" is undefined
+".\NetServices\drv\eth\eth_drv.cpp", line 188: Error:  #79: expected a type specifier
+".\NetServices\drv\eth\eth_drv.cpp", line 204: Error:  #20: identifier "Ethernet" is undefined
+.\NetServices\drv\eth\eth_drv.cpp: 0 warnings, 3 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\TimeZoneDemo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\TimeZoneDemo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/hlipka/code/TimeZoneDemo/
+----------------------------------------------------

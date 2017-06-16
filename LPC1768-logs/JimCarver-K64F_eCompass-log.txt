@@ -1,0 +1,92 @@
+Building project K64F_eCompass (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FXOS8700Q.h@88,0:  #1300-D: enable inherits implicit virtual
+[Warning] FXOS8700Q.h@89,0:  #1300-D: disable inherits implicit virtual
+[Warning] FXOS8700Q.h@90,0:  #1300-D: sampleRate inherits implicit virtual
+[Warning] FXOS8700Q.h@91,0:  #1300-D: whoAmI inherits implicit virtual
+[Warning] FXOS8700Q.h@92,0:  #1300-D: dataReady inherits implicit virtual
+[Warning] FXOS8700Q.h@93,0:  #1300-D: getX inherits implicit virtual
+[Warning] FXOS8700Q.h@94,0:  #1300-D: getY inherits implicit virtual
+[Warning] FXOS8700Q.h@95,0:  #1300-D: getZ inherits implicit virtual
+[Warning] FXOS8700Q.h@96,0:  #1300-D: getX inherits implicit virtual
+[Warning] FXOS8700Q.h@97,0:  #1300-D: getY inherits implicit virtual
+[Warning] FXOS8700Q.h@98,0:  #1300-D: getZ inherits implicit virtual
+[Warning] FXOS8700Q.h@99,0:  #1300-D: getAxis inherits implicit virtual
+[Warning] FXOS8700Q.h@100,0:  #1300-D: getAxis inherits implicit virtual
+[Warning] FXOS8700Q.h@123,0:  #1300-D: enable inherits implicit virtual
+[Warning] FXOS8700Q.h@124,0:  #1300-D: disable inherits implicit virtual
+[Warning] FXOS8700Q.h@125,0:  #1300-D: sampleRate inherits implicit virtual
+[Warning] FXOS8700Q.h@126,0:  #1300-D: whoAmI inherits implicit virtual
+[Warning] FXOS8700Q.h@127,0:  #1300-D: dataReady inherits implicit virtual
+[Warning] FXOS8700Q.h@128,0:  #1300-D: getX inherits implicit virtual
+[Warning] FXOS8700Q.h@129,0:  #1300-D: getY inherits implicit virtual
+[Warning] FXOS8700Q.h@130,0:  #1300-D: getZ inherits implicit virtual
+[Warning] FXOS8700Q.h@131,0:  #1300-D: getX inherits implicit virtual
+[Warning] FXOS8700Q.h@132,0:  #1300-D: getY inherits implicit virtual
+[Warning] FXOS8700Q.h@133,0:  #1300-D: getZ inherits implicit virtual
+[Warning] FXOS8700Q.h@134,0:  #1300-D: getAxis inherits implicit virtual
+[Warning] FXOS8700Q.h@135,0:  #1300-D: getAxis inherits implicit virtual
+[Warning] eCompass_Lib.h@93,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@8,0:  #20: identifier "PTE25" is undefined
+[Error] main.cpp@8,0:  #20: identifier "PTE24" is undefined
+[Error] main.cpp@12,0:  #20: identifier "LED_RED" is undefined
+[Warning] main.cpp@100,0:  #1361-D: function "rtos::RtosTimer::RtosTimer(void (*)(const void *), os_timer_type, void *)"  (declared at line 90 of "./mbed-os/rtos/RtosTimer.h") was declared "deprecated"
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./FXOS8700Q/FXOS8700Q.h", line 88: Warning:  #1300-D: enable inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 89: Warning:  #1300-D: disable inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 90: Warning:  #1300-D: sampleRate inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 91: Warning:  #1300-D: whoAmI inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 92: Warning:  #1300-D: dataReady inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 93: Warning:  #1300-D: getX inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 94: Warning:  #1300-D: getY inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 95: Warning:  #1300-D: getZ inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 96: Warning:  #1300-D: getX inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 97: Warning:  #1300-D: getY inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 98: Warning:  #1300-D: getZ inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 99: Warning:  #1300-D: getAxis inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 100: Warning:  #1300-D: getAxis inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 123: Warning:  #1300-D: enable inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 124: Warning:  #1300-D: disable inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 125: Warning:  #1300-D: sampleRate inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 126: Warning:  #1300-D: whoAmI inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 127: Warning:  #1300-D: dataReady inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 128: Warning:  #1300-D: getX inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 129: Warning:  #1300-D: getY inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 130: Warning:  #1300-D: getZ inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 131: Warning:  #1300-D: getX inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 132: Warning:  #1300-D: getY inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 133: Warning:  #1300-D: getZ inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 134: Warning:  #1300-D: getAxis inherits implicit virtual
+"./FXOS8700Q/FXOS8700Q.h", line 135: Warning:  #1300-D: getAxis inherits implicit virtual
+"./eCompass_FPU_Lib/eCompass_Lib.h", line 93: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 8: Error:  #20: identifier "PTE25" is undefined
+".\main.cpp", line 8: Error:  #20: identifier "PTE24" is undefined
+".\main.cpp", line 12: Error:  #20: identifier "LED_RED" is undefined
+".\main.cpp", line 100: Warning:  #1361-D: function "rtos::RtosTimer::RtosTimer(void (*)(const void *), os_timer_type, void *)"  (declared at line 90 of "./mbed-os/rtos/RtosTimer.h") was declared "deprecated"
+.\main.cpp: 29 warnings, 3 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\K64F_eCompass\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\K64F_eCompass"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/JimCarver/code/K64F_eCompass/
+----------------------------------------------------

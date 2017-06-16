@@ -1,0 +1,56 @@
+Building project mbedJS (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.2%]: ccsbcs.cpp
+Compile [  0.5%]: FATDirHandle.cpp
+[Warning] FATDirHandle.cpp@28,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [  0.7%]: diskio.cpp
+Compile [  0.9%]: FATFileHandle.cpp
+[Warning] FATFileHandle.cpp@29,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+Compile [  1.1%]: LocalFileSystem2.cpp
+[Warning] LocalFileSystem2.h@27,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] PlatformInfo.h@25,0:  #1-D: last line of file ends without a newline
+Compile [  1.4%]: FATFileSystem.cpp
+[Warning] FATFileSystem.cpp@47,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.6%]: NyLPC_cFifoBuffer.c
+Compile [  1.8%]: NyLPC_cMiMicEnv.c
+Compile [  2.0%]: SDFileSystem.cpp
+Compile [  2.3%]: ff.cpp
+[Warning] ff.cpp@1689,0:  #111-D: statement is unreachable
+Compile [  2.5%]: NyLPC_cPtrStream.c
+Compile [  2.7%]: NyLPC_cRingBuffer.c
+Compile [  2.9%]: NyLPC_cPtrTbl.c
+Compile [  3.2%]: NyLPC_cStr.c
+Compile [  3.4%]: NyLPC_cRomPtrStream.c
+Compile [  3.6%]: NyLPC_stdlib.c
+[Warning] NyLPC_stdlib.c@41,0:  #550-D: variable "_line_log_l"  was set but never used
+[Warning] NyLPC_stdlib.c@42,0:  #550-D: variable "_line_log_m"  was set but never used
+Compile [  3.8%]: NyLPC_cEthernetMM.c
+Compile [  4.1%]: EthDev.c
+Compile [  4.3%]: fsl_enet_driver.c
+[Error] fsl_enet_driver.c@34,0:  #5: cannot open source input file "fsl_enet_driver.h": No such file or directory
+[ERROR] ".\libMiMic\core\driver\ethernet\k64f\fsl\fsl_enet_driver.c", line 34: Error:  #5: cannot open source input file "fsl_enet_driver.h": No such file or directory
+.\libMiMic\core\driver\ethernet\k64f\fsl\fsl_enet_driver.c: 0 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\mbedJS\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\mbedJS"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/nyatla/code/mbedJS/
+----------------------------------------------------

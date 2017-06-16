@@ -1,0 +1,41 @@
+Building project sht21_test (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] SHT21_I2C.h@36,0:  #289: no instance of constructor "mbed::I2C::I2C"  matches the argument list
+[Warning] SHT21_I2C.h@78,0:  #1-D: last line of file ends without a newline
+[Error] SHT2x.h@85,0:  #262: not a class or struct name
+[Warning] SHT2x.h@107,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@10,0:  #147: declaration is incompatible with "void error(const char *, ...)"  (declared at line 63 of "./mbed-os/platform/mbed_error.h")
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./SHT2x/SHT21_I2C.h", line 36: Error:  #289: no instance of constructor "mbed::I2C::I2C"  matches the argument list
+            argument types are: (PinName, PinName, const char *)
+"./SHT2x/SHT21_I2C.h", line 78: Warning:  #1-D: last line of file ends without a newline
+"./SHT2x/SHT2x.h", line 85: Error:  #262: not a class or struct name
+"./SHT2x/SHT2x.h", line 107: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 10: Error:  #147: declaration is incompatible with "void error(const char *, ...)"  (declared at line 63 of "./mbed-os/platform/mbed_error.h")
+.\main.cpp: 3 warnings, 3 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\sht21_test\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\sht21_test"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/ssozonoff/code/sht21_test/
+----------------------------------------------------

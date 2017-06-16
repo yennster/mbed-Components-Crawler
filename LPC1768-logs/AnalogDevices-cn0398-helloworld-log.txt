@@ -1,0 +1,44 @@
+Building project cn0398-helloworld (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: CN0398.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] AD7124.h@354,0:  #20: identifier "SPI_CS" is undefined
+[Error] AD7124.h@354,0:  #20: identifier "SPI_MOSI" is undefined
+[Error] AD7124.h@354,0:  #20: identifier "SPI_MISO" is undefined
+[Error] AD7124.h@354,0:  #20: identifier "SPI_SCK" is undefined
+[Warning] CN0398.h@64,0:  #3337-D: list initialization syntax is a C++11 feature
+[Warning] CN0398.h@227,0:  #382-D: in-class initializer for nonstatic member is nonstandard
+[Warning] CN0398.h@228,0:  #382-D: in-class initializer for nonstatic member is nonstandard
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./CN0398/AD7124/AD7124.h", line 354: Error:  #20: identifier "SPI_CS" is undefined
+"./CN0398/AD7124/AD7124.h", line 354: Error:  #20: identifier "SPI_MOSI" is undefined
+"./CN0398/AD7124/AD7124.h", line 354: Error:  #20: identifier "SPI_MISO" is undefined
+"./CN0398/AD7124/AD7124.h", line 354: Error:  #20: identifier "SPI_SCK" is undefined
+".\CN0398\CN0398.h", line 64: Warning:  #3337-D: list initialization syntax is a C++11 feature
+".\CN0398\CN0398.h", line 227: Warning:  #382-D: in-class initializer for nonstatic member is nonstandard
+".\CN0398\CN0398.h", line 228: Warning:  #382-D: in-class initializer for nonstatic member is nonstandard
+.\CN0398\CN0398.cpp: 4 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\cn0398-helloworld\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\cn0398-helloworld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/AnalogDevices/code/cn0398-helloworld/
+----------------------------------------------------

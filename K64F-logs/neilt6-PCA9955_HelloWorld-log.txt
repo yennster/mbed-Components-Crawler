@@ -1,0 +1,100 @@
+Building project PCA9955_HelloWorld (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: PCA9955.cpp
+[Warning] PCA9955.cpp@329,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@331,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@335,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@369,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@370,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@371,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@401,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@403,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@407,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@431,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@433,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@437,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Error] PCA9955.cpp@550,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@550,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@563,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@563,0:  #28: expression must have a constant value
+[Warning] PCA9955.cpp@569,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@571,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@575,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@585,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@587,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@591,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Error] PCA9955.cpp@602,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@602,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@620,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@620,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@633,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@633,0:  #28: expression must have a constant value
+[Warning] PCA9955.cpp@639,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@641,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@645,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@655,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@657,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] PCA9955.cpp@661,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Error] PCA9955.cpp@672,0:  #28: expression must have a constant value
+[Error] PCA9955.cpp@672,0:  #28: expression must have a constant value
+[ERROR] ".\PCA9955\PCA9955.cpp", line 329: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 331: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 335: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 369: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 370: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 371: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 401: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 403: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 407: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 431: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 433: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 437: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 550: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 550: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 563: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 563: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 569: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 571: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 575: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 585: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 587: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 591: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 602: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 602: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 620: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 620: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 633: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 633: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 639: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 641: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 645: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 655: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 657: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 661: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\PCA9955\PCA9955.cpp", line 672: Error:  #28: expression must have a constant value
+".\PCA9955\PCA9955.cpp", line 672: Error:  #28: expression must have a constant value
+.\PCA9955\PCA9955.cpp: 24 warnings, 12 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\PCA9955_HelloWorld\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\PCA9955_HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/neilt6/code/PCA9955_HelloWorld/
+----------------------------------------------------

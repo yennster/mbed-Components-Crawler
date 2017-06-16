@@ -1,0 +1,436 @@
+Building project PAJ7620_Gesture (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: DFUService.cpp
+[Warning] DFUService.cpp@44,0:  #1-D: last line of file ends without a newline
+Compile [  0.7%]: GapScanningParams.cpp
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.cpp@75,0:  #1-D: last line of file ends without a newline
+Compile [  1.0%]: BLE.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1523,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@150,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.cpp@229,0:  #1-D: last line of file ends without a newline
+Compile [  1.3%]: DiscoveredCharacteristic.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.cpp@167,0:  #1-D: last line of file ends without a newline
+Compile [  1.6%]: UARTService.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1523,0:  #1-D: last line of file ends without a newline
+[Warning] UARTService.h@206,0:  #1-D: last line of file ends without a newline
+[Warning] UARTService.cpp@41,0:  #1-D: last line of file ends without a newline
+Compile [  2.0%]: URIBeaconConfigService.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1523,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] URIBeaconConfigService.h@472,0:  #1-D: last line of file ends without a newline
+[Warning] URIBeaconConfigService.cpp@35,0:  #1-D: last line of file ends without a newline
+Compile [  2.3%]: Gesture.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] PAC7620_30Set.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] Gesture.h@38,0:  #1-D: last line of file ends without a newline
+[Warning] Gesture.cpp@73,0:  #1361-D: function "mbed::Ticker::attach_us(T *, M, timestamp_t) [with T=Pixart_Gesture, M=void (Pixart_Gesture::*)()]"  (declared at line 121 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+[Warning] Gesture.cpp@165,0:  #1-D: last line of file ends without a newline
+Compile [  2.6%]: AnalogIn.cpp
+Compile [  2.9%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] Gesture.h@38,0:  #1-D: last line of file ends without a newline
+Compile [  3.3%]: BusIn.cpp
+Compile [  3.6%]: BusInOut.cpp
+Compile [  3.9%]: CAN.cpp
+Compile [  4.2%]: Ethernet.cpp
+Compile [  4.6%]: BusOut.cpp
+Compile [  4.9%]: FlashIAP.cpp
+Compile [  5.2%]: FileBase.cpp
+Compile [  5.6%]: FilePath.cpp
+Compile [  5.9%]: FileSystemLike.cpp
+Compile [  6.2%]: I2C.cpp
+Compile [  6.5%]: I2CSlave.cpp
+Compile [  6.9%]: InterruptManager.cpp
+Compile [  7.2%]: InterruptIn.cpp
+Compile [  7.5%]: RawSerial.cpp
+Compile [  7.8%]: LocalFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@110,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@188,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [  8.2%]: SPI.cpp
+Compile [  8.5%]: SPISlave.cpp
+Compile [  8.8%]: Serial.cpp
+Compile [  9.2%]: SerialBase.cpp
+Compile [  9.5%]: Stream.cpp
+Compile [  9.8%]: Ticker.cpp
+Compile [ 10.1%]: Timeout.cpp
+Compile [ 10.5%]: Timer.cpp
+Compile [ 10.8%]: TimerEvent.cpp
+Compile [ 11.1%]: EventQueue.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 11.4%]: equeue_posix.c
+Compile [ 11.8%]: equeue.c
+Compile [ 12.1%]: emac_lwip.c
+Compile [ 12.4%]: emac_stack_lwip.cpp
+Compile [ 12.7%]: equeue_mbed.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 13.1%]: lwip_checksum.c
+Compile [ 13.4%]: lpc_phy_dp83848.c
+Compile [ 13.7%]: EthernetInterface.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 14.1%]: lpc17_emac.c
+Compile [ 14.4%]: lwip_memcpy.c
+Compile [ 14.7%]: lwip_random.c
+Compile [ 15.0%]: lwip_sys_arch.c
+Compile [ 15.4%]: lwip_api_lib.c
+Compile [ 15.7%]: lwip_tcp_isn.c
+Compile [ 16.0%]: lwip_err.c
+Compile [ 16.3%]: lwip_api_msg.c
+Compile [ 16.7%]: lwip_netbuf.c
+Compile [ 17.0%]: lwip_netdb.c
+Compile [ 17.3%]: lwip_netifapi.c
+Compile [ 17.6%]: lwip_autoip.c
+Compile [ 18.0%]: lwip_sockets.c
+Compile [ 18.3%]: lwip_tcpip.c
+Compile [ 18.6%]: lwip_icmp.c
+Compile [ 19.0%]: lwip_igmp.c
+Compile [ 19.3%]: lwip_etharp.c
+Compile [ 19.6%]: lwip_dhcp.c
+Compile [ 19.9%]: lwip_ip4_addr.c
+Compile [ 20.3%]: lwip_ip4.c
+Compile [ 20.6%]: lwip_dhcp6.c
+Compile [ 20.9%]: lwip_ip4_frag.c
+Compile [ 21.2%]: lwip_ethip6.c
+Compile [ 21.6%]: lwip_icmp6.c
+Compile [ 21.9%]: lwip_inet6.c
+Compile [ 22.2%]: lwip_ip6.c
+Compile [ 22.5%]: lwip_ip6_addr.c
+Compile [ 22.9%]: lwip_mld6.c
+Compile [ 23.2%]: lwip_nd6.c
+Compile [ 23.5%]: lwip_ip6_frag.c
+Compile [ 23.9%]: lwip_def.c
+Compile [ 24.2%]: lwip_inet_chksum.c
+Compile [ 24.5%]: lwip_init.c
+Compile [ 24.8%]: lwip_dns.c
+Compile [ 25.2%]: lwip_ip.c
+Compile [ 25.5%]: lwip_mem.c
+Compile [ 25.8%]: lwip_memp.c
+Compile [ 26.1%]: lwip_netif.c
+Compile [ 26.5%]: lwip_raw.c
+Compile [ 26.8%]: lwip_stats.c
+Compile [ 27.1%]: lwip_pbuf.c
+Compile [ 27.5%]: lwip_sys.c
+Compile [ 27.8%]: lwip_timeouts.c
+Compile [ 28.1%]: lwip_tcp_out.c
+Compile [ 28.4%]: lwip_tcp_in.c
+Compile [ 28.8%]: lwip_tcp.c
+Compile [ 29.1%]: lwip_ethernetif.c
+Compile [ 29.4%]: lwip_ethernet.c
+Compile [ 29.7%]: lwip_lowpan6.c
+Compile [ 30.1%]: lwip_udp.c
+Compile [ 30.4%]: lwip_stack.c
+Compile [ 30.7%]: Dir.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 31.0%]: File.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 31.4%]: FileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 31.7%]: ccsbcs.cpp
+Compile [ 32.0%]: HeapBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 32.4%]: SlicingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 32.7%]: ChainingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 33.0%]: greentea_serial.cpp
+Compile [ 33.3%]: greentea_metrics.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] greentea_metrics.cpp@37,0:  #177-D: variable "mutex"  was declared but never referenced
+Compile [ 33.7%]: ff.cpp
+Compile [ 34.0%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 34.3%]: unity.c
+Compile [ 34.6%]: mbed-utest-shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 35.0%]: unity_handler.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 35.3%]: greentea_test_env.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 35.6%]: utest_case.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 35.9%]: utest_default_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 36.3%]: utest_greentea_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 36.6%]: utest_stack_trace.cpp
+Compile [ 36.9%]: utest_harness.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 37.3%]: mbed_trng.c
+Compile [ 37.6%]: aesni.c
+Compile [ 37.9%]: arc4.c
+Compile [ 38.2%]: utest_types.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 38.6%]: utest_shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 38.9%]: aes.c
+Compile [ 39.2%]: asn1parse.c
+Compile [ 39.5%]: asn1write.c
+Compile [ 39.9%]: base64.c
+Compile [ 40.2%]: blowfish.c
+Compile [ 40.5%]: camellia.c
+Compile [ 40.8%]: certs.c
+Compile [ 41.2%]: ccm.c
+Compile [ 41.5%]: cipher.c
+Compile [ 41.8%]: cipher_wrap.c
+Compile [ 42.2%]: cmac.c
+Compile [ 42.5%]: ctr_drbg.c
+Compile [ 42.8%]: debug.c
+Compile [ 43.1%]: des.c
+Compile [ 43.5%]: ecdh.c
+Compile [ 43.8%]: dhm.c
+Compile [ 44.1%]: bignum.c
+Compile [ 44.4%]: ecjpake.c
+Compile [ 44.8%]: ecdsa.c
+Compile [ 45.1%]: entropy.c
+Compile [ 45.4%]: entropy_poll.c
+Compile [ 45.8%]: error.c
+Compile [ 46.1%]: gcm.c
+Compile [ 46.4%]: ecp_curves.c
+Compile [ 46.7%]: ecp.c
+Compile [ 47.1%]: havege.c
+Compile [ 47.4%]: md2.c
+Compile [ 47.7%]: md4.c
+Compile [ 48.0%]: hmac_drbg.c
+Compile [ 48.4%]: md.c
+Compile [ 48.7%]: md5.c
+Compile [ 49.0%]: md_wrap.c
+Compile [ 49.3%]: net_sockets.c
+Compile [ 49.7%]: memory_buffer_alloc.c
+Compile [ 50.0%]: padlock.c
+Compile [ 50.3%]: pem.c
+Compile [ 50.7%]: oid.c
+Compile [ 51.0%]: pk.c
+Compile [ 51.3%]: pkcs11.c
+Compile [ 51.6%]: pkcs12.c
+Compile [ 52.0%]: pkcs5.c
+Compile [ 52.3%]: pk_wrap.c
+Compile [ 52.6%]: platform.c
+Compile [ 52.9%]: ripemd160.c
+Compile [ 53.3%]: pkparse.c
+Compile [ 53.6%]: pkwrite.c
+Compile [ 53.9%]: sha1.c
+Compile [ 54.2%]: ssl_cache.c
+Compile [ 54.6%]: ssl_ciphersuites.c
+Compile [ 54.9%]: sha256.c
+Compile [ 55.2%]: rsa.c
+Compile [ 55.6%]: ssl_cli.c
+Compile [ 55.9%]: ssl_cookie.c
+Compile [ 56.2%]: ssl_srv.c
+Compile [ 56.5%]: ssl_ticket.c
+Compile [ 56.9%]: ssl_tls.c
+Compile [ 57.2%]: threading.c
+Compile [ 57.5%]: sha512.c
+Compile [ 57.8%]: version.c
+Compile [ 58.2%]: timing.c
+Compile [ 58.5%]: version_features.c
+Compile [ 58.8%]: x509_create.c
+Compile [ 59.2%]: x509_csr.c
+Compile [ 59.5%]: x509.c
+Compile [ 59.8%]: x509_crl.c
+Compile [ 60.1%]: x509write_crt.c
+Compile [ 60.5%]: x509write_csr.c
+Compile [ 60.8%]: xtea.c
+Compile [ 61.1%]: NetworkInterface.cpp
+Compile [ 61.4%]: x509_crt.c
+Compile [ 61.8%]: Socket.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 62.1%]: NetworkStack.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 62.4%]: SocketAddress.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 62.7%]: WiFiAccessPoint.cpp
+Compile [ 63.1%]: UDPSocket.cpp
+Compile [ 63.4%]: TCPServer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 63.7%]: TCPSocket.cpp
+Compile [ 64.1%]: nsapi_dns.cpp
+Compile [ 64.4%]: mbed_lp_ticker_api.c
+Compile [ 64.7%]: mbed_gpio.c
+Compile [ 65.0%]: mbed_pinmap_common.c
+Compile [ 65.4%]: mbed_ticker_api.c
+Compile [ 65.7%]: mbed_alloc_wrappers.cpp
+Compile [ 66.0%]: mbed_us_ticker_api.c
+Compile [ 66.3%]: CallChain.cpp
+Compile [ 66.7%]: mbed_application.c
+Compile [ 67.0%]: mbed_assert.c
+Compile [ 67.3%]: mbed_board.c
+Compile [ 67.6%]: mbed_mem_trace.c
+Compile [ 68.0%]: mbed_error.c
+Compile [ 68.3%]: mbed_critical.c
+Compile [ 68.6%]: mbed_interface.c
+Compile [ 69.0%]: mbed_stats.c
+Compile [ 69.3%]: mbed_wait_api_no_rtos.c
+Compile [ 69.6%]: mbed_rtc_time.cpp
+Compile [ 69.9%]: mbed_semihost_api.c
+Compile [ 70.3%]: mbed_retarget.cpp
+Compile [ 70.6%]: Mutex.cpp
+Compile [ 70.9%]: Semaphore.cpp
+Compile [ 71.2%]: mbed_wait_api_rtos.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 71.6%]: RtosTimer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 71.9%]: rtos_idle.c
+Compile [ 72.2%]: HAL_CM.c
+Compile [ 72.5%]: Thread.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 72.9%]: RTX_Conf_CM.c
+Compile [ 73.2%]: HAL_CM3.c
+Compile [ 73.5%]: SVC_Table.S
+Compile [ 73.9%]: rt_Event.c
+Compile [ 74.2%]: rt_List.c
+Compile [ 74.5%]: rt_Mailbox.c
+Compile [ 74.8%]: rt_MemBox.c
+Compile [ 75.2%]: rt_Memory.c
+Compile [ 75.5%]: rt_Mutex.c
+Compile [ 75.8%]: rt_CMSIS.c
+Compile [ 76.1%]: rt_OsEventObserver.c
+Compile [ 76.5%]: rt_Robin.c
+Compile [ 76.8%]: rt_Time.c
+Compile [ 77.1%]: rt_Semaphore.c
+Compile [ 77.5%]: rt_Task.c
+Compile [ 77.8%]: rt_Timer.c
+Compile [ 78.1%]: rt_System.c
+Compile [ 78.4%]: analogin_api.c
+Compile [ 78.8%]: analogout_api.c
+Compile [ 79.1%]: sys.cpp
+Compile [ 79.4%]: startup_LPC17xx.S
+Compile [ 79.7%]: can_api.c
+Compile [ 80.1%]: cmsis_nvic.c
+Compile [ 80.4%]: system_LPC17xx.c
+Compile [ 80.7%]: gpio_api.c
+Compile [ 81.0%]: ethernet_api.c
+Compile [ 81.4%]: gpio_irq_api.c
+Compile [ 81.7%]: i2c_api.c
+Compile [ 82.0%]: pinmap.c
+Compile [ 82.4%]: port_api.c
+Compile [ 82.7%]: pwmout_api.c
+Compile [ 83.0%]: rtc_api.c
+Compile [ 83.3%]: sleep.c
+Compile [ 83.7%]: serial_api.c
+Compile [ 84.0%]: us_ticker.c
+Compile [ 84.3%]: spi_api.c
+Compile [ 84.6%]: ble_radio_notification.c
+[Error] nrf.h@54,0:  #35: #error directive: "Device family must be defined. See nrf.h."
+[ERROR] "./nRF51822/nrf51-sdk/source/nordic_sdk/components/device/nrf.h", line 54: Error:  #35: #error directive: "Device family must be defined. See nrf.h."
+.\nRF51822\nrf51-sdk\source\nordic_sdk\components\ble\ble_radio_notification\ble_radio_notification.c: 0 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\PAJ7620_Gesture\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\PAJ7620_Gesture"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/pixus_mbed/code/PAJ7620_Gesture/
+----------------------------------------------------

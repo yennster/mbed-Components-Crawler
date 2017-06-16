@@ -1,0 +1,39 @@
+Building project HelloWorld_IHM06A1 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: AnalogIn.cpp
+Compile [  0.6%]: main.cpp
+[Warning] STSpin220_config.h@120,0:  #1-D: last line of file ends without a newline
+[Error] component_def.h@89,0:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+[Warning] STSpin220.h@793,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] STSpin220.h@794,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] STSpin220.h@1061,0:  #1361-D: function "mbed::Ticker::attach_us(T *, M, timestamp_t) [with T=STSpin220, M=void (STSpin220::*)()]"  (declared at line 121 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+[ERROR] "./X-NUCLEO-IHM06A1/Components/STSpin220/STSpin220_config.h", line 120: Warning:  #1-D: last line of file ends without a newline
+"./X-NUCLEO-IHM06A1/Components/Common/component_def.h", line 89: Error:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+"./X-NUCLEO-IHM06A1/Components/STSpin220/STSpin220.h", line 793: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X-NUCLEO-IHM06A1/Components/STSpin220/STSpin220.h", line 794: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X-NUCLEO-IHM06A1/Components/STSpin220/STSpin220.h", line 1061: Warning:  #1361-D: function "mbed::Ticker::attach_us(T *, M, timestamp_t) [with T=STSpin220, M=void (STSpin220::*)()]"  (declared at line 121 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+.\main.cpp: 4 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HelloWorld_IHM06A1\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\HelloWorld_IHM06A1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/HelloWorld_IHM06A1/
+----------------------------------------------------

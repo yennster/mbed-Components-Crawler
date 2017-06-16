@@ -1,0 +1,42 @@
+Building project Websocket_Ethernet_HelloWorld_W5500 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: DHCPClient.cpp
+[Warning] wiznet.h@25,0:  #1-D: last line of file ends without a newline
+[Error] DHCPClient.h@45,0:  #20: identifier "Endpoint" is undefined
+[Error] DHCPClient.cpp@113,0:  #20: identifier "Endpoint" is undefined
+[Error] DHCPClient.cpp@114,0:  #135: class "UDPSocket"  has no member "receiveFrom"
+[Error] DHCPClient.cpp@124,0:  #135: class "UDPSocket"  has no member "sendTo"
+[Error] DHCPClient.cpp@170,0:  #135: class "UDPSocket"  has no member "init"
+[Error] DHCPClient.cpp@187,0:  #135: class "UDPSocket"  has no member "sendTo"
+[ERROR] "./W5500Interface/WIZnet/wiznet.h", line 25: Warning:  #1-D: last line of file ends without a newline
+".\W5500Interface\DHCPClient\DHCPClient.h", line 45: Error:  #20: identifier "Endpoint" is undefined
+".\W5500Interface\DHCPClient\DHCPClient.cpp", line 113: Error:  #20: identifier "Endpoint" is undefined
+".\W5500Interface\DHCPClient\DHCPClient.cpp", line 114: Error:  #135: class "UDPSocket"  has no member "receiveFrom"
+".\W5500Interface\DHCPClient\DHCPClient.cpp", line 124: Error:  #135: class "UDPSocket"  has no member "sendTo"
+".\W5500Interface\DHCPClient\DHCPClient.cpp", line 170: Error:  #135: class "UDPSocket"  has no member "init"
+".\W5500Interface\DHCPClient\DHCPClient.cpp", line 187: Error:  #135: class "UDPSocket"  has no member "sendTo"
+.\W5500Interface\DHCPClient\DHCPClient.cpp: 1 warning, 6 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Websocket_Ethernet_HelloWorld_W5500\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\Websocket_Ethernet_HelloWorld_W5500"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/EthernetInterfaceW5500-makers/code/Websocket_Ethernet_HelloWorld_W5500/
+----------------------------------------------------

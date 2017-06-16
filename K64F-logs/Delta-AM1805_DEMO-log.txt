@@ -1,0 +1,34 @@
+Building project AM1805_DEMO (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: AM1805.cpp
+[Warning] AM1805.h@92,0:  #1-D: last line of file ends without a newline
+[Error] AM1805.cpp@29,0:  #20: identifier "p28" is undefined
+[Error] AM1805.cpp@29,0:  #20: identifier "p27" is undefined
+[ERROR] ".\AM1805.h", line 92: Warning:  #1-D: last line of file ends without a newline
+".\AM1805.cpp", line 29: Error:  #20: identifier "p28" is undefined
+".\AM1805.cpp", line 29: Error:  #20: identifier "p27" is undefined
+.\AM1805.cpp: 1 warning, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\AM1805_DEMO\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\AM1805_DEMO"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/Delta/code/AM1805_DEMO/
+----------------------------------------------------

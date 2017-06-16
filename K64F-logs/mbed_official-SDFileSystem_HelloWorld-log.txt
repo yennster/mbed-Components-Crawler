@@ -1,0 +1,44 @@
+Building project SDFileSystem_HelloWorld (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: ccsbcs.cpp
+Compile [  0.6%]: FATDirHandle.cpp
+[Warning] FATDirHandle.cpp@28,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [  0.9%]: diskio.cpp
+Compile [  1.3%]: FATFileHandle.cpp
+[Warning] FATFileHandle.cpp@28,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+Compile [  1.6%]: main.cpp
+[Warning] SDFileSystem.h@89,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@4,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@4,0:  #20: identifier "p6" is undefined
+[Error] main.cpp@4,0:  #20: identifier "p7" is undefined
+[Error] main.cpp@4,0:  #20: identifier "p8" is undefined
+[ERROR] "./SDFileSystem/SDFileSystem.h", line 89: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 4: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 4: Error:  #20: identifier "p6" is undefined
+".\main.cpp", line 4: Error:  #20: identifier "p7" is undefined
+".\main.cpp", line 4: Error:  #20: identifier "p8" is undefined
+.\main.cpp: 1 warning, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\SDFileSystem_HelloWorld\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\SDFileSystem_HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/mbed_official/code/SDFileSystem_HelloWorld/
+----------------------------------------------------

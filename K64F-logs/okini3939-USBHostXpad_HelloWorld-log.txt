@@ -1,0 +1,47 @@
+Building project USBHostXpad_HelloWorld (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: ccsbcs.cpp
+Compile [  0.6%]: USBHostXpad.cpp
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+[Warning] USBEndpoint.h@35,0:  #1361-D: function "mbed::FunctionPointerArg1<R, void>::FunctionPointerArg1(R (*)()) [with R=void]"  (declared at line 67 of "./mbed-os/platform/FunctionPointer.h") was declared "deprecated"
+[Warning] USBEndpoint.h@99,0:  #1361-D: function "mbed::Callback<R ()>::attach(R (*)()) [with R=void]"  (declared at line 276 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+[Warning] USBDeviceConnected.h@120,0:  #1361-D: function "mbed::Callback<R ()>::attach(R (*)()) [with R=void]"  (declared at line 276 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+[Error] Queue.h@51,0:  #20: identifier "error" is undefined
+[Warning] USBDeviceConnected.h@108,0:  #1361-D: function "mbed::Callback<R ()>::attach(U *, R (T::*)()) [with R=void, T=USBHostXpad, U=USBHostXpad]"  (declared at line 302 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+[Warning] USBEndpoint.h@88,0:  #1361-D: function "mbed::Callback<R ()>::attach(U *, R (T::*)()) [with R=void, T=USBHostXpad, U=USBHostXpad]"  (declared at line 302 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+[ERROR] "./mbed-os/platform/toolchain.h", line 23: Warning:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+"./USBHost/USBHost/USBEndpoint.h", line 35: Warning:  #1361-D: function "mbed::FunctionPointerArg1<R, void>::FunctionPointerArg1(R (*)()) [with R=void]"  (declared at line 67 of "./mbed-os/platform/FunctionPointer.h") was declared "deprecated"
+"./USBHost/USBHost/USBEndpoint.h", line 99: Warning:  #1361-D: function "mbed::Callback<R ()>::attach(R (*)()) [with R=void]"  (declared at line 276 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+"./USBHost/USBHost/USBDeviceConnected.h", line 120: Warning:  #1361-D: function "mbed::Callback<R ()>::attach(R (*)()) [with R=void]"  (declared at line 276 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+"./USBHost/mbed-rtos/rtos/Queue.h", line 51: Error:  #20: identifier "error" is undefined
+"./USBHost/USBHost/USBDeviceConnected.h", line 108: Warning:  #1361-D: function "mbed::Callback<R ()>::attach(U *, R (T::*)()) [with R=void, T=USBHostXpad, U=USBHostXpad]"  (declared at line 302 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+          detected during:
+            instantiation of "void USBDeviceConnected::onDisconnect(std::uint8_t, T *, void (T::*)()) [with T=USBHostXpad]"  at line 170 of "./USBHost/USBHost/USBHost.h"
+            instantiation of "void USBHost::registerDriver(USBDeviceConnected *, std::uint8_t, T *, void (T::*)()) [with T=USBHostXpad]"  at line 67 of ".\USBHostXpad\USBHostXpad.cpp"
+"./USBHost/USBHost/USBEndpoint.h", line 88: Warning:  #1361-D: function "mbed::Callback<R ()>::attach(U *, R (T::*)()) [with R=void, T=USBHostXpad, U=USBHostXpad]"  (declared at line 302 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+          detected during instantiation of "void USBEndpoint::attach(T *, void (T::*)()) [with T=USBHostXpad]"  at line 68 of ".\USBHostXpad\USBHostXpad.cpp"
+.\USBHostXpad\USBHostXpad.cpp: 6 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\USBHostXpad_HelloWorld\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\USBHostXpad_HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/okini3939/code/USBHostXpad_HelloWorld/
+----------------------------------------------------

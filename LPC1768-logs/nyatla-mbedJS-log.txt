@@ -1,0 +1,500 @@
+Building project mbedJS (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: ccsbcs.cpp
+Compile [  0.5%]: diskio.cpp
+Compile [  0.8%]: FATDirHandle.cpp
+[Warning] FATDirHandle.cpp@28,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [  1.0%]: FATFileHandle.cpp
+[Warning] FATFileHandle.cpp@29,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+Compile [  1.3%]: LocalFileSystem2.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] PlatformInfo.h@25,0:  #1-D: last line of file ends without a newline
+Compile [  1.6%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FATFileSystem.cpp@47,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.8%]: SDFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.1%]: NyLPC_cFifoBuffer.c
+Compile [  2.3%]: NyLPC_cMiMicEnv.c
+Compile [  2.6%]: NyLPC_cPtrStream.c
+Compile [  2.9%]: NyLPC_cPtrTbl.c
+Compile [  3.1%]: ff.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ff.cpp@1689,0:  #111-D: statement is unreachable
+Compile [  3.4%]: NyLPC_cRingBuffer.c
+Compile [  3.6%]: NyLPC_cRomPtrStream.c
+Compile [  3.9%]: NyLPC_cStr.c
+Compile [  4.2%]: EthDev.c
+Compile [  4.4%]: NyLPC_stdlib.c
+[Warning] NyLPC_stdlib.c@41,0:  #550-D: variable "_line_log_l"  was set but never used
+[Warning] NyLPC_stdlib.c@42,0:  #550-D: variable "_line_log_m"  was set but never used
+Compile [  4.7%]: NyLPC_cEthernetMM.c
+Compile [  4.9%]: EthDev_K64F.c
+Compile [  5.2%]: fsl_enet_driver.c
+Compile [  5.5%]: hardware_init_MK64F12.c
+Compile [  5.7%]: EthDev.c
+Compile [  6.0%]: EthDev.c
+Compile [  6.2%]: EthDev_LPC17xx.c
+Compile [  6.5%]: EtherDev_DP83848C.c
+Compile [  6.8%]: LPC17xx_IAP.c
+Compile [  7.0%]: EtherDev_LAN8720.c
+Compile [  7.3%]: EthDev_LPC4088.c
+Compile [  7.5%]: NyLPC_cMiMicConfiglation_K64F.c
+Compile [  7.8%]: K64F_IAP.c
+Compile [  8.1%]: NyLPC_cMiMicConfiglation_LPCxxx.c
+Compile [  8.3%]: NyLPC_cOnchipFlashWriter.c
+Compile [  8.6%]: NyLPC_cBase64.c
+Compile [  8.8%]: NyLPC_cHttpBodyParser.c
+Compile [  9.1%]: NyLPC_cHttpBasicBodyParser.c
+Compile [  9.4%]: NyLPC_cHttpBasicHeaderParser.c
+[Warning] NyLPC_cHttpBasicHeaderParser.c@267,0:  #111-D: statement is unreachable
+Compile [  9.6%]: NyLPC_cHttpBodyWriter.c
+Compile [  9.9%]: NyLPC_cHttpNullRequestHeaderParser.c
+Compile [ 10.1%]: NyLPC_cHttpHeaderWriter.c
+Compile [ 10.4%]: NyLPC_cJsonWeiter.c
+Compile [ 10.6%]: NyLPC_cHttpStream.c
+Compile [ 10.9%]: NyLPC_cMimeType.c
+Compile [ 11.2%]: NyLPC_cUrlEncode.c
+Compile [ 11.4%]: NyLPC_cUrlReader.c
+Compile [ 11.7%]: NyLPC_cJsonRpcFunction_Memory.c
+Compile [ 11.9%]: NyLPC_cMiMicDbCompiler.c
+Compile [ 12.2%]: NyLPC_cJsonRpcParser.c
+Compile [ 12.5%]: NyLPC_mimicvm_utils.c
+Compile [ 12.7%]: NyLPC_cMiMicTxtCompiler.c
+[Warning] NyLPC_cMiMicTxtCompiler.h@81,0:  #1-D: last line of file ends without a newline
+Compile [ 13.0%]: NyLPC_cNetConfig.c
+Compile [ 13.2%]: NyLPC_cMiMicVM.c
+Compile [ 13.5%]: NyLPC_cHttpRequestPrefixParser.c
+Compile [ 13.8%]: NyLPC_cHttpClient.c
+Compile [ 14.0%]: NyLPC_cHttpd.c
+Compile [ 14.3%]: NyLPC_cHttpdConnection.c
+Compile [ 14.5%]: NyLPC_cHttpdThread.c
+Compile [ 14.8%]: NyLPC_cHttpdUtils.c
+Compile [ 15.1%]: NyLPC_cModFileIoBaseClass.c
+[Warning] NyLPC_cModFileIoBaseClass.c@184,0:  #111-D: statement is unreachable
+Compile [ 15.3%]: NyLPC_cModJsonRpc.c
+Compile [ 15.6%]: NyLPC_cModMiMicSetting.c
+[Warning] NyLPC_cMiMicTxtCompiler.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] NyLPC_cModMiMicSetting.c@269,0:  #111-D: statement is unreachable
+[Warning] NyLPC_cModMiMicSetting.c@511,0:  #111-D: statement is unreachable
+Compile [ 15.8%]: NyLPC_cModRomFiles.c
+Compile [ 16.1%]: NyLPC_cModRemoteMcu.c
+[Warning] NyLPC_cMiMicTxtCompiler.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] NyLPC_cModRemoteMcu.c@297,0:  #111-D: statement is unreachable
+Compile [ 16.4%]: NyLPC_cModUPnPDevice.c
+Compile [ 16.6%]: NyLPC_cModUrl.c
+Compile [ 16.9%]: NyLPC_cUPnP.c
+Compile [ 17.1%]: NyLPC_cModWebSocket.c
+Compile [ 17.4%]: NyLPC_NetIf_ethernet_types.c
+Compile [ 17.7%]: NyLPC_cSsdpSocket.c
+Compile [ 17.9%]: NyLPC_cMDnsServer.c
+Compile [ 18.2%]: NyLPC_NetIf_ip_types.c
+Compile [ 18.4%]: NyLPC_cIPv4Config.c
+Compile [ 18.7%]: NyLPC_cNet.c
+Compile [ 19.0%]: NyLPC_cApipa.c
+Compile [ 19.2%]: NyLPC_cIPv4.c
+Compile [ 19.5%]: NyLPC_cDhcpClient.c
+Compile [ 19.7%]: NyLPC_cIPv4Arp.c
+Compile [ 20.0%]: NyLPC_cIPv4Payload.c
+Compile [ 20.3%]: NyLPC_cIPv4IComp.c
+Compile [ 20.5%]: NyLPC_cMiMicIpTcpListener.c
+Compile [ 20.8%]: NyLPC_cMiMicIpUdpSocket.c
+Compile [ 21.0%]: NyLPC_cMiMicIpNetIf.c
+[Warning] NyLPC_cMiMicIpNetIf.c@349,0:  #111-D: statement is unreachable
+Compile [ 21.3%]: NyLPC_cMiMicIpTcpSocket.c
+Compile [ 21.6%]: NyLPC_cIsr.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 21.8%]: NyLPC_cMutex.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] NyLPC_cMutex.cpp@51,0:  #1-D: last line of file ends without a newline
+Compile [ 22.1%]: NyLPC_cSemaphore.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 22.3%]: NyLPC_cSupporter.c
+Compile [ 22.6%]: NyLPC_cStopwatch.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 22.9%]: NyLPC_cFormatTextReader.c
+Compile [ 23.1%]: NyLPC_cFormatWriter.c
+Compile [ 23.4%]: NyLPC_cRomFileSet.c
+Compile [ 23.6%]: NyLPC_cUuid.c
+Compile [ 23.9%]: NyLPC_cThread.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] NyLPC_cThread.cpp@53,0:  #1361-D: function "rtos::Thread::Thread(void (*)(const void *), void *, osPriority, std::uint32_t, unsigned char *)"  (declared at line 189 of "./mbed-os/rtos/Thread.h") was declared "deprecated"
+Compile [ 24.2%]: HttpClient.cpp
+[Warning] IpAddr.h@30,0:  #1-D: last line of file ends without a newline
+[Warning] HttpClient.cpp@80,0:  #1-D: last line of file ends without a newline
+Compile [ 24.4%]: HttpdConnection.cpp
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.cpp@68,0:  #1-D: last line of file ends without a newline
+Compile [ 24.7%]: sha1.c
+[Warning] sha1.c@159,0:  #550-D: variable "j"  was set but never used
+Compile [ 24.9%]: Httpd.cpp
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 25.2%]: Net.cpp
+[Warning] IpAddr.h@30,0:  #1-D: last line of file ends without a newline
+[Warning] NetConfig.h@192,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 25.5%]: NetConfig.cpp
+[Warning] IpAddr.h@30,0:  #1-D: last line of file ends without a newline
+[Warning] NetConfig.h@192,0:  #1-D: last line of file ends without a newline
+[Warning] PlatformInfo.h@25,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 25.7%]: TcpSocket.cpp
+[Warning] IpAddr.h@30,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 26.0%]: UdpSocket.cpp
+[Warning] IpAddr.h@30,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 26.2%]: UrlReader.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] UrlReader.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] UrlReader.cpp@84,0:  #1-D: last line of file ends without a newline
+Compile [ 26.5%]: RpcAnalogIn.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 26.8%]: RpcAnalogOut.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 27.0%]: RpcBusIn.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 27.3%]: RpcBusInOut.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 27.5%]: RpcBusOut.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 27.8%]: RpcDigitalIn.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 28.1%]: RpcDigitalOut.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 28.3%]: RpcI2C.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 28.6%]: RpcI2CSlave.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 28.8%]: RpcMcu.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] RpcMcu.cpp@5,0:  #177-D: function "getFreeMemory"  was declared but never referenced
+Compile [ 29.1%]: RpcPortIn.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 29.4%]: RpcPortOut.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 29.6%]: RpcSPI.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 29.9%]: RpcPwmOut.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 30.1%]: RpcSPISlave.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 30.4%]: RpcSerial.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 30.6%]: ModBaseClass.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+Compile [ 30.9%]: Target_K64F.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+Compile [ 31.2%]: Target_LPC176x.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+Compile [ 31.4%]: Target_LPC4088.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+Compile [ 31.7%]: ModJsonRpc.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+Compile [ 31.9%]: ModMiMicSetting.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] ModMiMicSetting.h@42,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] ModMiMicSetting.cpp@38,0:  #1-D: last line of file ends without a newline
+Compile [ 32.2%]: ModRemoteMcu.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] ModRemoteMcu.h@42,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] ModRemoteMcu.cpp@37,0:  #1-D: last line of file ends without a newline
+Compile [ 32.5%]: ModRomFiles.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] ModRomFiles.h@52,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] ModRomFiles.cpp@39,0:  #1-D: last line of file ends without a newline
+Compile [ 32.7%]: ModFileIo.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] ModFileIo.h@30,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ModFileIo.cpp@128,0:  #1-D: last line of file ends without a newline
+Compile [ 33.0%]: ModUrl.cpp
+[Warning] ModUrl.h@50,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] ModUrl.cpp@29,0:  #1-D: last line of file ends without a newline
+Compile [ 33.2%]: ModLocalFileSystem.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] ModLocalFileSystem.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] UrlReader.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] Http.h@17,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 33.5%]: ModWebSocket.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] ModWebSocket.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] ModWebSocket.cpp@106,0:  #1-D: last line of file ends without a newline
+Compile [ 33.8%]: ModUPnPDevice.cpp
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] ModUPnPDevice.h@31,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ModUPnPDevice.cpp@44,0:  #1-D: last line of file ends without a newline
+Compile [ 34.0%]: MiMicNetIf.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 34.3%]: AnalogIn.cpp
+Compile [ 34.5%]: PlatformInfo.cpp
+[Warning] PlatformInfo.h@25,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] PlatformInfo.cpp@59,0:  #1-D: last line of file ends without a newline
+Compile [ 34.8%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] IpAddr.h@30,0:  #1-D: last line of file ends without a newline
+[Warning] NetConfig.h@192,0:  #1-D: last line of file ends without a newline
+[Warning] Httpd.h@65,0:  #1-D: last line of file ends without a newline
+[Warning] Http.h@17,0:  #1-D: last line of file ends without a newline
+[Warning] UrlReader.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] HttpdConnection.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] ModUrl.h@50,0:  #1-D: last line of file ends without a newline
+[Warning] ModBaseClass.h@43,0:  #1-D: last line of file ends without a newline
+[Warning] ModRomFiles.h@52,0:  #1-D: last line of file ends without a newline
+[Warning] ModRemoteMcu.h@42,0:  #1-D: last line of file ends without a newline
+[Warning] ModMiMicSetting.h@42,0:  #1-D: last line of file ends without a newline
+[Warning] ModLocalFileSystem.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] ModFileIo.h@30,0:  #1-D: last line of file ends without a newline
+[Warning] ModUPnPDevice.h@31,0:  #1-D: last line of file ends without a newline
+[Warning] ModWebSocket.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] mimic.h@32,0:  #1-D: last line of file ends without a newline
+Compile [ 35.1%]: BusIn.cpp
+Compile [ 35.3%]: BusOut.cpp
+Compile [ 35.6%]: BusInOut.cpp
+Compile [ 35.8%]: Ethernet.cpp
+Compile [ 36.1%]: CAN.cpp
+Compile [ 36.4%]: FilePath.cpp
+Compile [ 36.6%]: FileBase.cpp
+Compile [ 36.9%]: FlashIAP.cpp
+Compile [ 37.1%]: FileSystemLike.cpp
+Compile [ 37.4%]: I2C.cpp
+Compile [ 37.7%]: I2CSlave.cpp
+Compile [ 37.9%]: InterruptIn.cpp
+Compile [ 38.2%]: InterruptManager.cpp
+Compile [ 38.4%]: LocalFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@110,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@188,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [ 38.7%]: RawSerial.cpp
+Compile [ 39.0%]: SPI.cpp
+Compile [ 39.2%]: SPISlave.cpp
+Compile [ 39.5%]: Serial.cpp
+Compile [ 39.7%]: SerialBase.cpp
+Compile [ 40.0%]: Stream.cpp
+Compile [ 40.3%]: Timeout.cpp
+Compile [ 40.5%]: Ticker.cpp
+Compile [ 40.8%]: Timer.cpp
+Compile [ 41.0%]: equeue.c
+Compile [ 41.3%]: TimerEvent.cpp
+Compile [ 41.6%]: equeue_posix.c
+Compile [ 41.8%]: emac_lwip.c
+Compile [ 42.1%]: EventQueue.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 42.3%]: emac_stack_lwip.cpp
+Compile [ 42.6%]: equeue_mbed.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 42.9%]: lwip_checksum.c
+Compile [ 43.1%]: lwip_memcpy.c
+Compile [ 43.4%]: EthernetInterface.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 43.6%]: lpc_phy_dp83848.c
+Compile [ 43.9%]: lpc17_emac.c
+Compile [ 44.2%]: lwip_sys_arch.c
+Compile [ 44.4%]: lwip_random.c
+Compile [ 44.7%]: lwip_tcp_isn.c
+Compile [ 44.9%]: lwip_api_lib.c
+Compile [ 45.2%]: lwip_err.c
+Compile [ 45.5%]: lwip_api_msg.c
+Compile [ 45.7%]: lwip_netifapi.c
+Compile [ 46.0%]: lwip_netdb.c
+Compile [ 46.2%]: lwip_netbuf.c
+Compile [ 46.5%]: lwip_sockets.c
+Compile [ 46.8%]: lwip_autoip.c
+Compile [ 47.0%]: lwip_tcpip.c
+Compile [ 47.3%]: lwip_icmp.c
+Compile [ 47.5%]: lwip_etharp.c
+Compile [ 47.8%]: lwip_dhcp.c
+Compile [ 48.1%]: lwip_igmp.c
+Compile [ 48.3%]: lwip_ip4_addr.c
+Compile [ 48.6%]: lwip_ip4.c
+Compile [ 48.8%]: lwip_ip4_frag.c
+Compile [ 49.1%]: lwip_dhcp6.c
+Compile [ 49.4%]: lwip_ethip6.c
+Compile [ 49.6%]: lwip_icmp6.c
+Compile [ 49.9%]: lwip_inet6.c
+Compile [ 50.1%]: lwip_ip6.c
+Compile [ 50.4%]: lwip_ip6_addr.c
+Compile [ 50.6%]: lwip_ip6_frag.c
+Compile [ 50.9%]: lwip_mld6.c
+Compile [ 51.2%]: lwip_nd6.c
+Compile [ 51.4%]: lwip_def.c
+Compile [ 51.7%]: lwip_inet_chksum.c
+Compile [ 51.9%]: lwip_init.c
+Compile [ 52.2%]: lwip_ip.c
+Compile [ 52.5%]: lwip_dns.c
+Compile [ 52.7%]: lwip_mem.c
+Compile [ 53.0%]: lwip_memp.c
+Compile [ 53.2%]: lwip_netif.c
+Compile [ 53.5%]: lwip_raw.c
+Compile [ 53.8%]: lwip_pbuf.c
+Compile [ 54.0%]: lwip_stats.c
+Compile [ 54.3%]: lwip_sys.c
+Compile [ 54.5%]: lwip_timeouts.c
+Compile [ 54.8%]: lwip_tcp_in.c
+Compile [ 55.1%]: lwip_tcp.c
+Compile [ 55.3%]: lwip_tcp_out.c
+Compile [ 55.6%]: lwip_ethernet.c
+Compile [ 55.8%]: lwip_lowpan6.c
+Compile [ 56.1%]: lwip_ethernetif.c
+Compile [ 56.4%]: lwip_udp.c
+Compile [ 56.6%]: lwip_stack.c
+Compile [ 56.9%]: File.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 57.1%]: Dir.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 57.4%]: FileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 57.7%]: ccsbcs.cpp
+Compile [ 57.9%]: HeapBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 58.2%]: SlicingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 58.4%]: ChainingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 58.7%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] FATFileSystem.cpp@257,0:  #167: argument of type "FATFS *" is incompatible with parameter of type "BYTE"
+[Error] FATFileSystem.cpp@257,0:  #167: argument of type "char *" is incompatible with parameter of type "FATFS *"
+[Error] FATFileSystem.cpp@257,0:  #140: too many arguments in function call
+[Error] FATFileSystem.cpp@275,0:  #167: argument of type "char *" is incompatible with parameter of type "FATFS *"
+[Error] FATFileSystem.cpp@275,0:  #140: too many arguments in function call
+[Error] FATFileSystem.cpp@293,0:  #167: argument of type "char *" is incompatible with parameter of type "BYTE"
+[Error] FATFileSystem.cpp@309,0:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+[Error] FATFileSystem.cpp@309,0:  #165: too few arguments in function call
+[Error] FATFileSystem.cpp@320,0:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+[Error] FATFileSystem.cpp@320,0:  #165: too few arguments in function call
+[Error] FATFileSystem.cpp@331,0:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+[Error] FATFileSystem.cpp@331,0:  #165: too few arguments in function call
+[Error] FATFileSystem.cpp@345,0:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+[Error] FATFileSystem.cpp@345,0:  #167: argument of type "FILINFO *" is incompatible with parameter of type "const TCHAR *"
+[Error] FATFileSystem.cpp@345,0:  #165: too few arguments in function call
+[Error] FATFileSystem.cpp@400,0:  #167: argument of type "char *" is incompatible with parameter of type "int"
+[Error] FATFileSystem.cpp@400,0:  #167: argument of type "BYTE" is incompatible with parameter of type "const TCHAR *"
+[Error] FATFileSystem.cpp@400,0:  #165: too few arguments in function call
+[Error] FATFileSystem.cpp@524,0:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+[Error] FATFileSystem.cpp@524,0:  #165: too few arguments in function call
+[Error] FATFileSystem.cpp@541,0:  #20: identifier "f_closedir" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 257: Error:  #167: argument of type "FATFS *" is incompatible with parameter of type "BYTE"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 257: Error:  #167: argument of type "char *" is incompatible with parameter of type "FATFS *"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 257: Error:  #140: too many arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 275: Error:  #167: argument of type "char *" is incompatible with parameter of type "FATFS *"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 275: Error:  #140: too many arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 293: Error:  #167: argument of type "char *" is incompatible with parameter of type "BYTE"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 309: Error:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 309: Error:  #165: too few arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 320: Error:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 320: Error:  #165: too few arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 331: Error:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 331: Error:  #165: too few arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 345: Error:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 345: Error:  #167: argument of type "FILINFO *" is incompatible with parameter of type "const TCHAR *"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 345: Error:  #165: too few arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 400: Error:  #167: argument of type "char *" is incompatible with parameter of type "int"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 400: Error:  #167: argument of type "BYTE" is incompatible with parameter of type "const TCHAR *"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 400: Error:  #165: too few arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 524: Error:  #167: argument of type "const char *" is incompatible with parameter of type "int"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 524: Error:  #165: too few arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 541: Error:  #20: identifier "f_closedir" is undefined
+.\mbed-os\features\filesystem\fat\FATFileSystem.cpp: 1 warning, 21 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\mbedJS\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\mbedJS"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/nyatla/code/mbedJS/
+----------------------------------------------------

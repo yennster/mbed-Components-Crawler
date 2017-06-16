@@ -1,0 +1,40 @@
+Building project SCP1000_Hello (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Warning] SCP1000.h@71,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@5,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@5,0:  #20: identifier "p6" is undefined
+[Error] main.cpp@5,0:  #20: identifier "p7" is undefined
+[Error] main.cpp@5,0:  #20: identifier "p8" is undefined
+[Warning] main.cpp@10,0:  #1-D: last line of file ends without a newline
+[ERROR] "./SCP1000/SCP1000.h", line 71: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 5: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "p6" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "p7" is undefined
+".\main.cpp", line 5: Error:  #20: identifier "p8" is undefined
+".\main.cpp", line 10: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 2 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\SCP1000_Hello\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\SCP1000_Hello"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/sdhingra/code/SCP1000_Hello/
+----------------------------------------------------

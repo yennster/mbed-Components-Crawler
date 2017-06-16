@@ -1,0 +1,36 @@
+Building project HelloWorld_IHM04A1 (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] L6206.h@440,0:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=L6206, M=void (L6206::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+[Warning] L6206.h@445,0:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=L6206, M=void (L6206::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+[Error] main.cpp@81,0:  #20: identifier "USER_BUTTON" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./X_NUCLEO_IHM04A1/Components/L6206/L6206.h", line 440: Warning:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=L6206, M=void (L6206::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+"./X_NUCLEO_IHM04A1/Components/L6206/L6206.h", line 445: Warning:  #1361-D: function "mbed::InterruptIn::fall(T *, M) [with T=L6206, M=void (L6206::*)()]"  (declared at line 126 of "./mbed-os/drivers/InterruptIn.h") was declared "deprecated"
+".\main.cpp", line 81: Error:  #20: identifier "USER_BUTTON" is undefined
+.\main.cpp: 3 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HelloWorld_IHM04A1\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\HelloWorld_IHM04A1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/HelloWorld_IHM04A1/
+----------------------------------------------------

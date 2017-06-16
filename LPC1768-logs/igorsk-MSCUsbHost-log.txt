@@ -1,0 +1,198 @@
+Building project MSCUsbHost (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: FATFileHandle.cpp
+[Warning] FATFileHandle.cpp@33,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+Compile [  0.8%]: FATDirHandle.cpp
+[Warning] FATDirHandle.cpp@14,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [  1.1%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] FATFileSystem.cpp@44,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.5%]: diskio.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  1.9%]: ccsbcs.c
+Compile [  2.3%]: MSCFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.7%]: usbhost_ms.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.1%]: usbhost_lpc17xx.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.4%]: ff.cpp
+[Warning] ff.cpp@1653,0:  #111-D: statement is unreachable
+Compile [  3.8%]: AnalogIn.cpp
+Compile [  4.2%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  4.6%]: BusIn.cpp
+Compile [  5.0%]: BusInOut.cpp
+Compile [  5.4%]: BusOut.cpp
+Compile [  5.7%]: Ethernet.cpp
+Compile [  6.1%]: CAN.cpp
+Compile [  6.5%]: FileBase.cpp
+Compile [  6.9%]: FlashIAP.cpp
+Compile [  7.3%]: FilePath.cpp
+Compile [  7.7%]: I2C.cpp
+Compile [  8.0%]: FileSystemLike.cpp
+Compile [  8.4%]: I2CSlave.cpp
+Compile [  8.8%]: InterruptManager.cpp
+Compile [  9.2%]: InterruptIn.cpp
+Compile [  9.6%]: LocalFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@110,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@188,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [ 10.0%]: RawSerial.cpp
+Compile [ 10.3%]: SPI.cpp
+Compile [ 10.7%]: SPISlave.cpp
+Compile [ 11.1%]: Serial.cpp
+Compile [ 11.5%]: SerialBase.cpp
+Compile [ 11.9%]: Stream.cpp
+Compile [ 12.3%]: Ticker.cpp
+Compile [ 12.6%]: Timeout.cpp
+Compile [ 13.0%]: Timer.cpp
+Compile [ 13.4%]: equeue.c
+Compile [ 13.8%]: TimerEvent.cpp
+Compile [ 14.2%]: equeue_posix.c
+Compile [ 14.6%]: EventQueue.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 14.9%]: emac_lwip.c
+Compile [ 15.3%]: emac_stack_lwip.cpp
+Compile [ 15.7%]: equeue_mbed.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 16.1%]: lwip_checksum.c
+Compile [ 16.5%]: EthernetInterface.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 16.9%]: lwip_memcpy.c
+Compile [ 17.2%]: lpc17_emac.c
+Compile [ 17.6%]: lpc_phy_dp83848.c
+Compile [ 18.0%]: lwip_random.c
+Compile [ 18.4%]: lwip_sys_arch.c
+Compile [ 18.8%]: lwip_api_lib.c
+Compile [ 19.2%]: lwip_tcp_isn.c
+Compile [ 19.5%]: lwip_err.c
+Compile [ 19.9%]: lwip_netdb.c
+Compile [ 20.3%]: lwip_netbuf.c
+Compile [ 20.7%]: lwip_api_msg.c
+Compile [ 21.1%]: lwip_netifapi.c
+Compile [ 21.5%]: lwip_sockets.c
+Compile [ 21.8%]: lwip_autoip.c
+Compile [ 22.2%]: lwip_tcpip.c
+Compile [ 22.6%]: lwip_icmp.c
+Compile [ 23.0%]: lwip_etharp.c
+Compile [ 23.4%]: lwip_dhcp.c
+Compile [ 23.8%]: lwip_igmp.c
+Compile [ 24.1%]: lwip_ip4.c
+Compile [ 24.5%]: lwip_ip4_addr.c
+Compile [ 24.9%]: lwip_dhcp6.c
+Compile [ 25.3%]: lwip_ip4_frag.c
+Compile [ 25.7%]: lwip_ethip6.c
+Compile [ 26.1%]: lwip_icmp6.c
+Compile [ 26.4%]: lwip_inet6.c
+Compile [ 26.8%]: lwip_ip6.c
+Compile [ 27.2%]: lwip_ip6_addr.c
+Compile [ 27.6%]: lwip_ip6_frag.c
+Compile [ 28.0%]: lwip_mld6.c
+Compile [ 28.4%]: lwip_nd6.c
+Compile [ 28.7%]: lwip_def.c
+Compile [ 29.1%]: lwip_init.c
+Compile [ 29.5%]: lwip_inet_chksum.c
+Compile [ 29.9%]: lwip_dns.c
+Compile [ 30.3%]: lwip_ip.c
+Compile [ 30.7%]: lwip_mem.c
+Compile [ 31.0%]: lwip_memp.c
+Compile [ 31.4%]: lwip_netif.c
+Compile [ 31.8%]: lwip_raw.c
+Compile [ 32.2%]: lwip_stats.c
+Compile [ 32.6%]: lwip_pbuf.c
+Compile [ 33.0%]: lwip_sys.c
+Compile [ 33.3%]: lwip_tcp_in.c
+Compile [ 33.7%]: lwip_tcp.c
+Compile [ 34.1%]: lwip_tcp_out.c
+Compile [ 34.5%]: lwip_timeouts.c
+Compile [ 34.9%]: lwip_ethernet.c
+Compile [ 35.2%]: lwip_ethernetif.c
+Compile [ 35.6%]: lwip_lowpan6.c
+Compile [ 36.0%]: lwip_udp.c
+Compile [ 36.4%]: Dir.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 36.8%]: lwip_stack.c
+Compile [ 37.2%]: File.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 37.5%]: FileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 37.9%]: ccsbcs.cpp
+Compile [ 38.3%]: SlicingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 38.7%]: HeapBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 39.1%]: ChainingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 39.5%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] FATFileSystem.cpp@152,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@158,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@164,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@172,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@189,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@256,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@257,0:  #167: argument of type "FATFS *" is incompatible with parameter of type "BYTE"
+[Error] FATFileSystem.cpp@257,0:  #167: argument of type "char *" is incompatible with parameter of type "FATFS *"
+[Error] FATFileSystem.cpp@257,0:  #140: too many arguments in function call
+[Error] FATFileSystem.cpp@275,0:  #167: argument of type "char *" is incompatible with parameter of type "FATFS *"
+[Error] FATFileSystem.cpp@275,0:  #140: too many arguments in function call
+[Error] FATFileSystem.cpp@293,0:  #167: argument of type "char *" is incompatible with parameter of type "BYTE"
+[Error] FATFileSystem.cpp@313,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@324,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@335,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@376,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@440,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@456,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@471,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@491,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@528,0:  #20: identifier "FFS_DBG" is undefined
+[Error] FATFileSystem.cpp@541,0:  #20: identifier "f_closedir" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 152: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 158: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 164: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 172: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 189: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 256: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 257: Error:  #167: argument of type "FATFS *" is incompatible with parameter of type "BYTE"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 257: Error:  #167: argument of type "char *" is incompatible with parameter of type "FATFS *"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 257: Error:  #140: too many arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 275: Error:  #167: argument of type "char *" is incompatible with parameter of type "FATFS *"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 275: Error:  #140: too many arguments in function call
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 293: Error:  #167: argument of type "char *" is incompatible with parameter of type "BYTE"
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 313: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 324: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 335: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 376: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 440: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 456: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 471: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 491: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 528: Error:  #20: identifier "FFS_DBG" is undefined
+".\mbed-os\features\filesystem\fat\FATFileSystem.cpp", line 541: Error:  #20: identifier "f_closedir" is undefined
+.\mbed-os\features\filesystem\fat\FATFileSystem.cpp: 1 warning, 22 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\MSCUsbHost\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\MSCUsbHost"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/igorsk/code/MSCUsbHost/
+----------------------------------------------------

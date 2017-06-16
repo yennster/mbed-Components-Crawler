@@ -1,0 +1,169 @@
+Building project PAJ7620_Gesture (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: DFUService.cpp
+[Warning] DFUService.cpp@44,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: GapScanningParams.cpp
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.cpp@75,0:  #1-D: last line of file ends without a newline
+Compile [  0.8%]: BLE.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1523,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@150,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.cpp@229,0:  #1-D: last line of file ends without a newline
+Compile [  1.1%]: DiscoveredCharacteristic.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.cpp@167,0:  #1-D: last line of file ends without a newline
+Compile [  1.4%]: Gesture.cpp
+[Warning] PAC7620_30Set.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] Gesture.h@38,0:  #1-D: last line of file ends without a newline
+[Warning] Gesture.cpp@73,0:  #1361-D: function "mbed::Ticker::attach_us(T *, M, timestamp_t) [with T=Pixart_Gesture, M=void (Pixart_Gesture::*)()]"  (declared at line 121 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+[Warning] Gesture.cpp@165,0:  #1-D: last line of file ends without a newline
+Compile [  1.7%]: URIBeaconConfigService.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1523,0:  #1-D: last line of file ends without a newline
+[Warning] URIBeaconConfigService.h@472,0:  #1-D: last line of file ends without a newline
+[Warning] URIBeaconConfigService.cpp@35,0:  #1-D: last line of file ends without a newline
+Compile [  1.9%]: UARTService.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1523,0:  #1-D: last line of file ends without a newline
+[Warning] UARTService.h@206,0:  #1-D: last line of file ends without a newline
+[Warning] UARTService.cpp@41,0:  #1-D: last line of file ends without a newline
+Compile [  2.2%]: main.cpp
+[Warning] Gesture.h@38,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@23,0:  #20: identifier "p15" is undefined
+[Error] main.cpp@24,0:  #20: identifier "p13" is undefined
+[Error] main.cpp@25,0:  #20: identifier "p12" is undefined
+[Error] main.cpp@26,0:  #20: identifier "p14" is undefined
+[Error] main.cpp@27,0:  #20: identifier "p17" is undefined
+[Error] main.cpp@28,0:  #20: identifier "p18" is undefined
+[Error] main.cpp@29,0:  #20: identifier "p19" is undefined
+[Error] main.cpp@30,0:  #20: identifier "p20" is undefined
+[Error] main.cpp@36,0:  #20: identifier "I2C_SDA0" is undefined
+[Error] main.cpp@36,0:  #20: identifier "I2C_SCL0" is undefined
+[ERROR] "./Pixart_Gesture/Gesture.h", line 38: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 23: Error:  #20: identifier "p15" is undefined
+".\main.cpp", line 24: Error:  #20: identifier "p13" is undefined
+".\main.cpp", line 25: Error:  #20: identifier "p12" is undefined
+".\main.cpp", line 26: Error:  #20: identifier "p14" is undefined
+".\main.cpp", line 27: Error:  #20: identifier "p17" is undefined
+".\main.cpp", line 28: Error:  #20: identifier "p18" is undefined
+".\main.cpp", line 29: Error:  #20: identifier "p19" is undefined
+".\main.cpp", line 30: Error:  #20: identifier "p20" is undefined
+".\main.cpp", line 36: Error:  #20: identifier "I2C_SDA0" is undefined
+".\main.cpp", line 36: Error:  #20: identifier "I2C_SCL0" is undefined
+.\main.cpp: 1 warning, 10 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\PAJ7620_Gesture\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\PAJ7620_Gesture"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/pixus_mbed/code/PAJ7620_Gesture/
+----------------------------------------------------

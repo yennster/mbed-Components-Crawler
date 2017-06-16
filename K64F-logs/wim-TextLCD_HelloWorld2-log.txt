@@ -1,0 +1,40 @@
+Building project TextLCD_HelloWorld2 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: main.cpp
+[Warning] TextLCD_Config.h@367,0:  #1-D: last line of file ends without a newline
+[Warning] TextLCD_UDC.h@89,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@10,0:  #20: identifier "p9" is undefined
+[Error] main.cpp@10,0:  #20: identifier "p10" is undefined
+[Error] main.cpp@14,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@14,0:  #20: identifier "p7" is undefined
+[ERROR] "./TextLCD/TextLCD_Config.h", line 367: Warning:  #1-D: last line of file ends without a newline
+"./TextLCD/TextLCD_UDC.h", line 89: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 10: Error:  #20: identifier "p9" is undefined
+".\main.cpp", line 10: Error:  #20: identifier "p10" is undefined
+".\main.cpp", line 14: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 14: Error:  #20: identifier "p7" is undefined
+.\main.cpp: 2 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\TextLCD_HelloWorld2\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\TextLCD_HelloWorld2"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/wim/code/TextLCD_HelloWorld2/
+----------------------------------------------------

@@ -1,0 +1,40 @@
+Building project CN0216-helloworld (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: AD7791.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Error] AD7791.h@115,0:  #20: identifier "SPI_CS" is undefined
+[Error] AD7791.h@115,0:  #20: identifier "SPI_MOSI" is undefined
+[Error] AD7791.h@115,0:  #20: identifier "SPI_MISO" is undefined
+[Error] AD7791.h@115,0:  #20: identifier "SPI_SCK" is undefined
+[Warning] AD7791.cpp@239,0:  #68-D: integer conversion resulted in a change of sign
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\CN0216\AD7791\AD7791.h", line 115: Error:  #20: identifier "SPI_CS" is undefined
+".\CN0216\AD7791\AD7791.h", line 115: Error:  #20: identifier "SPI_MOSI" is undefined
+".\CN0216\AD7791\AD7791.h", line 115: Error:  #20: identifier "SPI_MISO" is undefined
+".\CN0216\AD7791\AD7791.h", line 115: Error:  #20: identifier "SPI_SCK" is undefined
+".\CN0216\AD7791\AD7791.cpp", line 239: Warning:  #68-D: integer conversion resulted in a change of sign
+.\CN0216\AD7791\AD7791.cpp: 2 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\CN0216-helloworld\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\CN0216-helloworld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/AnalogDevices/code/CN0216-helloworld/
+----------------------------------------------------

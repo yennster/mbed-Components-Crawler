@@ -1,0 +1,35 @@
+Building project HTTPClient_WiFi_HelloWorld (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: EthernetPowerControl.cpp
+Compile [  0.6%]: HTTPText.cpp
+Compile [  0.9%]: HTTPMap.cpp
+Compile [  1.2%]: HTTPClient.cpp
+[Error] TCPServer.h@85,0:  #20: identifier "TCPSocket" is undefined
+[Error] Socket.h@36,0:  #256: invalid redeclaration of type name "Socket"  (declared at line 32 of "./mbed-os/features/netsocket/Socket.h")
+[ERROR] "./mbed-os/features/netsocket/TCPServer.h", line 85: Error:  #20: identifier "TCPSocket" is undefined
+"./SNICInterface/Socket/Socket.h", line 36: Error:  #256: invalid redeclaration of type name "Socket"  (declared at line 32 of "./mbed-os/features/netsocket/Socket.h")
+.\HTTPClient\HTTPClient.cpp: 0 warnings, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HTTPClient_WiFi_HelloWorld\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\HTTPClient_WiFi_HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/KDDI-Fx0-hackathon/code/HTTPClient_WiFi_HelloWorld/
+----------------------------------------------------

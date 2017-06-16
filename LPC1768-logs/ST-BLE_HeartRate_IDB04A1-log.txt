@@ -1,0 +1,941 @@
+Building project BLE_HeartRate_IDB04A1 (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: BLEInstanceBase.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.cpp@28,0:  #1-D: last line of file ends without a newline
+Compile [  0.7%]: GapScanningParams.cpp
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.cpp@75,0:  #1-D: last line of file ends without a newline
+Compile [  1.1%]: BLE.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+[Warning] BLE.cpp@286,0:  #1-D: last line of file ends without a newline
+Compile [  1.4%]: DiscoveredCharacteristic.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.cpp@167,0:  #1-D: last line of file ends without a newline
+Compile [  1.8%]: DFUService.cpp
+[Warning] DFUService.cpp@44,0:  #1-D: last line of file ends without a newline
+Compile [  2.2%]: URIBeaconConfigService.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] URIBeaconConfigService.h@472,0:  #1-D: last line of file ends without a newline
+[Warning] URIBeaconConfigService.cpp@35,0:  #1-D: last line of file ends without a newline
+Compile [  2.5%]: UARTService.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] UARTService.h@206,0:  #1-D: last line of file ends without a newline
+[Warning] UARTService.cpp@41,0:  #1-D: last line of file ends without a newline
+Compile [  2.9%]: BlueNRGDiscoveredCharacteristic.cpp
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.cpp@68,0:  #1-D: last line of file ends without a newline
+Compile [  3.2%]: BlueNRGDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDevice.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_utils.h@204,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDevice.cpp@475,0:  #1-D: last line of file ends without a newline
+Compile [  3.6%]: BlueNRGGap.cpp
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDevice.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] ble_payload.h@195,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.cpp@1447,0:  #1-D: last line of file ends without a newline
+Compile [  3.9%]: BlueNRGGattClient.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.cpp@835,0:  #1-D: last line of file ends without a newline
+Compile [  4.3%]: ble_hci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+Compile [  4.7%]: bluenrg_gap_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap_aci.c@1307,0:  #1-D: last line of file ends without a newline
+Compile [  5.0%]: bluenrg_hal_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+Compile [  5.4%]: bluenrg_gatt_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_aci.c@1471,0:  #1-D: last line of file ends without a newline
+Compile [  5.7%]: bluenrg_l2cap_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_l2cap_aci.c@118,0:  #1-D: last line of file ends without a newline
+Compile [  6.1%]: bluenrg_updater_aci.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+Compile [  6.5%]: bluenrg_utils.c
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_utils.h@204,0:  #1-D: last line of file ends without a newline
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_utils.c@430,0:  #1-D: last line of file ends without a newline
+Compile [  6.8%]: ble_gp_timer.c
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.c@155,0:  #1-D: last line of file ends without a newline
+Compile [  7.2%]: ble_list.c
+Compile [  7.5%]: ble_osal.c
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_osal.c@72,0:  #1-D: last line of file ends without a newline
+Compile [  7.9%]: ble_clock.c
+[Warning] wait_api.h@21,0:  #1215-D: #warning directive: wait_api.h has been replaced by mbed_wait_api.h, please update to mbed_wait_api.h [since mbed-os-5.3]
+[Warning] rtc_time.h@21,0:  #1215-D: #warning directive: rtc_time.h has been replaced by mbed_rtc_time.h, please update to mbed_rtc_time.h [since mbed-os-5.3]
+[Warning] ble_clock.c@36,0:  #1-D: last line of file ends without a newline
+Compile [  8.2%]: BlueNRGGattServer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.cpp@753,0:  #1-D: last line of file ends without a newline
+Compile [  8.6%]: ble_utils.cpp
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.cpp@93,0:  #1-D: last line of file ends without a newline
+Compile [  9.0%]: ble_payload.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] ble_payload.h@195,0:  #1-D: last line of file ends without a newline
+Compile [  9.3%]: stm32_bluenrg_ble.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] BLEInstanceBase.h@176,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDevice.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] stm32_bluenrg_ble.cpp@219,0:  #1-D: last line of file ends without a newline
+Compile [  9.7%]: AnalogIn.cpp
+Compile [ 10.0%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] BLE.h@1569,0:  #1-D: last line of file ends without a newline
+[Warning] HeartRateService.h@194,0:  #1-D: last line of file ends without a newline
+Compile [ 10.4%]: BusIn.cpp
+Compile [ 10.8%]: btle.cpp
+[Warning] ble_status.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci.h@241,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hci_const.h@563,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gatt_server.h@223,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_aci_const.h@780,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_updater_aci.h@78,0:  #1-D: last line of file ends without a newline
+[Warning] ble_gp_timer.h@105,0:  #1-D: last line of file ends without a newline
+[Warning] ble_hal.h@108,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_gap.h@230,0:  #1-D: last line of file ends without a newline
+[Warning] btle.h@61,0:  #1-D: last line of file ends without a newline
+[Warning] BLEProtocol.h@80,0:  #1-D: last line of file ends without a newline
+[Warning] blecommon.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingData.h@567,0:  #1-D: last line of file ends without a newline
+[Warning] GapAdvertisingParams.h@207,0:  #1-D: last line of file ends without a newline
+[Warning] GapScanningParams.h@152,0:  #1-D: last line of file ends without a newline
+[Warning] GapEvents.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] SafeBool.h@124,0:  #1-D: last line of file ends without a newline
+[Warning] FunctionPointerWithContext.h@212,0:  #1-D: last line of file ends without a newline
+[Warning] CallChainOfFunctionPointersWithContext.h@271,0:  #1-D: last line of file ends without a newline
+[Warning] deprecate.h@26,0:  #1-D: last line of file ends without a newline
+[Warning] Gap.h@1919,0:  #1-D: last line of file ends without a newline
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] BlueNRGGap.h@214,0:  #1-D: last line of file ends without a newline
+[Warning] UUID.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] SecurityManager.h@331,0:  #1-D: last line of file ends without a newline
+[Warning] GattAttribute.h@174,0:  #1-D: last line of file ends without a newline
+[Warning] GattCallbackParamTypes.h@115,0:  #1-D: last line of file ends without a newline
+[Warning] GattCharacteristic.h@855,0:  #1-D: last line of file ends without a newline
+[Warning] GattService.h@144,0:  #1-D: last line of file ends without a newline
+[Warning] GattServerEvents.h@41,0:  #1-D: last line of file ends without a newline
+[Warning] GattServer.h@689,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattServer.h@125,0:  #1-D: last line of file ends without a newline
+[Warning] ServiceDiscovery.h@183,0:  #1-D: last line of file ends without a newline
+[Warning] CharacteristicDescriptorDiscovery.h@99,0:  #1-D: last line of file ends without a newline
+[Warning] GattClient.h@626,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredService.h@119,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristicDescriptor.h@111,0:  #1-D: last line of file ends without a newline
+[Warning] DiscoveredCharacteristic.h@433,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGDiscoveredCharacteristic.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] BlueNRGGattClient.h@185,0:  #1-D: last line of file ends without a newline
+[Warning] ble_utils.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] ble_compiler.h@36,0:  #1-D: last line of file ends without a newline
+[Warning] bluenrg_utils.h@204,0:  #1-D: last line of file ends without a newline
+[Warning] ble_osal.h@81,0:  #1-D: last line of file ends without a newline
+[Warning] ble_debug.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] btle.cpp@707,0:  #1-D: last line of file ends without a newline
+Compile [ 11.1%]: BusOut.cpp
+Compile [ 11.5%]: BusInOut.cpp
+Compile [ 11.8%]: CAN.cpp
+Compile [ 12.2%]: Ethernet.cpp
+Compile [ 12.5%]: FlashIAP.cpp
+Compile [ 12.9%]: FilePath.cpp
+Compile [ 13.3%]: FileBase.cpp
+Compile [ 13.6%]: FileSystemLike.cpp
+Compile [ 14.0%]: I2CSlave.cpp
+Compile [ 14.3%]: I2C.cpp
+Compile [ 14.7%]: InterruptManager.cpp
+Compile [ 15.1%]: InterruptIn.cpp
+Compile [ 15.4%]: RawSerial.cpp
+Compile [ 15.8%]: SPISlave.cpp
+Compile [ 16.1%]: LocalFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@110,0:  #1361-D: function "mbed::FileHandle::FileHandle()"  (declared at line 45 of "./mbed-os/drivers/FileHandle.h") was declared "deprecated"
+[Warning] LocalFileSystem.cpp@188,0:  #1361-D: function "mbed::DirHandle::DirHandle()"  (declared at line 48 of "./mbed-os/drivers/DirHandle.h") was declared "deprecated"
+Compile [ 16.5%]: SPI.cpp
+Compile [ 16.8%]: Stream.cpp
+Compile [ 17.2%]: Serial.cpp
+Compile [ 17.6%]: Ticker.cpp
+Compile [ 17.9%]: SerialBase.cpp
+Compile [ 18.3%]: Timeout.cpp
+Compile [ 18.6%]: Timer.cpp
+Compile [ 19.0%]: TimerEvent.cpp
+Compile [ 19.4%]: equeue_posix.c
+Compile [ 19.7%]: equeue.c
+Compile [ 20.1%]: EventQueue.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 20.4%]: emac_lwip.c
+Compile [ 20.8%]: emac_stack_lwip.cpp
+Compile [ 21.1%]: equeue_mbed.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 21.5%]: lwip_checksum.c
+Compile [ 21.9%]: lpc_phy_dp83848.c
+Compile [ 22.2%]: EthernetInterface.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 22.6%]: lwip_memcpy.c
+Compile [ 22.9%]: lpc17_emac.c
+Compile [ 23.3%]: lwip_sys_arch.c
+Compile [ 23.7%]: lwip_random.c
+Compile [ 24.0%]: lwip_api_lib.c
+Compile [ 24.4%]: lwip_tcp_isn.c
+Compile [ 24.7%]: lwip_err.c
+Compile [ 25.1%]: lwip_netdb.c
+Compile [ 25.4%]: lwip_netbuf.c
+Compile [ 25.8%]: lwip_api_msg.c
+Compile [ 26.2%]: lwip_netifapi.c
+Compile [ 26.5%]: lwip_sockets.c
+Compile [ 26.9%]: lwip_tcpip.c
+Compile [ 27.2%]: lwip_autoip.c
+Compile [ 27.6%]: lwip_icmp.c
+Compile [ 28.0%]: lwip_etharp.c
+Compile [ 28.3%]: lwip_dhcp.c
+Compile [ 28.7%]: lwip_igmp.c
+Compile [ 29.0%]: lwip_ip4.c
+Compile [ 29.4%]: lwip_ip4_addr.c
+Compile [ 29.7%]: lwip_dhcp6.c
+Compile [ 30.1%]: lwip_ip4_frag.c
+Compile [ 30.5%]: lwip_icmp6.c
+Compile [ 30.8%]: lwip_ethip6.c
+Compile [ 31.2%]: lwip_inet6.c
+Compile [ 31.5%]: lwip_ip6.c
+Compile [ 31.9%]: lwip_ip6_frag.c
+Compile [ 32.3%]: lwip_ip6_addr.c
+Compile [ 32.6%]: lwip_mld6.c
+Compile [ 33.0%]: lwip_def.c
+Compile [ 33.3%]: lwip_nd6.c
+Compile [ 33.7%]: lwip_dns.c
+Compile [ 34.1%]: lwip_inet_chksum.c
+Compile [ 34.4%]: lwip_ip.c
+Compile [ 34.8%]: lwip_init.c
+Compile [ 35.1%]: lwip_mem.c
+Compile [ 35.5%]: lwip_memp.c
+Compile [ 35.8%]: lwip_netif.c
+Compile [ 36.2%]: lwip_raw.c
+Compile [ 36.6%]: lwip_stats.c
+Compile [ 36.9%]: lwip_pbuf.c
+Compile [ 37.3%]: lwip_sys.c
+Compile [ 37.6%]: lwip_tcp_out.c
+Compile [ 38.0%]: lwip_tcp.c
+Compile [ 38.4%]: lwip_tcp_in.c
+Compile [ 38.7%]: lwip_timeouts.c
+Compile [ 39.1%]: lwip_udp.c
+Compile [ 39.4%]: lwip_ethernet.c
+Compile [ 39.8%]: lwip_ethernetif.c
+Compile [ 40.1%]: lwip_lowpan6.c
+Compile [ 40.5%]: File.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 40.9%]: lwip_stack.c
+Compile [ 41.2%]: Dir.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 41.6%]: FileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 41.9%]: SlicingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 42.3%]: HeapBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 42.7%]: ChainingBlockDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 43.0%]: ccsbcs.cpp
+Compile [ 43.4%]: greentea_serial.cpp
+Compile [ 43.7%]: greentea_metrics.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] greentea_metrics.cpp@37,0:  #177-D: variable "mutex"  was declared but never referenced
+Compile [ 44.1%]: FATFileSystem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 44.4%]: ff.cpp
+Compile [ 44.8%]: unity.c
+Compile [ 45.2%]: greentea_test_env.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 45.5%]: mbed-utest-shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 45.9%]: unity_handler.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 46.2%]: utest_case.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 46.6%]: utest_default_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 47.0%]: utest_greentea_handlers.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 47.3%]: utest_stack_trace.cpp
+Compile [ 47.7%]: utest_harness.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 48.0%]: mbed_trng.c
+Compile [ 48.4%]: utest_shim.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 48.7%]: aesni.c
+Compile [ 49.1%]: arc4.c
+Compile [ 49.5%]: asn1parse.c
+Compile [ 49.8%]: aes.c
+Compile [ 50.2%]: utest_types.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 50.5%]: asn1write.c
+Compile [ 50.9%]: base64.c
+Compile [ 51.3%]: blowfish.c
+Compile [ 51.6%]: camellia.c
+Compile [ 52.0%]: certs.c
+Compile [ 52.3%]: ccm.c
+Compile [ 52.7%]: cipher.c
+Compile [ 53.0%]: cmac.c
+Compile [ 53.4%]: cipher_wrap.c
+Compile [ 53.8%]: ctr_drbg.c
+Compile [ 54.1%]: debug.c
+Compile [ 54.5%]: des.c
+Compile [ 54.8%]: dhm.c
+Compile [ 55.2%]: ecdh.c
+Compile [ 55.6%]: ecjpake.c
+Compile [ 55.9%]: bignum.c
+Compile [ 56.3%]: ecdsa.c
+Compile [ 56.6%]: entropy.c
+Compile [ 57.0%]: entropy_poll.c
+Compile [ 57.3%]: error.c
+Compile [ 57.7%]: ecp_curves.c
+Compile [ 58.1%]: gcm.c
+Compile [ 58.4%]: havege.c
+Compile [ 58.8%]: ecp.c
+Compile [ 59.1%]: hmac_drbg.c
+Compile [ 59.5%]: md.c
+Compile [ 59.9%]: md2.c
+Compile [ 60.2%]: md4.c
+Compile [ 60.6%]: md5.c
+Compile [ 60.9%]: memory_buffer_alloc.c
+Compile [ 61.3%]: net_sockets.c
+Compile [ 61.6%]: md_wrap.c
+Compile [ 62.0%]: padlock.c
+Compile [ 62.4%]: oid.c
+Compile [ 62.7%]: pk.c
+Compile [ 63.1%]: pem.c
+Compile [ 63.4%]: pkcs11.c
+Compile [ 63.8%]: pk_wrap.c
+Compile [ 64.2%]: pkcs12.c
+Compile [ 64.5%]: pkcs5.c
+Compile [ 64.9%]: pkparse.c
+Compile [ 65.2%]: pkwrite.c
+Compile [ 65.6%]: platform.c
+Compile [ 65.9%]: ripemd160.c
+Compile [ 66.3%]: sha1.c
+Compile [ 66.7%]: rsa.c
+Compile [ 67.0%]: sha256.c
+Compile [ 67.4%]: ssl_cache.c
+Compile [ 67.7%]: ssl_ciphersuites.c
+Compile [ 68.1%]: ssl_cli.c
+Compile [ 68.5%]: ssl_cookie.c
+Compile [ 68.8%]: sha512.c
+Compile [ 69.2%]: ssl_srv.c
+Compile [ 69.5%]: ssl_ticket.c
+Compile [ 69.9%]: ssl_tls.c
+Compile [ 70.3%]: threading.c
+Compile [ 70.6%]: timing.c
+Compile [ 71.0%]: version.c
+Compile [ 71.3%]: version_features.c
+Compile [ 71.7%]: x509_create.c
+Compile [ 72.0%]: x509_csr.c
+Compile [ 72.4%]: x509.c
+Compile [ 72.8%]: x509_crl.c
+Compile [ 73.1%]: x509write_crt.c
+Compile [ 73.5%]: x509write_csr.c
+Compile [ 73.8%]: xtea.c
+Compile [ 74.2%]: NetworkInterface.cpp
+Compile [ 74.6%]: x509_crt.c
+Compile [ 74.9%]: NetworkStack.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 75.3%]: Socket.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 75.6%]: SocketAddress.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 76.0%]: WiFiAccessPoint.cpp
+Compile [ 76.3%]: TCPServer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 76.7%]: UDPSocket.cpp
+Compile [ 77.1%]: TCPSocket.cpp
+Compile [ 77.4%]: nsapi_dns.cpp
+Compile [ 77.8%]: mbed_gpio.c
+Compile [ 78.1%]: mbed_lp_ticker_api.c
+Compile [ 78.5%]: mbed_pinmap_common.c
+Compile [ 78.9%]: mbed_alloc_wrappers.cpp
+Compile [ 79.2%]: mbed_ticker_api.c
+Compile [ 79.6%]: mbed_us_ticker_api.c
+Compile [ 79.9%]: CallChain.cpp
+Compile [ 80.3%]: mbed_application.c
+Compile [ 80.6%]: mbed_board.c
+Compile [ 81.0%]: mbed_assert.c
+Compile [ 81.4%]: mbed_critical.c
+Compile [ 81.7%]: mbed_mem_trace.c
+Compile [ 82.1%]: mbed_error.c
+Compile [ 82.4%]: mbed_interface.c
+Compile [ 82.8%]: mbed_stats.c
+Compile [ 83.2%]: mbed_wait_api_no_rtos.c
+Compile [ 83.5%]: mbed_retarget.cpp
+Compile [ 83.9%]: mbed_rtc_time.cpp
+Compile [ 84.2%]: mbed_semihost_api.c
+Compile [ 84.6%]: Mutex.cpp
+Compile [ 84.9%]: Semaphore.cpp
+Compile [ 85.3%]: rtos_idle.c
+Compile [ 85.7%]: RtosTimer.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 86.0%]: mbed_wait_api_rtos.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 86.4%]: HAL_CM.c
+Compile [ 86.7%]: HAL_CM3.c
+Compile [ 87.1%]: RTX_Conf_CM.c
+Compile [ 87.5%]: Thread.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [ 87.8%]: SVC_Table.S
+Compile [ 88.2%]: rt_Event.c
+Compile [ 88.5%]: rt_List.c
+Compile [ 88.9%]: rt_MemBox.c
+Compile [ 89.2%]: rt_Memory.c
+Compile [ 89.6%]: rt_Mailbox.c
+Compile [ 90.0%]: rt_OsEventObserver.c
+Compile [ 90.3%]: rt_Robin.c
+Compile [ 90.7%]: rt_Mutex.c
+Compile [ 91.0%]: rt_Semaphore.c
+Compile [ 91.4%]: rt_CMSIS.c
+Compile [ 91.8%]: rt_Task.c
+Compile [ 92.1%]: rt_Time.c
+Compile [ 92.5%]: rt_Timer.c
+Compile [ 92.8%]: rt_System.c
+Compile [ 93.2%]: analogin_api.c
+Compile [ 93.5%]: startup_LPC17xx.S
+Compile [ 93.9%]: analogout_api.c
+Compile [ 94.3%]: sys.cpp
+Compile [ 94.6%]: can_api.c
+Compile [ 95.0%]: cmsis_nvic.c
+Compile [ 95.3%]: system_LPC17xx.c
+Compile [ 95.7%]: ethernet_api.c
+Compile [ 96.1%]: gpio_api.c
+Compile [ 96.4%]: gpio_irq_api.c
+Compile [ 96.8%]: i2c_api.c
+Compile [ 97.1%]: pinmap.c
+Compile [ 97.5%]: port_api.c
+Compile [ 97.8%]: pwmout_api.c
+Compile [ 98.2%]: rtc_api.c
+Compile [ 98.6%]: sleep.c
+Compile [ 98.9%]: serial_api.c
+Compile [ 99.3%]: spi_api.c
+Compile [ 99.6%]: us_ticker.c
+Compile [100.0%]: test_env.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Link: BLE_HeartRate_IDB04A1
+Elf2Bin: BLE_HeartRate_IDB04A1
++---------------------+-------+-------+-------+
+| Module              | .text | .data |  .bss |
++---------------------+-------+-------+-------+
+| Misc                | 51024 |   172 | 11050 |
+| drivers             |  2339 |     8 |    56 |
+| features/filesystem |   586 |     0 |     0 |
+| hal                 |   844 |     8 |     0 |
+| platform            |  2705 |    16 |   380 |
+| rtos                |   130 |     8 |     0 |
+| rtos/rtx            |  6436 |   100 |  8396 |
+| targets/TARGET_NXP  |  5370 |    28 |   416 |
+| Subtotals           | 69434 |   340 | 20298 |
++---------------------+-------+-------+-------+
+Allocated Heap: unknown
+Allocated Stack: unknown
+Total Static RAM memory (data + bss): 20638 bytes
+Total RAM memory (data + bss + heap + stack): 20638 bytes
+Total Flash memory (text + data + misc): 69774 bytes
+
+Object file BLE.o is not unique! It could be made from: .\mbed-os\features\FEATURE_BLE\source\BLE.cpp .\BLE_API\source\BLE.cpp
+Object file DFUService.o is not unique! It could be made from: .\BLE_API\source\services\DFUService.cpp .\mbed-os\features\FEATURE_BLE\source\services\DFUService.cpp
+Object file URIBeaconConfigService.o is not unique! It could be made from: .\mbed-os\features\FEATURE_BLE\source\services\URIBeaconConfigService.cpp .\BLE_API\source\services\URIBeaconConfigService.cpp
+Object file GapScanningParams.o is not unique! It could be made from: .\mbed-os\features\FEATURE_BLE\source\GapScanningParams.cpp .\BLE_API\source\GapScanningParams.cpp
+Object file DiscoveredCharacteristic.o is not unique! It could be made from: .\BLE_API\source\DiscoveredCharacteristic.cpp .\mbed-os\features\FEATURE_BLE\source\DiscoveredCharacteristic.cpp
+Object file BLEInstanceBase.o is not unique! It could be made from: .\mbed-os\features\FEATURE_BLE\source\BLEInstanceBase.cpp .\BLE_API\source\BLEInstanceBase.cpp
+Object file UARTService.o is not unique! It could be made from: .\BLE_API\source\services\UARTService.cpp .\mbed-os\features\FEATURE_BLE\source\services\UARTService.cpp
+Image: .\BUILD\lpc1768\ARM\BLE_HeartRate_IDB04A1.bin
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/BLE_HeartRate_IDB04A1/
+----------------------------------------------------

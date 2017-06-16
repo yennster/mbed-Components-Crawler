@@ -1,0 +1,40 @@
+Building project sharpLCD-demo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: font.c
+Compile [  0.6%]: font_DejaVuSerif_8.c
+Compile [  1.0%]: font_DejaVuSerif_9.c
+Compile [  1.3%]: main.cpp
+[Error] main.cpp@22,0:  #20: identifier "p9" is undefined
+[Error] main.cpp@22,0:  #20: identifier "p8" is undefined
+[Error] main.cpp@22,0:  #20: identifier "MBED_SPI0" is undefined
+[Error] main.cpp@22,0:  #289: no instance of constructor "SharpLCD::SharpLCD"  matches the argument list
+[ERROR] ".\main.cpp", line 22: Error:  #20: identifier "p9" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "p8" is undefined
+".\main.cpp", line 22: Error:  #20: identifier "MBED_SPI0" is undefined
+".\main.cpp", line 22: Error:  #289: no instance of constructor "SharpLCD::SharpLCD"  matches the argument list
+            argument types are: (<error-type>, <error-type>, <error-type>)
+.\main.cpp: 0 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\sharpLCD-demo\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\sharpLCD-demo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/rgrover1/code/sharpLCD-demo/
+----------------------------------------------------

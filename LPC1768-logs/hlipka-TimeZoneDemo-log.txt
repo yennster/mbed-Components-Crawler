@@ -1,0 +1,46 @@
+Building project TimeZoneDemo (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: ipaddr.cpp
+Compile [  0.6%]: DNSRequest.cpp
+Compile [  0.8%]: UDPSocket.cpp
+Compile [  1.1%]: TCPSocket.cpp
+Compile [  1.4%]: netservice.cpp
+Compile [  1.7%]: net.cpp
+Compile [  2.0%]: dbg.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.2%]: ATIf.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.5%]: eth_drv.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  2.8%]: sio.cpp
+Compile [  3.1%]: GPRSModem.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.4%]: sioMgr.cpp
+Compile [  3.7%]: UsbSerial.cpp
+[Error] UsbSerial.cpp@24,0:  #5: cannot open source input file "rpc.h": No such file or directory
+[ERROR] ".\NetServices\drv\serial\usb\UsbSerial.cpp", line 24: Error:  #5: cannot open source input file "rpc.h": No such file or directory
+.\NetServices\drv\serial\usb\UsbSerial.cpp: 0 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\TimeZoneDemo\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\TimeZoneDemo"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/hlipka/code/TimeZoneDemo/
+----------------------------------------------------

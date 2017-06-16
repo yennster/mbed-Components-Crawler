@@ -1,0 +1,36 @@
+Building project HelloWorld_IHM05A1 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: L6208.cpp
+[Error] component_def.h@89,0:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+[Warning] L6208.h@739,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] L6208.h@740,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] L6208.h@1007,0:  #1361-D: function "mbed::Ticker::attach(T *, M, float) [with T=L6208, M=void (L6208::*)()]"  (declared at line 94 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+[ERROR] "./X-NUCLEO-IHM05A1/Components/Common/component_def.h", line 89: Error:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+".\X-NUCLEO-IHM05A1\Components\L6208\L6208.h", line 739: Warning:  #962-D: use of a type with no linkage to declare a function
+".\X-NUCLEO-IHM05A1\Components\L6208\L6208.h", line 740: Warning:  #962-D: use of a type with no linkage to declare a function
+".\X-NUCLEO-IHM05A1\Components\L6208\L6208.h", line 1007: Warning:  #1361-D: function "mbed::Ticker::attach(T *, M, float) [with T=L6208, M=void (L6208::*)()]"  (declared at line 94 of "./mbed-os/drivers/Ticker.h") was declared "deprecated"
+.\X-NUCLEO-IHM05A1\Components\L6208\L6208.cpp: 3 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HelloWorld_IHM05A1\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\HelloWorld_IHM05A1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/HelloWorld_IHM05A1/
+----------------------------------------------------

@@ -1,0 +1,89 @@
+Building project HC05_AT_mode (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: ChangeLog.c
+[Warning] ChangeLog.c@192,0:  #1-D: last line of file ends without a newline
+Compile [  0.7%]: MODSERIAL_K64F.cpp
+[Warning] MODSERIAL_K64F.cpp@21,0:  #1-D: last line of file ends without a newline
+Compile [  1.1%]: MODSERIAL_KL05Z.cpp
+Compile [  1.5%]: MODSERIAL_KL25Z.cpp
+Compile [  1.8%]: MODSERIAL_LPC11U24.cpp
+Compile [  2.2%]: MODSERIAL_LPC4330.cpp
+Compile [  2.6%]: FLUSH.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] MODSERIAL_LPC1768.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_LPC4330.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_LPC11U24.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_KL25Z.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_KL05Z.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_K64F.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MACROS.h@38,0:  #1-D: last line of file ends without a newline
+Compile [  2.9%]: MODSERIAL_LPC1768.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+Compile [  3.3%]: GETC.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] MODSERIAL_LPC1768.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_LPC4330.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_LPC11U24.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_KL25Z.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_KL05Z.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_K64F.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MACROS.h@38,0:  #1-D: last line of file ends without a newline
+Compile [  3.7%]: INIT.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] MODSERIAL_LPC1768.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_LPC4330.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_LPC11U24.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_KL25Z.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_KL05Z.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_K64F.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MACROS.h@38,0:  #1-D: last line of file ends without a newline
+[Warning] INIT.cpp@53,0:  #1361-D: function "mbed::SerialBase::attach(T *, void (T::*)(), mbed::SerialBase::IrqType) [with T=AjK::MODSERIAL]"  (declared at line 117 of "./mbed-os/drivers/SerialBase.h") was declared "deprecated"
+[Warning] INIT.cpp@61,0:  #1361-D: function "mbed::SerialBase::attach(T *, void (T::*)(), mbed::SerialBase::IrqType) [with T=AjK::MODSERIAL]"  (declared at line 117 of "./mbed-os/drivers/SerialBase.h") was declared "deprecated"
+Compile [  4.0%]: MODSERIAL.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] MODSERIAL_LPC1768.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_LPC4330.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_LPC11U24.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_KL25Z.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_KL05Z.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MODSERIAL_K64F.h@20,0:  #1-D: last line of file ends without a newline
+[Warning] MACROS.h@38,0:  #1-D: last line of file ends without a newline
+[Error] MODSERIAL.cpp@97,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[Error] MODSERIAL.cpp@102,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[Error] MODSERIAL.cpp@103,0:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./MODSERIAL/Device/MODSERIAL_LPC1768.h", line 20: Warning:  #1-D: last line of file ends without a newline
+"./MODSERIAL/Device/MODSERIAL_LPC4330.h", line 20: Warning:  #1-D: last line of file ends without a newline
+"./MODSERIAL/Device/MODSERIAL_LPC11U24.h", line 20: Warning:  #1-D: last line of file ends without a newline
+"./MODSERIAL/Device/MODSERIAL_KL25Z.h", line 20: Warning:  #1-D: last line of file ends without a newline
+"./MODSERIAL/Device/MODSERIAL_KL05Z.h", line 20: Warning:  #1-D: last line of file ends without a newline
+"./MODSERIAL/Device/MODSERIAL_K64F.h", line 20: Warning:  #1-D: last line of file ends without a newline
+".\MODSERIAL\MACROS.h", line 38: Warning:  #1-D: last line of file ends without a newline
+".\MODSERIAL\MODSERIAL.cpp", line 97: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+".\MODSERIAL\MODSERIAL.cpp", line 102: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+".\MODSERIAL\MODSERIAL.cpp", line 103: Error:  #265-D: member "mbed::FileBase::_name"  (declared at line 55 of "./mbed-os/drivers/FileBase.h") is inaccessible
+.\MODSERIAL\MODSERIAL.cpp: 8 warnings, 3 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HC05_AT_mode\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\HC05_AT_mode"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/edodm85/code/HC05_AT_mode/
+----------------------------------------------------

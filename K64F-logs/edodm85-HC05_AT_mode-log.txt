@@ -1,0 +1,37 @@
+Building project HC05_AT_mode (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: MODSERIAL_KL05Z.cpp
+Compile [  0.6%]: ChangeLog.c
+[Warning] ChangeLog.c@192,0:  #1-D: last line of file ends without a newline
+Compile [  0.9%]: MODSERIAL_KL25Z.cpp
+Compile [  1.2%]: MODSERIAL_LPC11U24.cpp
+Compile [  1.5%]: MODSERIAL_K64F.cpp
+[Error] MODSERIAL_K64F.cpp@5,0:  #135: class "serial_t"  has no member "index"
+[Warning] MODSERIAL_K64F.cpp@21,0:  #1-D: last line of file ends without a newline
+[ERROR] ".\MODSERIAL\Device\MODSERIAL_K64F.cpp", line 5: Error:  #135: class "serial_t"  has no member "index"
+".\MODSERIAL\Device\MODSERIAL_K64F.cpp", line 21: Warning:  #1-D: last line of file ends without a newline
+.\MODSERIAL\Device\MODSERIAL_K64F.cpp: 1 warning, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HC05_AT_mode\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\HC05_AT_mode"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/edodm85/code/HC05_AT_mode/
+----------------------------------------------------

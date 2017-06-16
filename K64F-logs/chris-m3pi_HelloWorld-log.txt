@@ -1,0 +1,57 @@
+Building project m3pi_HelloWorld (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: AnalogIn.cpp
+Compile [  0.6%]: m3pi.cpp
+[Warning] m3pi.h@236,0:  #1-D: last line of file ends without a newline
+[Error] m3pi.cpp@32,0:  #20: identifier "p23" is undefined
+[Error] m3pi.cpp@32,0:  #20: identifier "p9" is undefined
+[Error] m3pi.cpp@32,0:  #20: identifier "p10" is undefined
+[Warning] m3pi.cpp@80,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] m3pi.cpp@111,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Error] m3pi.cpp@152,0:  #20: identifier "p20" is undefined
+[Error] m3pi.cpp@152,0:  #20: identifier "p19" is undefined
+[Error] m3pi.cpp@152,0:  #20: identifier "p18" is undefined
+[Error] m3pi.cpp@152,0:  #20: identifier "p17" is undefined
+[Error] m3pi.cpp@152,0:  #20: identifier "p16" is undefined
+[Error] m3pi.cpp@152,0:  #20: identifier "p15" is undefined
+[Error] m3pi.cpp@152,0:  #20: identifier "p14" is undefined
+[Error] m3pi.cpp@152,0:  #20: identifier "p13" is undefined
+[ERROR] ".\m3pi\m3pi.h", line 236: Warning:  #1-D: last line of file ends without a newline
+".\m3pi\m3pi.cpp", line 32: Error:  #20: identifier "p23" is undefined
+".\m3pi\m3pi.cpp", line 32: Error:  #20: identifier "p9" is undefined
+".\m3pi\m3pi.cpp", line 32: Error:  #20: identifier "p10" is undefined
+".\m3pi\m3pi.cpp", line 80: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\m3pi\m3pi.cpp", line 111: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\m3pi\m3pi.cpp", line 152: Error:  #20: identifier "p20" is undefined
+".\m3pi\m3pi.cpp", line 152: Error:  #20: identifier "p19" is undefined
+".\m3pi\m3pi.cpp", line 152: Error:  #20: identifier "p18" is undefined
+".\m3pi\m3pi.cpp", line 152: Error:  #20: identifier "p17" is undefined
+".\m3pi\m3pi.cpp", line 152: Error:  #20: identifier "p16" is undefined
+".\m3pi\m3pi.cpp", line 152: Error:  #20: identifier "p15" is undefined
+".\m3pi\m3pi.cpp", line 152: Error:  #20: identifier "p14" is undefined
+".\m3pi\m3pi.cpp", line 152: Error:  #20: identifier "p13" is undefined
+.\m3pi\m3pi.cpp: 3 warnings, 11 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\m3pi_HelloWorld\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\m3pi_HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/chris/code/m3pi_HelloWorld/
+----------------------------------------------------

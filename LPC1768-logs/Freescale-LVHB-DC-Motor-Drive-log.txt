@@ -1,0 +1,84 @@
+Building project LVHB-DC-Motor-Drive (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: USBHAL_KL25Z.cpp
+Compile [  0.7%]: USBHAL_LPC11U.cpp
+Compile [  1.1%]: USBHAL_LPC40.cpp
+Compile [  1.5%]: USBAudio.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+[Warning] USBAudio.h@134,0:  #1361-D: function "mbed::Callback<R ()>::attach(R (*)()) [with R=void]"  (declared at line 276 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+[Warning] USBAudio.cpp@25,0:  #1361-D: function "mbed::FunctionPointerArg1<R, void>::FunctionPointerArg1(R (*)()) [with R=void]"  (declared at line 67 of "./mbed-os/platform/FunctionPointer.h") was declared "deprecated"
+Compile [  1.9%]: USBHAL_RZ_A1H.cpp
+Compile [  2.2%]: USBDevice.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  2.6%]: USBHAL_STM32F4.cpp
+Compile [  3.0%]: USBHAL_LPC17.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  3.4%]: USBHID.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  3.7%]: USBKeyboard.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  4.1%]: USBMouse.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  4.5%]: USBMouseKeyboard.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  4.9%]: USBMIDI.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  5.2%]: USBCDC.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  5.6%]: USBMSD.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+Compile [  6.0%]: USBSerial.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+[Warning] USBSerial.h@59,0:  #1361-D: function "mbed::FunctionPointerArg1<R, void>::FunctionPointerArg1(R (*)()) [with R=void]"  (declared at line 67 of "./mbed-os/platform/FunctionPointer.h") was declared "deprecated"
+[Warning] USBSerial.h@134,0:  #1361-D: function "mbed::Callback<R ()>::attach(R (*)()) [with R=void]"  (declared at line 276 of "./mbed-os/platform/Callback.h") was declared "deprecated"
+Compile [  6.3%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] toolchain.h@23,0:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+[Error] main.cpp@17,0:  #20: identifier "PTD4" is undefined
+[Error] main.cpp@18,0:  #20: identifier "PTA12" is undefined
+[Error] main.cpp@19,0:  #20: identifier "PTC7" is undefined
+[Error] main.cpp@20,0:  #20: identifier "PTC0" is undefined
+[Error] main.cpp@21,0:  #20: identifier "PTC5" is undefined
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./mbed-os/platform/toolchain.h", line 23: Warning:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+".\main.cpp", line 17: Error:  #20: identifier "PTD4" is undefined
+".\main.cpp", line 18: Error:  #20: identifier "PTA12" is undefined
+".\main.cpp", line 19: Error:  #20: identifier "PTC7" is undefined
+".\main.cpp", line 20: Error:  #20: identifier "PTC0" is undefined
+".\main.cpp", line 21: Error:  #20: identifier "PTC5" is undefined
+.\main.cpp: 2 warnings, 5 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\LVHB-DC-Motor-Drive\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\LVHB-DC-Motor-Drive"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/Freescale/code/LVHB-DC-Motor-Drive/
+----------------------------------------------------

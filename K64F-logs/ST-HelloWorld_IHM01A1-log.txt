@@ -1,0 +1,41 @@
+Building project HelloWorld_IHM01A1 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: AnalogIn.cpp
+Compile [  0.6%]: main.cpp
+[Error] component_def.h@89,0:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+[Warning] L6474.h@724,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] L6474.h@725,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] L6474.h@784,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] L6474.h@798,0:  #962-D: use of a type with no linkage to declare a function
+[Warning] L6474.h@813,0:  #962-D: use of a type with no linkage to declare a function
+[ERROR] "./X_NUCLEO_IHM01A1/Components/L6474/../Common/component_def.h", line 89: Error:  #256: invalid redeclaration of type name "status_t"  (declared at line 126 of "./mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h")
+"./X_NUCLEO_IHM01A1/Components/L6474/L6474.h", line 724: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IHM01A1/Components/L6474/L6474.h", line 725: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IHM01A1/Components/L6474/L6474.h", line 784: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IHM01A1/Components/L6474/L6474.h", line 798: Warning:  #962-D: use of a type with no linkage to declare a function
+"./X_NUCLEO_IHM01A1/Components/L6474/L6474.h", line 813: Warning:  #962-D: use of a type with no linkage to declare a function
+.\main.cpp: 5 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\HelloWorld_IHM01A1\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\HelloWorld_IHM01A1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/ST/code/HelloWorld_IHM01A1/
+----------------------------------------------------

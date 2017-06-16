@@ -1,0 +1,96 @@
+Building project LG1300L_Hello_World (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: TextLCD.cpp
+[Warning] helper.h@46,0:  #1-D: last line of file ends without a newline
+[Warning] Base.h@42,0:  #1-D: last line of file ends without a newline
+[Warning] DebugTracer.h@91,0:  #1-D: last line of file ends without a newline
+[Warning] Debug.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] stackheap.h@85,0:  #1-D: last line of file ends without a newline
+[Warning] LPC23xx.h@1131,0:  #1-D: last line of file ends without a newline
+[Warning] LPC2300_HAL.h@412,0:  #1-D: last line of file ends without a newline
+[Warning] LPC2300_MAP.h@68,0:  #1-D: last line of file ends without a newline
+[Warning] DigitalIn.h@83,0:  #1-D: last line of file ends without a newline
+[Warning] DigitalOut.h@73,0:  #1-D: last line of file ends without a newline
+[Warning] BusIn.h@64,0:  #1-D: last line of file ends without a newline
+[Warning] BusOut.h@79,0:  #1-D: last line of file ends without a newline
+[Warning] AnalogIn.h@76,0:  #1-D: last line of file ends without a newline
+[Warning] AnalogOut.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] PwmOut.h@138,0:  #1-D: last line of file ends without a newline
+[Warning] Stream.h@37,0:  #1-D: last line of file ends without a newline
+[Warning] Serial.h@129,0:  #1-D: last line of file ends without a newline
+[Warning] SPI.h@79,0:  #1-D: last line of file ends without a newline
+[Warning] I2C.h@79,0:  #1-D: last line of file ends without a newline
+[Warning] Timer.h@67,0:  #1-D: last line of file ends without a newline
+[Warning] wait.h@31,0:  #1-D: last line of file ends without a newline
+[Warning] mbed.h@38,0:  #1-D: last line of file ends without a newline
+[Error] TextLCD.h@61,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.h@61,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.h@61,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.h@61,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.h@61,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.h@61,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.cpp@26,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.cpp@26,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.cpp@26,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.cpp@26,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.cpp@27,0:  #20: identifier "PinName" is undefined
+[Error] TextLCD.cpp@27,0:  #20: identifier "PinName" is undefined
+[ERROR] "./i2c/82220227f4fa/helper.h", line 46: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/Base.h", line 42: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/DebugTracer.h", line 91: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/Debug.h", line 94: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/stackheap.h", line 85: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/LPC23xx.h", line 1131: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/LPC2300_HAL.h", line 412: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/LPC2300_MAP.h", line 68: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/DigitalIn.h", line 83: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/DigitalOut.h", line 73: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/BusIn.h", line 64: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/BusOut.h", line 79: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/AnalogIn.h", line 76: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/AnalogOut.h", line 94: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/PwmOut.h", line 138: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/Stream.h", line 37: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/Serial.h", line 129: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/SPI.h", line 79: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/I2C.h", line 79: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/Timer.h", line 67: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/wait.h", line 31: Warning:  #1-D: last line of file ends without a newline
+"./i2c/82220227f4fa/mbed.h", line 38: Warning:  #1-D: last line of file ends without a newline
+".\TextLCD\TextLCD.h", line 61: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.h", line 61: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.h", line 61: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.h", line 61: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.h", line 61: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.h", line 61: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.cpp", line 26: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.cpp", line 26: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.cpp", line 26: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.cpp", line 26: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.cpp", line 27: Error:  #20: identifier "PinName" is undefined
+".\TextLCD\TextLCD.cpp", line 27: Error:  #20: identifier "PinName" is undefined
+.\TextLCD\TextLCD.cpp: 22 warnings, 12 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\LG1300L_Hello_World\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\LG1300L_Hello_World"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/mjenkins11/code/LG1300L_Hello_World/
+----------------------------------------------------

@@ -1,0 +1,40 @@
+Building project Hotboards_SpiLcd-Hello_World (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Warning] Hotboards_SpiLcd.h@114,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@36,0:  #20: identifier "PB_5" is undefined
+[Error] main.cpp@36,0:  #20: identifier "PB_3" is undefined
+[Error] main.cpp@38,0:  #20: identifier "PC_0" is undefined
+[Error] main.cpp@38,0:  #20: identifier "PC_1" is undefined
+[Error] main.cpp@38,0:  #20: identifier "PC_2" is undefined
+[ERROR] "./Hotboards_SpiLcd/Hotboards_SpiLcd.h", line 114: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 36: Error:  #20: identifier "PB_5" is undefined
+".\main.cpp", line 36: Error:  #20: identifier "PB_3" is undefined
+".\main.cpp", line 38: Error:  #20: identifier "PC_0" is undefined
+".\main.cpp", line 38: Error:  #20: identifier "PC_1" is undefined
+".\main.cpp", line 38: Error:  #20: identifier "PC_2" is undefined
+.\main.cpp: 1 warning, 5 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\Hotboards_SpiLcd-Hello_World\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\Hotboards_SpiLcd-Hello_World"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/Hotboards/code/Hotboards_SpiLcd-Hello_World/
+----------------------------------------------------

@@ -1,0 +1,40 @@
+Building project ShiftBrite_HelloWorld (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: main.cpp
+[Warning] ShiftBrite.h@17,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@8,0:  #20: identifier "p11" is undefined
+[Error] main.cpp@8,0:  #20: identifier "p12" is undefined
+[Error] main.cpp@8,0:  #20: identifier "p13" is undefined
+[Error] main.cpp@10,0:  #20: identifier "p15" is undefined
+[Error] main.cpp@10,0:  #20: identifier "p16" is undefined
+[ERROR] "./ShiftBrite/ShiftBrite.h", line 17: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 8: Error:  #20: identifier "p11" is undefined
+".\main.cpp", line 8: Error:  #20: identifier "p12" is undefined
+".\main.cpp", line 8: Error:  #20: identifier "p13" is undefined
+".\main.cpp", line 10: Error:  #20: identifier "p15" is undefined
+".\main.cpp", line 10: Error:  #20: identifier "p16" is undefined
+.\main.cpp: 1 warning, 5 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\ShiftBrite_HelloWorld\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\ShiftBrite_HelloWorld"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/jwaters9/code/ShiftBrite_HelloWorld/
+----------------------------------------------------

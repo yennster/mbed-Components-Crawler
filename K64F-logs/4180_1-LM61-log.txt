@@ -1,0 +1,46 @@
+Building project LM61 (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.3%]: main.cpp
+[Error] main.cpp@6,0:  #20: identifier "p15" is undefined
+[Error] main.cpp@10,0:  #20: identifier "p16" is undefined
+[Error] main.cpp@11,0:  #20: identifier "p17" is undefined
+[Error] main.cpp@12,0:  #20: identifier "p18" is undefined
+[Error] main.cpp@13,0:  #20: identifier "p19" is undefined
+[Error] main.cpp@14,0:  #20: identifier "p20" is undefined
+[Warning] main.cpp@22,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] main.cpp@24,0:  #1035-D: single-precision operand implicitly converted to double-precision
+[Warning] main.cpp@29,0:  #1-D: last line of file ends without a newline
+[ERROR] ".\main.cpp", line 6: Error:  #20: identifier "p15" is undefined
+".\main.cpp", line 10: Error:  #20: identifier "p16" is undefined
+".\main.cpp", line 11: Error:  #20: identifier "p17" is undefined
+".\main.cpp", line 12: Error:  #20: identifier "p18" is undefined
+".\main.cpp", line 13: Error:  #20: identifier "p19" is undefined
+".\main.cpp", line 14: Error:  #20: identifier "p20" is undefined
+".\main.cpp", line 22: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\main.cpp", line 24: Warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\main.cpp", line 29: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 3 warnings, 6 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\LM61\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\LM61"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/4180_1/code/LM61/
+----------------------------------------------------

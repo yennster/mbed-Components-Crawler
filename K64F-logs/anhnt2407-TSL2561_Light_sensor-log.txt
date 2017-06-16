@@ -1,0 +1,40 @@
+Building project TSL2561_Light_sensor (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: TSL2561.cpp
+[Warning] TSL2561.h@152,0:  #1-D: last line of file ends without a newline
+[Error] TSL2561.cpp@12,0:  #20: identifier "p28" is undefined
+[Error] TSL2561.cpp@12,0:  #20: identifier "p27" is undefined
+[Error] TSL2561.cpp@20,0:  #20: identifier "p28" is undefined
+[Error] TSL2561.cpp@20,0:  #20: identifier "p27" is undefined
+[Warning] TSL2561.cpp@236,0:  #1-D: last line of file ends without a newline
+[ERROR] ".\TSL2561\TSL2561.h", line 152: Warning:  #1-D: last line of file ends without a newline
+".\TSL2561\TSL2561.cpp", line 12: Error:  #20: identifier "p28" is undefined
+".\TSL2561\TSL2561.cpp", line 12: Error:  #20: identifier "p27" is undefined
+".\TSL2561\TSL2561.cpp", line 20: Error:  #20: identifier "p28" is undefined
+".\TSL2561\TSL2561.cpp", line 20: Error:  #20: identifier "p27" is undefined
+".\TSL2561\TSL2561.cpp", line 236: Warning:  #1-D: last line of file ends without a newline
+.\TSL2561\TSL2561.cpp: 2 warnings, 4 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\TSL2561_Light_sensor\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\TSL2561_Light_sensor"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/anhnt2407/code/TSL2561_Light_sensor/
+----------------------------------------------------

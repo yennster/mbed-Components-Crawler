@@ -1,0 +1,38 @@
+Building project MUTTv1 (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [  0.4%]: ArduinoMotorShield.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] ArduinoMotorShield.hpp@129,0:  #1-D: last line of file ends without a newline
+[Error] ArduinoMotorShield.cpp@40,0:  #169: expected a declaration
+[Warning] ArduinoMotorShield.cpp@99,0:  #1-D: last line of file ends without a newline
+[Warning] ArduinoMotorShield.cpp@99,0: At end of source:  #12-D: parsing restarts here after previous syntax error
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+".\ArduinoMotorShield\ArduinoMotorShield.hpp", line 129: Warning:  #1-D: last line of file ends without a newline
+".\ArduinoMotorShield\ArduinoMotorShield.cpp", line 40: Error:  #169: expected a declaration
+".\ArduinoMotorShield\ArduinoMotorShield.cpp", line 99: Warning:  #1-D: last line of file ends without a newline
+".\ArduinoMotorShield\ArduinoMotorShield.cpp", line 99: Warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+.\ArduinoMotorShield\ArduinoMotorShield.cpp: 4 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\MUTTv1\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\MUTTv1"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/johnb/code/MUTTv1/
+----------------------------------------------------

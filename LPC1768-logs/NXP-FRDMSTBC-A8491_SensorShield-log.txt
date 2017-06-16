@@ -1,0 +1,38 @@
+Building project FRDMSTBC-A8491_SensorShield (LPC1768, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.4%]: main.cpp
+[Warning] LocalFileSystem.h@99,0:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+[Warning] MMA8491.h@56,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@37,0:  #20: identifier "PTB1" is undefined
+[Warning] main.cpp@64,0:  #1-D: last line of file ends without a newline
+[Warning] main.cpp@46,0:  #550-D: variable "accel_rms"  was set but never used
+[ERROR] "./mbed-os/drivers/LocalFileSystem.h", line 99: Warning:  #1361-D: function "mbed::FileSystemLike::FileSystemLike(const char *)"  (declared at line 47 of "./mbed-os/drivers/FileSystemLike.h") was declared "deprecated"
+"./MMA8491/MMA8491.h", line 56: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 37: Error:  #20: identifier "PTB1" is undefined
+".\main.cpp", line 64: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 46: Warning:  #550-D: variable "accel_rms"  was set but never used
+.\main.cpp: 4 warnings, 1 error
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\FRDMSTBC-A8491_SensorShield\mbed-os\tools\make.py -t ARM -m lpc1768 --source . --build .\BUILD\lpc1768\ARM" in "C:\Repos\Components\FRDMSTBC-A8491_SensorShield"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/teams/NXP/code/FRDMSTBC-A8491_SensorShield/
+----------------------------------------------------

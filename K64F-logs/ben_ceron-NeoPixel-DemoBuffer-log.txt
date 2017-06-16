@@ -1,0 +1,45 @@
+Building project NeoPixel-DemoBuffer (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: BurstSPI_KL25Z.cpp
+[Warning] BurstSPI_KL25Z.cpp@24,0:  #1-D: last line of file ends without a newline
+Compile [  0.6%]: BurstSPI_KL46Z.cpp
+[Warning] BurstSPI_KL46Z.cpp@24,0:  #1-D: last line of file ends without a newline
+Compile [  1.0%]: BurstSPI_NUCLEO_L152RE.cpp
+Compile [  1.3%]: BurstSPI_LPC1768.cpp
+[Warning] BurstSPI_LPC1768.cpp@20,0:  #1-D: last line of file ends without a newline
+Compile [  1.6%]: main.cpp
+[Warning] BurstSPI.h@114,0:  #1-D: last line of file ends without a newline
+[Warning] neopixel.h@159,0:  #1-D: last line of file ends without a newline
+[Error] main.cpp@15,0:  #20: identifier "p5" is undefined
+[Error] main.cpp@21,0:  #28: expression must have a constant value
+[Warning] main.cpp@39,0:  #1-D: last line of file ends without a newline
+[ERROR] "./PixelArray/BurstSPI/BurstSPI.h", line 114: Warning:  #1-D: last line of file ends without a newline
+"./PixelArray/neopixel.h", line 159: Warning:  #1-D: last line of file ends without a newline
+".\main.cpp", line 15: Error:  #20: identifier "p5" is undefined
+".\main.cpp", line 21: Error:  #28: expression must have a constant value
+".\main.cpp", line 39: Warning:  #1-D: last line of file ends without a newline
+.\main.cpp: 3 warnings, 2 errors
+
+[mbed] ERROR: "c:\python27\python.exe" returned error code 1.
+[mbed] ERROR: Command "c:\python27\python.exe -u C:\Repos\Components\NeoPixel-DemoBuffer\mbed-os\tools\make.py -t ARM -m K64F --source . --build .\BUILD\K64F\ARM" in "C:\Repos\Components\NeoPixel-DemoBuffer"
+---
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/ben_ceron/code/NeoPixel-DemoBuffer/
+----------------------------------------------------

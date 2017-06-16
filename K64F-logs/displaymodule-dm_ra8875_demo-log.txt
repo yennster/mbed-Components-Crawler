@@ -1,0 +1,656 @@
+Building project dm_ra8875_demo (K64F, ARM)
+Scan: .
+Scan: FEATURE_BLE
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  0.3%]: DmTftIli9325.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] DmTftIli9325.h@21,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftIli9325.h@21,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftIli9325.h@21,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftIli9325.h@21,0:  #69-D: integer conversion resulted in truncation
+Compile [  0.6%]: DmTftHX8353C.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] DmTftHX8353C.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftHX8353C.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftHX8353C.h@24,0:  #69-D: integer conversion resulted in truncation
+Compile [  0.9%]: DmTftBase.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+Compile [  1.3%]: DmTftIli9341.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] DmTftIli9341.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftIli9341.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftIli9341.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftIli9341.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftIli9341.h@24,0:  #69-D: integer conversion resulted in truncation
+Compile [  1.6%]: DmTftS6D0164.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] DmTftS6D0164.h@21,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftS6D0164.h@21,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftS6D0164.h@21,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftS6D0164.h@21,0:  #69-D: integer conversion resulted in truncation
+Compile [  1.9%]: DmTftSsd2119.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] DmTftSsd2119.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftSsd2119.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftSsd2119.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftSsd2119.h@24,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftSsd2119.h@24,0:  #69-D: integer conversion resulted in truncation
+Compile [  2.2%]: DmTouch.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] DmTouch.cpp@36,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@37,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@38,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@39,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@40,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@48,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@49,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@50,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@51,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@52,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@60,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@61,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@62,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@63,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@64,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@72,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@73,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@74,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@75,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@76,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@84,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@85,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@86,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@87,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@88,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@96,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@97,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@98,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@99,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTouch.cpp@100,0:  #69-D: integer conversion resulted in truncation
+Compile [  2.5%]: font.c
+Compile [  2.8%]: DmTftRa8875.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+Compile [  3.1%]: AnalogIn.cpp
+Compile [  3.4%]: BusIn.cpp
+Compile [  3.8%]: DmTouchCalibration.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+Compile [  4.1%]: main.cpp
+[Warning] DmTftBase.h@94,0:  #1-D: last line of file ends without a newline
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+[Warning] DmTftRa8875.h@29,0:  #69-D: integer conversion resulted in truncation
+Compile [  4.4%]: BusInOut.cpp
+Compile [  4.7%]: BusOut.cpp
+Compile [  5.0%]: CAN.cpp
+Compile [  5.3%]: Ethernet.cpp
+Compile [  5.6%]: FileBase.cpp
+Compile [  6.0%]: FilePath.cpp
+Compile [  6.3%]: FlashIAP.cpp
+Compile [  6.6%]: FileSystemLike.cpp
+Compile [  6.9%]: I2C.cpp
+Compile [  7.2%]: I2CSlave.cpp
+Compile [  7.5%]: LocalFileSystem.cpp
+Compile [  7.8%]: InterruptIn.cpp
+Compile [  8.2%]: InterruptManager.cpp
+Compile [  8.5%]: RawSerial.cpp
+Compile [  8.8%]: SPISlave.cpp
+Compile [  9.1%]: SPI.cpp
+Compile [  9.4%]: Serial.cpp
+Compile [  9.7%]: SerialBase.cpp
+Compile [ 10.0%]: Stream.cpp
+Compile [ 10.3%]: Ticker.cpp
+Compile [ 10.7%]: Timeout.cpp
+Compile [ 11.0%]: equeue.c
+Compile [ 11.3%]: Timer.cpp
+Compile [ 11.6%]: TimerEvent.cpp
+Compile [ 11.9%]: equeue_posix.c
+Compile [ 12.2%]: EventQueue.cpp
+Compile [ 12.5%]: emac_lwip.c
+Compile [ 12.9%]: emac_stack_lwip.cpp
+Compile [ 13.2%]: equeue_mbed.cpp
+Compile [ 13.5%]: hardware_init_MK64F12.c
+Compile [ 13.8%]: EthernetInterface.cpp
+Compile [ 14.1%]: hardware_init_MK66F18.c
+Compile [ 14.4%]: lwip_checksum.c
+Compile [ 14.7%]: lwip_memcpy.c
+Compile [ 15.0%]: k64f_emac.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 15.4%]: lwip_random.c
+Compile [ 15.7%]: lwip_sys_arch.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 16.0%]: lwip_tcp_isn.c
+Compile [ 16.3%]: lwip_api_lib.c
+Compile [ 16.6%]: lwip_err.c
+Compile [ 16.9%]: lwip_api_msg.c
+Compile [ 17.2%]: lwip_netbuf.c
+Compile [ 17.6%]: lwip_netifapi.c
+Compile [ 17.9%]: lwip_netdb.c
+Compile [ 18.2%]: lwip_sockets.c
+Compile [ 18.5%]: lwip_tcpip.c
+Compile [ 18.8%]: lwip_autoip.c
+Compile [ 19.1%]: lwip_etharp.c
+Compile [ 19.4%]: lwip_icmp.c
+Compile [ 19.7%]: lwip_dhcp.c
+Compile [ 20.1%]: lwip_igmp.c
+Compile [ 20.4%]: lwip_ip4_addr.c
+Compile [ 20.7%]: lwip_ip4.c
+Compile [ 21.0%]: lwip_dhcp6.c
+Compile [ 21.3%]: lwip_ip4_frag.c
+Compile [ 21.6%]: lwip_ethip6.c
+Compile [ 21.9%]: lwip_icmp6.c
+Compile [ 22.3%]: lwip_inet6.c
+Compile [ 22.6%]: lwip_ip6.c
+Compile [ 22.9%]: lwip_ip6_addr.c
+Compile [ 23.2%]: lwip_ip6_frag.c
+Compile [ 23.5%]: lwip_mld6.c
+Compile [ 23.8%]: lwip_nd6.c
+Compile [ 24.1%]: lwip_def.c
+Compile [ 24.5%]: lwip_inet_chksum.c
+Compile [ 24.8%]: lwip_dns.c
+Compile [ 25.1%]: lwip_init.c
+Compile [ 25.4%]: lwip_ip.c
+Compile [ 25.7%]: lwip_memp.c
+Compile [ 26.0%]: lwip_mem.c
+Compile [ 26.3%]: lwip_netif.c
+Compile [ 26.6%]: lwip_raw.c
+Compile [ 27.0%]: lwip_pbuf.c
+Compile [ 27.3%]: lwip_stats.c
+Compile [ 27.6%]: lwip_sys.c
+Compile [ 27.9%]: lwip_timeouts.c
+Compile [ 28.2%]: lwip_tcp_out.c
+Compile [ 28.5%]: lwip_tcp_in.c
+Compile [ 28.8%]: lwip_tcp.c
+Compile [ 29.2%]: lwip_ethernetif.c
+Compile [ 29.5%]: lwip_ethernet.c
+Compile [ 29.8%]: lwip_lowpan6.c
+Compile [ 30.1%]: lwip_udp.c
+Compile [ 30.4%]: Dir.cpp
+Compile [ 30.7%]: lwip_stack.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 31.0%]: FileSystem.cpp
+Compile [ 31.3%]: File.cpp
+Compile [ 31.7%]: ccsbcs.cpp
+Compile [ 32.0%]: HeapBlockDevice.cpp
+Compile [ 32.3%]: ChainingBlockDevice.cpp
+Compile [ 32.6%]: SlicingBlockDevice.cpp
+Compile [ 32.9%]: greentea_serial.cpp
+Compile [ 33.2%]: ff.cpp
+Compile [ 33.5%]: greentea_metrics.cpp
+[Warning] greentea_metrics.cpp@37,0:  #177-D: variable "mutex"  was declared but never referenced
+Compile [ 33.9%]: FATFileSystem.cpp
+Compile [ 34.2%]: unity.c
+Compile [ 34.5%]: mbed-utest-shim.cpp
+Compile [ 34.8%]: greentea_test_env.cpp
+Compile [ 35.1%]: unity_handler.cpp
+Compile [ 35.4%]: utest_case.cpp
+Compile [ 35.7%]: utest_default_handlers.cpp
+Compile [ 36.1%]: utest_greentea_handlers.cpp
+Compile [ 36.4%]: utest_stack_trace.cpp
+Compile [ 36.7%]: utest_harness.cpp
+Compile [ 37.0%]: mbed_trng.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 37.3%]: utest_shim.cpp
+Compile [ 37.6%]: aesni.c
+Compile [ 37.9%]: utest_types.cpp
+Compile [ 38.2%]: arc4.c
+Compile [ 38.6%]: aes.c
+Compile [ 38.9%]: asn1parse.c
+Compile [ 39.2%]: asn1write.c
+Compile [ 39.5%]: base64.c
+Compile [ 39.8%]: blowfish.c
+Compile [ 40.1%]: camellia.c
+Compile [ 40.4%]: certs.c
+Compile [ 40.8%]: ccm.c
+Compile [ 41.1%]: cipher.c
+Compile [ 41.4%]: cipher_wrap.c
+Compile [ 41.7%]: cmac.c
+Compile [ 42.0%]: des.c
+Compile [ 42.3%]: ctr_drbg.c
+Compile [ 42.6%]: bignum.c
+Compile [ 42.9%]: dhm.c
+Compile [ 43.3%]: debug.c
+Compile [ 43.6%]: ecdh.c
+Compile [ 43.9%]: ecjpake.c
+Compile [ 44.2%]: ecdsa.c
+Compile [ 44.5%]: entropy_poll.c
+Compile [ 44.8%]: entropy.c
+Compile [ 45.1%]: ecp_curves.c
+Compile [ 45.5%]: error.c
+Compile [ 45.8%]: ecp.c
+Compile [ 46.1%]: gcm.c
+Compile [ 46.4%]: havege.c
+Compile [ 46.7%]: md2.c
+Compile [ 47.0%]: hmac_drbg.c
+Compile [ 47.3%]: md4.c
+Compile [ 47.6%]: md5.c
+Compile [ 48.0%]: md.c
+Compile [ 48.3%]: md_wrap.c
+Compile [ 48.6%]: memory_buffer_alloc.c
+Compile [ 48.9%]: net_sockets.c
+Compile [ 49.2%]: padlock.c
+Compile [ 49.5%]: oid.c
+Compile [ 49.8%]: pem.c
+Compile [ 50.2%]: pk.c
+Compile [ 50.5%]: pkcs11.c
+Compile [ 50.8%]: pkcs12.c
+Compile [ 51.1%]: pk_wrap.c
+Compile [ 51.4%]: pkcs5.c
+Compile [ 51.7%]: platform.c
+Compile [ 52.0%]: ripemd160.c
+Compile [ 52.4%]: pkparse.c
+Compile [ 52.7%]: pkwrite.c
+Compile [ 53.0%]: sha1.c
+Compile [ 53.3%]: ssl_cache.c
+Compile [ 53.6%]: sha256.c
+Compile [ 53.9%]: rsa.c
+Compile [ 54.2%]: ssl_ciphersuites.c
+Compile [ 54.5%]: ssl_cookie.c
+Compile [ 54.9%]: sha512.c
+Compile [ 55.2%]: ssl_ticket.c
+Compile [ 55.5%]: ssl_cli.c
+Compile [ 55.8%]: threading.c
+Compile [ 56.1%]: timing.c
+Compile [ 56.4%]: version.c
+Compile [ 56.7%]: version_features.c
+Compile [ 57.1%]: ssl_srv.c
+Compile [ 57.4%]: x509_create.c
+Compile [ 57.7%]: x509.c
+Compile [ 58.0%]: x509_crl.c
+Compile [ 58.3%]: x509write_crt.c
+Compile [ 58.6%]: x509_csr.c
+Compile [ 58.9%]: x509write_csr.c
+Compile [ 59.2%]: xtea.c
+Compile [ 59.6%]: NetworkInterface.cpp
+Compile [ 59.9%]: ssl_tls.c
+Compile [ 60.2%]: x509_crt.c
+Compile [ 60.5%]: NetworkStack.cpp
+Compile [ 60.8%]: Socket.cpp
+Compile [ 61.1%]: TCPServer.cpp
+Compile [ 61.4%]: SocketAddress.cpp
+Compile [ 61.8%]: WiFiAccessPoint.cpp
+Compile [ 62.1%]: TCPSocket.cpp
+Compile [ 62.4%]: UDPSocket.cpp
+Compile [ 62.7%]: cfstore_svm.cpp
+Compile [ 63.0%]: nsapi_dns.cpp
+Compile [ 63.3%]: cfstore_fnmatch.c
+Compile [ 63.6%]: flash_journal_crc.c
+Compile [ 63.9%]: cfstore_test.c
+Compile [ 64.3%]: strategy.c
+Compile [ 64.6%]: storage_volume.cpp
+Compile [ 64.9%]: storage_volume_manager.cpp
+Compile [ 65.2%]: support_funcs.c
+Compile [ 65.5%]: configuration_store.c
+[Warning] configuration_store.c@2388,0:  #68-D: integer conversion resulted in a change of sign
+Compile [ 65.8%]: flash_common_algo.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 66.1%]: mbed_lp_ticker_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 66.5%]: mbed_gpio.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 66.8%]: mbed_pinmap_common.c
+Compile [ 67.1%]: mbed_us_ticker_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 67.4%]: mbed_ticker_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 67.7%]: mbed_alloc_wrappers.cpp
+Compile [ 68.0%]: CallChain.cpp
+Compile [ 68.3%]: mbed_board.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 68.7%]: mbed_application.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 69.0%]: mbed_assert.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 69.3%]: mbed_critical.c
+Compile [ 69.6%]: mbed_mem_trace.c
+Compile [ 69.9%]: mbed_error.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 70.2%]: mbed_interface.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 70.5%]: mbed_stats.c
+Compile [ 70.8%]: mbed_rtc_time.cpp
+Compile [ 71.2%]: mbed_retarget.cpp
+Compile [ 71.5%]: mbed_wait_api_no_rtos.c
+Compile [ 71.8%]: mbed_semihost_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 72.1%]: Mutex.cpp
+Compile [ 72.4%]: Semaphore.cpp
+Compile [ 72.7%]: mbed_wait_api_rtos.cpp
+Compile [ 73.0%]: RtosTimer.cpp
+Compile [ 73.4%]: rtos_idle.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 73.7%]: Thread.cpp
+Compile [ 74.0%]: HAL_CM.c
+Compile [ 74.3%]: HAL_CM4.c
+Compile [ 74.6%]: RTX_Conf_CM.c
+Compile [ 74.9%]: SVC_Table.S
+Compile [ 75.2%]: rt_Event.c
+Compile [ 75.5%]: rt_List.c
+Compile [ 75.9%]: rt_MemBox.c
+Compile [ 76.2%]: rt_Mailbox.c
+Compile [ 76.5%]: rt_Memory.c
+Compile [ 76.8%]: rt_OsEventObserver.c
+Compile [ 77.1%]: rt_Mutex.c
+Compile [ 77.4%]: rt_Robin.c
+Compile [ 77.7%]: rt_Semaphore.c
+Compile [ 78.1%]: rt_CMSIS.c
+Compile [ 78.4%]: rt_Time.c
+Compile [ 78.7%]: rt_Task.c
+Compile [ 79.0%]: rt_Timer.c
+Compile [ 79.3%]: rt_System.c
+Compile [ 79.6%]: crc.c
+Compile [ 79.9%]: PeripheralPins.c
+Compile [ 80.3%]: fsl_clock_config.c
+Compile [ 80.6%]: fsl_phy.c
+Compile [ 80.9%]: sys.cpp
+Compile [ 81.2%]: mbed_overrides.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 81.5%]: startup_MK64F12.S
+Compile [ 81.8%]: cmsis_nvic.c
+Compile [ 82.1%]: system_MK64F12.c
+Compile [ 82.4%]: fsl_adc16.c
+Compile [ 82.8%]: fsl_cmp.c
+Compile [ 83.1%]: fsl_cmt.c
+Compile [ 83.4%]: fsl_clock.c
+Compile [ 83.7%]: fsl_common.c
+[Warning] fsl_common.c@161,0:  #1-D: last line of file ends without a newline
+Compile [ 84.0%]: fsl_crc.c
+Compile [ 84.3%]: fsl_dac.c
+Compile [ 84.6%]: fsl_dmamux.c
+Compile [ 85.0%]: fsl_dspi.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+Compile [ 85.3%]: fsl_dspi_edma.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 85.6%]: fsl_enet.c
+Compile [ 85.9%]: fsl_edma.c
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 86.2%]: fsl_ewm.c
+Compile [ 86.5%]: fsl_flexbus.c
+Compile [ 86.8%]: fsl_flash.c
+[Warning] fsl_flash.h@497,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_flash.c@2620,0:  #1207-D: unknown attribute "optimize"
+[Warning] fsl_flash.c@2738,0:  #2524-D: #pragma pop with no matching #pragma push
+Compile [ 87.1%]: fsl_flexcan.c
+Compile [ 87.5%]: fsl_gpio.c
+Compile [ 87.8%]: fsl_ftm.c
+Compile [ 88.1%]: fsl_llwu.c
+Compile [ 88.4%]: fsl_i2c_edma.c
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 88.7%]: fsl_lptmr.c
+Compile [ 89.0%]: fsl_i2c.c
+Compile [ 89.3%]: fsl_pdb.c
+Compile [ 89.7%]: fsl_pit.c
+Compile [ 90.0%]: fsl_mpu.c
+Compile [ 90.3%]: fsl_pmc.c
+Compile [ 90.6%]: fsl_rcm.c
+[Warning] fsl_rcm.h@110,0:  #66-D: enumeration value is out of "int" range
+Compile [ 90.9%]: fsl_rnga.c
+Compile [ 91.2%]: fsl_rtc.c
+Compile [ 91.5%]: fsl_sai.c
+Compile [ 91.8%]: fsl_sim.c
+[Warning] fsl_sim.h@53,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_sim.h@56,0:  #66-D: enumeration value is out of "int" range
+Compile [ 92.2%]: fsl_sai_edma.c
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 92.5%]: fsl_sdhc.c
+[Warning] fsl_sdhc.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_sdhc.h@232,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_sdhc.h@236,0:  #66-D: enumeration value is out of "int" range
+Compile [ 92.8%]: fsl_smc.c
+[Warning] fsl_flash.h@497,0:  #66-D: enumeration value is out of "int" range
+Compile [ 93.1%]: fsl_uart_edma.c
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+Compile [ 93.4%]: fsl_uart.c
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 93.7%]: fsl_vref.c
+Compile [ 94.0%]: flash_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 94.4%]: fsl_wdog.c
+Compile [ 94.7%]: pwmout_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 95.0%]: serial_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 95.3%]: spi_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 95.6%]: trng_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 95.9%]: storage_driver.c
+[Warning] fsl_flash.h@497,0:  #66-D: enumeration value is out of "int" range
+Compile [ 96.2%]: us_ticker.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 96.6%]: analogin_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 96.9%]: dma_api.c
+Compile [ 97.2%]: analogout_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 97.5%]: gpio_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 97.8%]: gpio_irq_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 98.1%]: i2c_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 98.4%]: lp_ticker.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 98.7%]: pinmap.c
+Compile [ 99.1%]: port_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 99.4%]: rtc_api.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [ 99.7%]: sleep.c
+[Warning] fsl_dspi.h@68,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@75,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@82,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_dspi.h@88,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_edma.h@145,0:  #66-D: enumeration value is out of "int" range
+[Warning] fsl_uart.h@159,0:  #66-D: enumeration value is out of "int" range
+Compile [100.0%]: test_env.cpp
+Link: dm_ra8875_demo
+Elf2Bin: dm_ra8875_demo
++--------------------------+-------+-------+-------+
+| Module                   | .text | .data |  .bss |
++--------------------------+-------+-------+-------+
+| Misc                     | 27003 |    40 |  1484 |
+| drivers                  |  1332 |     8 |    56 |
+| features/filesystem      |   586 |     0 |     0 |
+| features/storage         |    30 |     0 |   184 |
+| hal                      |   556 |     8 |     0 |
+| platform                 |  2267 |    16 |   352 |
+| rtos                     |   130 |     8 |     0 |
+| rtos/rtx                 |  6564 |   100 |  8396 |
+| targets/TARGET_Freescale | 15867 |   104 |   372 |
+| Subtotals                | 54335 |   284 | 10844 |
++--------------------------+-------+-------+-------+
+Allocated Heap: unknown
+Allocated Stack: unknown
+Total Static RAM memory (data + bss): 11128 bytes
+Total RAM memory (data + bss + heap + stack): 11128 bytes
+Total Flash memory (text + data + misc): 54619 bytes
+
+Image: .\BUILD\K64F\ARM\dm_ra8875_demo.bin
+
+----------------------------------------------------
+Program URL: https://developer.mbed.org/users/displaymodule/code/dm_ra8875_demo/
+----------------------------------------------------
