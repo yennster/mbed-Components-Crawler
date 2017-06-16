@@ -43,7 +43,8 @@ worksheet = book.add_sheet("Components")
 worksheet.write(0, 0, "Component Type")
 worksheet.write(0, 1, "Component URL")
 worksheet.write(0, 2, "Hello World URL")
-worksheet.write(0, 3, )
+worksheet.write(0, 3, "Is a library?")
+worksheet.write(0, 4, "Contains mbed-os.lib?")
 
 print "Begin component crawling..."
 
@@ -62,11 +63,14 @@ for component in component_links:
     for item in temp_links:
         # Find first instance of a program URL
         worksheet.write(i, 0, temp_name)
+        #item_link = 'HYPERLINK("{}", "{}")'.format(base_url + item, item)
+        #worksheet.write(i, 1, xlwt.Formula(item_link))
         worksheet.write(i, 1, item)
         item_url = base_url + item
         item_page = requests.get(item_url)
         item_soup = BeautifulSoup(item_page.content, 'html.parser')
         hello_world = ""
+
         try:
             item_table = [link.get('href') for link in item_soup.find_all(item_filter)]
             for link in item_soup(item_filter):
@@ -76,24 +80,28 @@ for component in component_links:
                     break
         except KeyError:
             pass
+
+        #hello_world_link = 'HYPERLINK("{}", "{}")'.format(base_url + hello_world, hello_world)
+        #worksheet.write(i, 2, xlwt.Formula(hello_world_link))
         worksheet.write(i, 2, hello_world)
 
-        # Find Hello World files table and output True if "mbed.bld" is present
         hello_url = base_url + hello_world
         hello_page = requests.get(hello_url)
         hello_soup = BeautifulSoup(hello_page.content, 'html.parser')
         mbed_os_lib = ""
+        is_lib = ""
         try:
             hello_table = [link.get('href') for link in hello_soup.find_all(hello_world_filter)]
-            mbed_os_lib = any('mbed-os.lib' in link for link in hello_table)
+            is_lib = all('main.cpp' not in link for link in hello_table) # Returns True if "main.cpp" is not present
+            mbed_os_lib = any('mbed-os.lib' in link for link in hello_table) # Returns True if "mbed-os.lib" is present
         except KeyError:
             pass
-        worksheet.write(i, 3, mbed_os_lib)
+        worksheet.write(i, 3, is_lib)
+        worksheet.write(i, 4, mbed_os_lib)
         i += 1
         count_components += 1
         progress(count_components, total_components, item)
 
-    # progress(count_components, total_components, "Saving " + temp_name)
     book.save("mbed-components.xls")
 
 book.save("mbed-components.xls")
