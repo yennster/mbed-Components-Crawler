@@ -23,3 +23,14 @@ Note: The data in columns [A] - [G] were gathered via the [Python web crawler sc
   - ARM mbed team members: /users/chris, /users/simon, /users/bridadan, /users/mbed_official, /users/Kojto, /users/sam_grove, /users/mbedAustin, /users/JimCarver, /users/andcor02, /teams/mbed-os-examples, /users/MACRUM, /users/Donatien
 - **[J] mbed Partner?:** Excel macro that determines if the Hello World repo is owned by an ARM mbed partner
   - ARM mbed partners: /teams/ST, /users/nxp_ip, /teams/NXP, /teams/Freescale, /teams/AnalogDevices, /teams/Maxim-Integrated, /teams/ublox, /teams/WIZnet, /teams/Avnet, /users/ytsuboi, /users/Sissors, /users/Kaizen, /users/Jksoft
+
+## Update Methodology
+The following steps can be used to update a component's Hello World repo:
+
+1. Clone the Hello World repo: `hg clone {link to mbed developer site repo}`
+2. Remove the old mbed OS library file (i.e. `mbed.bld`)
+3. Add mbed OS 5 and update other libraries: `mbed deploy`
+4. Verify the program compiles: `mbed compile -t {toolchain] -m {platform}`
+5. Add the new mbed-os.lib file to the repo: `hg add mbed-os.lib`
+6. Commit the changes: `hg commit`
+6. Push the changes: `hg push`
