@@ -9,7 +9,7 @@ Each log contains the output of `mbed compile -m <target> -t <toolchain>` in add
 ## Data
 The "Components" sheet of the `data.xlsx` Excel workboook is organized by the following columns:
 
-Note: The data in columns [A] - [G] were gathered via the [Python web crawler script](https://github.com/yennster/mbed-Components-Crawler/blob/master/url.py).
+Note: The data in columns [A] - [G] were gathered via the [Python web crawler script](https://github.com/yennster/mbed-Components-Crawler/blob/master/url.py) & [Python Hello World testing script](https://github.com/yennster/mbed-Components-Crawler/blob/master/test.py).
 
 - **[A] Component Type:** The type of Component (as listed on the [mbed Developer Components page](https://developer.mbed.org/components/))
 - **[B] Component URL:** The URL to the Component (relative to the [mbed Developer site](https://developer.mbed.org/))
