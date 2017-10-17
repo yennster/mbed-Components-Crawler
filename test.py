@@ -25,7 +25,7 @@ base_url = "https://developer.mbed.org"
 worksheet.write(0, 5, "Compiled for K64F?")
 num_cols = sheet.ncols
 num_rows = sheet.nrows
-for row in range(72, num_rows):
+for row in range(1, num_rows):
     hello_world = sheet.cell(row, 2).value
     is_a_lib = sheet.cell(row, 3).value
     mbed_lib = sheet.cell(row, 4).value
