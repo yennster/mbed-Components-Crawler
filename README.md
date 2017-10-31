@@ -18,13 +18,14 @@ Note: The data in columns [A] - [H] were gathered via the [Python web crawler sc
 - **[E] Contains mbed-os.lib?:** FALSE = the repo contains an older version of Mbed OS, TRUE = the repo contains mbed OS 5 (`mbed-os.lib`)
 - **[F] Compiled for K64F?:** After removing the old Mbed OS and running `mbed deploy` - FAIL = the Hello World program failed to compile for K64F, SUCCESS = the Hello World program successfully compiled for K64F
 - **[G] Compiled for LPC1768?:** After removing the old Mbed OS and running `mbed deploy` - FAIL = the Hello World program failed to compile for LPC1768, SUCCESS = the Hello World program successfully compiled for LPC1768
-- **[H] # of Imports:** The number of imports the Component's Hello World repository has.
-- **[I] Success on one platform?:** Excel macro that determines if the Hello World program had successful compilation on either the K64F or LPC1768 platforms, TRUE = compiled on at least one platform, FALSE = did not compile on either platform
-- **[J] Mbed Team Member?:** Excel macro that determines if the Hello World repo is owned by an Arm Mbed team member
+- **[H] # of Imports:** The number of imports the Component's Hello World repository has
+- **[I] K64F main.cpp Errors?:** True or False depending on if the Component's K64F log file contained compilation errors from `main.cpp`
+- **[J] Success on one platform?:** Excel macro that determines if the Hello World program had successful compilation on either the K64F or LPC1768 platforms, TRUE = compiled on at least one platform, FALSE = did not compile on either platform
+- **[K] Mbed Team Member?:** Excel macro that determines if the Hello World repo is owned by an Arm Mbed team member
   - Arm Mbed team members: /users/chris, /users/simon, /users/bridadan, /users/mbed_official, /users/Kojto, /users/sam_grove, /users/mbedAustin, /users/JimCarver, /users/andcor02, /teams/mbed-os-examples, /users/MACRUM, /users/Donatien
-- **[K] Mbed Partner?:** Excel macro that determines if the Hello World repo is owned by an Arm Mbed partner
+- **[L] Mbed Partner?:** Excel macro that determines if the Hello World repo is owned by an Arm Mbed partner
   - Arm Mbed partners: /teams/ST, /users/nxp_ip, /teams/NXP, /teams/Freescale, /teams/AnalogDevices, /teams/Maxim-Integrated, /teams/ublox, /teams/WIZnet, /teams/Avnet, /users/ytsuboi, /users/Sissors, /users/Kaizen, /users/Jksoft
-- **[L] Community Member?:** Excel macro that determines if the Hello World repo is owned by an Arm Mbed community member
+- **[M] Community Member?:** Excel macro that determines if the Hello World repo is owned by an Arm Mbed community member
 
 ## Update Methodology
 The following steps can be used to update a component's Hello World repo:
