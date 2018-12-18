@@ -130,6 +130,7 @@ class Crawler:
         temp_page = requests.get(temp_url)
         temp_soup = BeautifulSoup(temp_page.content, 'html.parser')
         temp_links = [link.get('href') for link in temp_soup(Crawler.component_filter)]
+        #print temp_links
         do_queue(Reader, self.record_info, temp_links, 10)
 
     def write_excel_sheet(self):
